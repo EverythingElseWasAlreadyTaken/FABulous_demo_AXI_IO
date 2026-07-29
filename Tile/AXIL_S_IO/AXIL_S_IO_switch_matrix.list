@@ -1,4 +1,4 @@
-# AXI_S_IO
+# AXIL_S_IO
 
 # double with MID cascade : [N,S]2BEG --- [N,S]2MID -> [N,S]2BEGb --- [N,S]2END (just routing)
 [N|S]2BEGb[0|1|2|3|4|5|6|7], [N|S]2MID[0|1|2|3|4|5|6|7]

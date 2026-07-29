@@ -109,7 +109,7 @@ module AXI4_FULL_MASTER_BEL #(
     // assign SOC_AWPROT   = FAB_AWPROT;
     // assign SOC_AWQOS    = FAB_AWQOS;
     // assign SOC_AWREGION = FAB_AWREGION;
-    
+
     assign SOC_AWADDR  = FAB_AWADDR;
     // CFG_TIE_OFF_CANDIDATE: Config to 8'd0 for AXI-Lite Masters (1-beat burst)
     assign SOC_AWLEN   = FAB_AWLEN;
@@ -151,13 +151,13 @@ module AXI4_FULL_MASTER_BEL #(
     // ==========================================
     assign FAB_AWREADY = SOC_AWREADY;
     assign FAB_WREADY  = SOC_WREADY;
-    
+
     // assign FAB_BID      = SOC_BID;
     assign FAB_BRESP   = SOC_BRESP;
     assign FAB_BVALID  = SOC_BVALID;
-    
+
     assign FAB_ARREADY = SOC_ARREADY;
-    
+
     // assign FAB_RID      = SOC_RID;
     assign FAB_RDATA   = SOC_RDATA;
     assign FAB_RRESP   = SOC_RRESP;
