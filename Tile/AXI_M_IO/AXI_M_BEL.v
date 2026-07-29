@@ -1,103 +1,111 @@
 `timescale 1ns / 1ps
 
+(* FABulous, BelMap,
+    TIE_OFF_AWLEN = 0,
+    TIE_OFF_AWSIZE = 1,
+    TIE_OFF_AWBURST = 2,
+    TIE_OFF_WSTRB = 3,
+    TIE_OFF_WLAST = 4,
+    TIE_OFF_ARLEN = 5,
+    TIE_OFF_ARSIZE = 6,
+    TIE_OFF_ARBURST = 7
+*)
+
 module AXI4_FULL_MASTER_BEL #(
-    parameter int DATA_WIDTH = 32,
-    parameter int ADDR_WIDTH = 32
+    // parameter int DATA_WIDTH = 32,
+    // parameter int ADDR_WIDTH = 32,
     // parameter int ID_WIDTH   = 8
+
+    parameter integer NoConfigBits = 8
 )(
     // ==========================================
     // SOC FACING PINS (Connect to Connector/Shim)
     // ==========================================
     // output wire [ID_WIDTH-1:0]       SOC_AWID,
-    output wire [ADDR_WIDTH-1:0]     SOC_AWADDR,
-    output wire [7:0]                SOC_AWLEN,
-    output wire [2:0]                SOC_AWSIZE,
-    output wire [1:0]                SOC_AWBURST,
     // output wire                      SOC_AWLOCK,
     // output wire [3:0]                SOC_AWCACHE,
     // output wire [2:0]                SOC_AWPROT,
     // output wire [3:0]                SOC_AWQOS,
     // output wire [3:0]                SOC_AWREGION,
-    output wire                      SOC_AWVALID,
-    input  wire                      SOC_AWREADY,
-
-    output wire [DATA_WIDTH-1:0]     SOC_WDATA,
-    output wire [(DATA_WIDTH/8)-1:0] SOC_WSTRB,
-    output wire                      SOC_WLAST,
-    output wire                      SOC_WVALID,
-    input  wire                      SOC_WREADY,
-
     // input  wire [ID_WIDTH-1:0]       SOC_BID,
-    input  wire [1:0]                SOC_BRESP,
-    input  wire                      SOC_BVALID,
-    output wire                      SOC_BREADY,
-
     // output wire [ID_WIDTH-1:0]       SOC_ARID,
-    output wire [ADDR_WIDTH-1:0]     SOC_ARADDR,
-    output wire [7:0]                SOC_ARLEN,
-    output wire [2:0]                SOC_ARSIZE,
-    output wire [1:0]                SOC_ARBURST,
     // output wire                      SOC_ARLOCK,
     // output wire [3:0]                SOC_ARCACHE,
     // output wire [2:0]                SOC_ARPROT,
     // output wire [3:0]                SOC_ARQOS,
     // output wire [3:0]                SOC_ARREGION,
-    output wire                      SOC_ARVALID,
-    input  wire                      SOC_ARREADY,
-
     // input  wire [ID_WIDTH-1:0]       SOC_RID,
-    input  wire [DATA_WIDTH-1:0]     SOC_RDATA,
-    input  wire [1:0]                SOC_RRESP,
-    input  wire                      SOC_RLAST,
-    input  wire                      SOC_RVALID,
-    output wire                      SOC_RREADY,
+    (* FABulous, EXTERNAL *) output wire [32-1:0]     SOC_AWADDR,
+    (* FABulous, EXTERNAL *) output wire [7:0]                SOC_AWLEN,
+    (* FABulous, EXTERNAL *) output wire [2:0]                SOC_AWSIZE,
+    (* FABulous, EXTERNAL *) output wire [1:0]                SOC_AWBURST,
+    (* FABulous, EXTERNAL *) output wire                      SOC_AWVALID,
+    (* FABulous, EXTERNAL *) input  wire                      SOC_AWREADY,
+    (* FABulous, EXTERNAL *) output wire [32-1:0]     SOC_WDATA,
+    (* FABulous, EXTERNAL *) output wire [(32/8)-1:0] SOC_WSTRB,
+    (* FABulous, EXTERNAL *) output wire                      SOC_WLAST,
+    (* FABulous, EXTERNAL *) output wire                      SOC_WVALID,
+    (* FABulous, EXTERNAL *) input  wire                      SOC_WREADY,
+    (* FABulous, EXTERNAL *) input  wire [1:0]                SOC_BRESP,
+    (* FABulous, EXTERNAL *) input  wire                      SOC_BVALID,
+    (* FABulous, EXTERNAL *) output wire                      SOC_BREADY,
+    (* FABulous, EXTERNAL *) output wire [32-1:0]     SOC_ARADDR,
+    (* FABulous, EXTERNAL *) output wire [7:0]                SOC_ARLEN,
+    (* FABulous, EXTERNAL *) output wire [2:0]                SOC_ARSIZE,
+    (* FABulous, EXTERNAL *) output wire [1:0]                SOC_ARBURST,
+    (* FABulous, EXTERNAL *) output wire                      SOC_ARVALID,
+    (* FABulous, EXTERNAL *) input  wire                      SOC_ARREADY,
+    (* FABulous, EXTERNAL *) input  wire [32-1:0]     SOC_RDATA,
+    (* FABulous, EXTERNAL *) input  wire [1:0]                SOC_RRESP,
+    (* FABulous, EXTERNAL *) input  wire                      SOC_RLAST,
+    (* FABulous, EXTERNAL *) input  wire                      SOC_RVALID,
+    (* FABulous, EXTERNAL *) output wire                      SOC_RREADY,
 
     // ==========================================
     // FABRIC FACING PINS (Routed by FABulous)
     // ==========================================
     // input  wire [ID_WIDTH-1:0]    FAB_AWID,
-    input  wire [ADDR_WIDTH-1:0]     FAB_AWADDR,
-    input  wire [7:0]                FAB_AWLEN,
-    input  wire [2:0]                FAB_AWSIZE,
-    input  wire [1:0]                FAB_AWBURST,
     // input  wire                   FAB_AWLOCK,
     // input  wire [3:0]             FAB_AWCACHE,
     // input  wire [2:0]             FAB_AWPROT,
     // input  wire [3:0]             FAB_AWQOS,
     // input  wire [3:0]             FAB_AWREGION,
-    input  wire                      FAB_AWVALID,
-    output wire                      FAB_AWREADY,
-
-    input  wire [DATA_WIDTH-1:0]     FAB_WDATA,
-    input  wire [(DATA_WIDTH/8)-1:0] FAB_WSTRB,
-    input  wire                      FAB_WLAST,
-    input  wire                      FAB_WVALID,
-    output wire                      FAB_WREADY,
-
     // output wire [ID_WIDTH-1:0]    FAB_BID,
-    output wire [1:0]                FAB_BRESP,
-    output wire                      FAB_BVALID,
-    input  wire                      FAB_BREADY,
-
     // input  wire [ID_WIDTH-1:0]    FAB_ARID,
-    input  wire [ADDR_WIDTH-1:0]     FAB_ARADDR,
-    input  wire [7:0]                FAB_ARLEN,
-    input  wire [2:0]                FAB_ARSIZE,
-    input  wire [1:0]                FAB_ARBURST,
     // input  wire                   FAB_ARLOCK,
     // input  wire [3:0]             FAB_ARCACHE,
     // input  wire [2:0]             FAB_ARPROT,
     // input  wire [3:0]             FAB_ARQOS,
     // input  wire [3:0]             FAB_ARREGION,
-    input  wire                      FAB_ARVALID,
-    output wire                      FAB_ARREADY,
-
     // output wire [ID_WIDTH-1:0]    FAB_RID,
-    output wire [DATA_WIDTH-1:0]     FAB_RDATA,
+    input  wire [31:0]               FAB_AWADDR,
+    input  wire [7:0]                FAB_AWLEN,
+    input  wire [2:0]                FAB_AWSIZE,
+    input  wire [1:0]                FAB_AWBURST,
+    input  wire                      FAB_AWVALID,
+    input  wire [31:0]               FAB_WDATA,
+    input  wire [3:0]                FAB_WSTRB,
+    input  wire                      FAB_WLAST,
+    input  wire                      FAB_WVALID,
+    input  wire                      FAB_BREADY,
+    input  wire [31:0]               FAB_ARADDR,
+    input  wire [7:0]                FAB_ARLEN,
+    input  wire [2:0]                FAB_ARSIZE,
+    input  wire [1:0]                FAB_ARBURST,
+    input  wire                      FAB_ARVALID,
+    input  wire                      FAB_RREADY,
+
+    output wire                      FAB_AWREADY,
+    output wire                      FAB_WREADY,
+    output wire [1:0]                FAB_BRESP,
+    output wire                      FAB_BVALID,
+    output wire                      FAB_ARREADY,
+    output wire [31:0]               FAB_RDATA,
     output wire [1:0]                FAB_RRESP,
     output wire                      FAB_RLAST,
     output wire                      FAB_RVALID,
-    input  wire                      FAB_RREADY
+
+    (* FABulous, GLOBAL *) input [NoConfigBits-1:0] ConfigBits  // Config bits as vector
 );
 
     // ==========================================
@@ -111,19 +119,20 @@ module AXI4_FULL_MASTER_BEL #(
     // assign SOC_AWREGION = FAB_AWREGION;
 
     assign SOC_AWADDR  = FAB_AWADDR;
+
     // CFG_TIE_OFF_CANDIDATE: Config to 8'd0 for AXI-Lite Masters (1-beat burst)
-    assign SOC_AWLEN   = FAB_AWLEN;
+    assign SOC_AWLEN   = ConfigBits[0] ? 8'd0 : FAB_AWLEN;
     // CFG_TIE_OFF_CANDIDATE: Config to 3'b010 (4 Bytes) to save routing
-    assign SOC_AWSIZE  = FAB_AWSIZE;
+    assign SOC_AWSIZE  = ConfigBits[1] ? 3'b010 : FAB_AWSIZE;
     // CFG_TIE_OFF_CANDIDATE: Config to 2'b01 (INCR) to save routing
-    assign SOC_AWBURST = FAB_AWBURST;
+    assign SOC_AWBURST = ConfigBits[2] ? 2'b01 : FAB_AWBURST;
     assign SOC_AWVALID = FAB_AWVALID;
 
     assign SOC_WDATA   = FAB_WDATA;
     // CFG_TIE_OFF_CANDIDATE: Config to 4'b1111 if master always writes full 32-bit words
-    assign SOC_WSTRB   = FAB_WSTRB;
+    assign SOC_WSTRB   = ConfigBits[3] ? 4'b1111 : FAB_WSTRB;
     // CFG_TIE_OFF_CANDIDATE: Config to 1'b1 for AXI-Lite Masters (every beat is the last beat)
-    assign SOC_WLAST   = FAB_WLAST;
+    assign SOC_WLAST   = ConfigBits[4] ? 1'b1 : FAB_WLAST;
     assign SOC_WVALID  = FAB_WVALID;
 
     assign SOC_BREADY  = FAB_BREADY;
@@ -137,11 +146,11 @@ module AXI4_FULL_MASTER_BEL #(
 
     assign SOC_ARADDR  = FAB_ARADDR;
     // CFG_TIE_OFF_CANDIDATE: Config to 8'd0 for AXI-Lite Masters (1-beat burst)
-    assign SOC_ARLEN   = FAB_ARLEN;
+    assign SOC_ARLEN   = ConfigBits[5] ? 8'd0 : FAB_ARLEN;
     // CFG_TIE_OFF_CANDIDATE: Config to 3'b010 (4 Bytes) to save routing
-    assign SOC_ARSIZE  = FAB_ARSIZE;
+    assign SOC_ARSIZE  = ConfigBits[6] ? 3'b010 : FAB_ARSIZE;
     // CFG_TIE_OFF_CANDIDATE: Config to 2'b01 (INCR) to save routing
-    assign SOC_ARBURST = FAB_ARBURST;
+    assign SOC_ARBURST = ConfigBits[7] ? 2'b01 : FAB_ARBURST;
     assign SOC_ARVALID = FAB_ARVALID;
 
     assign SOC_RREADY  = FAB_RREADY;
