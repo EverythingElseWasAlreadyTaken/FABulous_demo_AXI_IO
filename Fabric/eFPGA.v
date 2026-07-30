@@ -392,282 +392,282 @@ module eFPGA
         output  Tile_X9Y14_Config_accessC_bit1, //EXTERNAL
         output  Tile_X9Y14_Config_accessC_bit2, //EXTERNAL
         output  Tile_X9Y14_Config_accessC_bit3, //EXTERNAL
-        input  Tile_X9Y1_SOC_AWREADY, //EXTERNAL
-        input  Tile_X9Y1_SOC_WREADY, //EXTERNAL
-        input  Tile_X9Y1_SOC_BRESP0, //EXTERNAL
-        input  Tile_X9Y1_SOC_BRESP1, //EXTERNAL
-        input  Tile_X9Y1_SOC_BVALID, //EXTERNAL
-        input  Tile_X9Y1_SOC_ARREADY, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA0, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA1, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA2, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA3, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA4, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA5, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA6, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA7, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA8, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA9, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA10, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA11, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA12, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA13, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA14, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA15, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA16, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA17, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA18, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA19, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA20, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA21, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA22, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA23, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA24, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA25, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA26, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA27, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA28, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA29, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA30, //EXTERNAL
-        input  Tile_X9Y1_SOC_RDATA31, //EXTERNAL
-        input  Tile_X9Y1_SOC_RRESP0, //EXTERNAL
-        input  Tile_X9Y1_SOC_RRESP1, //EXTERNAL
-        input  Tile_X9Y1_SOC_RLAST, //EXTERNAL
-        input  Tile_X9Y1_SOC_RVALID, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR0, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR1, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR2, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR3, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR4, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR5, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR6, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR7, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR8, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR9, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR10, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR11, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR12, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR13, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR14, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR15, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR16, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR17, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR18, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR19, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR20, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR21, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR22, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR23, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR24, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR25, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR26, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR27, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR28, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR29, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR30, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWADDR31, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN0, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN1, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN2, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN3, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN4, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN5, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN6, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWLEN7, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWSIZE0, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWSIZE1, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWSIZE2, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWBURST0, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWBURST1, //EXTERNAL
-        output  Tile_X9Y1_SOC_AWVALID, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA0, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA1, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA2, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA3, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA4, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA5, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA6, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA7, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA8, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA9, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA10, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA11, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA12, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA13, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA14, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA15, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA16, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA17, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA18, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA19, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA20, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA21, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA22, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA23, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA24, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA25, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA26, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA27, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA28, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA29, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA30, //EXTERNAL
-        output  Tile_X9Y1_SOC_WDATA31, //EXTERNAL
-        output  Tile_X9Y1_SOC_WSTRB0, //EXTERNAL
-        output  Tile_X9Y1_SOC_WSTRB1, //EXTERNAL
-        output  Tile_X9Y1_SOC_WSTRB2, //EXTERNAL
-        output  Tile_X9Y1_SOC_WSTRB3, //EXTERNAL
-        output  Tile_X9Y1_SOC_WLAST, //EXTERNAL
-        output  Tile_X9Y1_SOC_WVALID, //EXTERNAL
-        output  Tile_X9Y1_SOC_BREADY, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR0, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR1, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR2, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR3, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR4, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR5, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR6, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR7, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR8, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR9, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR10, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR11, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR12, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR13, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR14, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR15, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR16, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR17, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR18, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR19, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR20, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR21, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR22, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR23, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR24, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR25, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR26, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR27, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR28, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR29, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR30, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARADDR31, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN0, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN1, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN2, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN3, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN4, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN5, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN6, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARLEN7, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARSIZE0, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARSIZE1, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARSIZE2, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARBURST0, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARBURST1, //EXTERNAL
-        output  Tile_X9Y1_SOC_ARVALID, //EXTERNAL
-        output  Tile_X9Y1_SOC_RREADY, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR0, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR1, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR2, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR3, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR4, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR5, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR6, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR7, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR8, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWADDR9, //EXTERNAL
-        input  Tile_X9Y7_SOC_AWVALID, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA0, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA1, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA2, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA3, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA4, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA5, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA6, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA7, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA8, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA9, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA10, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA11, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA12, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA13, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA14, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA15, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA16, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA17, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA18, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA19, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA20, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA21, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA22, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA23, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA24, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA25, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA26, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA27, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA28, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA29, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA30, //EXTERNAL
-        input  Tile_X9Y7_SOC_WDATA31, //EXTERNAL
-        input  Tile_X9Y7_SOC_WSTRB0, //EXTERNAL
-        input  Tile_X9Y7_SOC_WSTRB1, //EXTERNAL
-        input  Tile_X9Y7_SOC_WSTRB2, //EXTERNAL
-        input  Tile_X9Y7_SOC_WSTRB3, //EXTERNAL
-        input  Tile_X9Y7_SOC_WVALID, //EXTERNAL
-        input  Tile_X9Y7_SOC_BREADY, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR0, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR1, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR2, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR3, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR4, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR5, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR6, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR7, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR8, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARADDR9, //EXTERNAL
-        input  Tile_X9Y7_SOC_ARVALID, //EXTERNAL
-        input  Tile_X9Y7_SOC_RREADY, //EXTERNAL
-        output  Tile_X9Y7_SOC_AWREADY, //EXTERNAL
-        output  Tile_X9Y7_SOC_WREADY, //EXTERNAL
-        output  Tile_X9Y7_SOC_BRESP0, //EXTERNAL
-        output  Tile_X9Y7_SOC_BRESP1, //EXTERNAL
-        output  Tile_X9Y7_SOC_BVALID, //EXTERNAL
-        output  Tile_X9Y7_SOC_ARREADY, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA0, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA1, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA2, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA3, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA4, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA5, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA6, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA7, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA8, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA9, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA10, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA11, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA12, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA13, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA14, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA15, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA16, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA17, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA18, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA19, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA20, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA21, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA22, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA23, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA24, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA25, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA26, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA27, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA28, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA29, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA30, //EXTERNAL
-        output  Tile_X9Y7_SOC_RDATA31, //EXTERNAL
-        output  Tile_X9Y7_SOC_RRESP0, //EXTERNAL
-        output  Tile_X9Y7_SOC_RRESP1, //EXTERNAL
-        output  Tile_X9Y7_SOC_RVALID, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_AWREADY, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_WREADY, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_BRESP0, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_BRESP1, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_BVALID, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_ARREADY, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA0, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA1, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA2, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA3, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA4, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA5, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA6, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA7, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA8, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA9, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA10, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA11, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA12, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA13, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA14, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA15, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA16, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA17, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA18, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA19, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA20, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA21, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA22, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA23, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA24, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA25, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA26, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA27, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA28, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA29, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA30, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RDATA31, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RRESP0, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RRESP1, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RLAST, //EXTERNAL
+        input  Tile_X9Y1_AXI_M_SOC_RVALID, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR3, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR4, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR5, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR6, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR7, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR8, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR9, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR10, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR11, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR12, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR13, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR14, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR15, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR16, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR17, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR18, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR19, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR20, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR21, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR22, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR23, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR24, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR25, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR26, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR27, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR28, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR29, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR30, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWADDR31, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN3, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN4, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN5, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN6, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWLEN7, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWSIZE0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWSIZE1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWSIZE2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWBURST0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWBURST1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_AWVALID, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA3, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA4, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA5, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA6, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA7, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA8, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA9, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA10, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA11, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA12, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA13, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA14, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA15, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA16, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA17, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA18, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA19, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA20, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA21, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA22, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA23, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA24, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA25, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA26, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA27, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA28, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA29, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA30, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WDATA31, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WSTRB0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WSTRB1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WSTRB2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WSTRB3, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WLAST, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_WVALID, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_BREADY, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR3, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR4, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR5, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR6, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR7, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR8, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR9, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR10, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR11, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR12, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR13, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR14, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR15, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR16, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR17, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR18, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR19, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR20, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR21, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR22, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR23, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR24, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR25, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR26, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR27, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR28, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR29, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR30, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARADDR31, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN3, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN4, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN5, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN6, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARLEN7, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARSIZE0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARSIZE1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARSIZE2, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARBURST0, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARBURST1, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_ARVALID, //EXTERNAL
+        output  Tile_X9Y1_AXI_M_SOC_RREADY, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR0, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR1, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR2, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR3, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR4, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR5, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR6, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR7, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR8, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWADDR9, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_AWVALID, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA0, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA1, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA2, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA3, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA4, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA5, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA6, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA7, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA8, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA9, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA10, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA11, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA12, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA13, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA14, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA15, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA16, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA17, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA18, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA19, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA20, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA21, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA22, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA23, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA24, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA25, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA26, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA27, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA28, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA29, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA30, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WDATA31, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WSTRB0, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WSTRB1, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WSTRB2, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WSTRB3, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_WVALID, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_BREADY, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR0, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR1, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR2, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR3, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR4, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR5, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR6, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR7, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR8, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARADDR9, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_ARVALID, //EXTERNAL
+        input  Tile_X9Y7_AXIL_S_SOC_RREADY, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_AWREADY, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_WREADY, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_BRESP0, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_BRESP1, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_BVALID, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_ARREADY, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA0, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA1, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA2, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA3, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA4, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA5, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA6, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA7, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA8, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA9, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA10, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA11, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA12, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA13, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA14, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA15, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA16, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA17, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA18, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA19, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA20, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA21, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA22, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA23, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA24, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA25, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA26, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA27, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA28, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA29, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA30, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RDATA31, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RRESP0, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RRESP1, //EXTERNAL
+        output  Tile_X9Y7_AXIL_S_SOC_RVALID, //EXTERNAL
         input  [(FrameBitsPerRow*16)-1:0] FrameData, //CONFIG_PORT
         input  [(MaxFramesPerCol*10)-1:0] FrameStrobe, //CONFIG_PORT
         input  UserCLK
@@ -4730,180 +4730,180 @@ assign Column_X9_FrameStrobe = FrameStrobe[MaxFramesPerCol*(9+1)-1:MaxFramesPerC
     .Tile_X0Y5_W2BEGb(Tile_X9Y6_W2BEGb),
     .Tile_X0Y5_WW4BEG(Tile_X9Y6_WW4BEG),
     .Tile_X0Y5_W6BEG(Tile_X9Y6_W6BEG),
-    .SOC_AWREADY(Tile_X9Y1_SOC_AWREADY),
-    .SOC_WREADY(Tile_X9Y1_SOC_WREADY),
-    .SOC_BRESP0(Tile_X9Y1_SOC_BRESP0),
-    .SOC_BRESP1(Tile_X9Y1_SOC_BRESP1),
-    .SOC_BVALID(Tile_X9Y1_SOC_BVALID),
-    .SOC_ARREADY(Tile_X9Y1_SOC_ARREADY),
-    .SOC_RDATA0(Tile_X9Y1_SOC_RDATA0),
-    .SOC_RDATA1(Tile_X9Y1_SOC_RDATA1),
-    .SOC_RDATA2(Tile_X9Y1_SOC_RDATA2),
-    .SOC_RDATA3(Tile_X9Y1_SOC_RDATA3),
-    .SOC_RDATA4(Tile_X9Y1_SOC_RDATA4),
-    .SOC_RDATA5(Tile_X9Y1_SOC_RDATA5),
-    .SOC_RDATA6(Tile_X9Y1_SOC_RDATA6),
-    .SOC_RDATA7(Tile_X9Y1_SOC_RDATA7),
-    .SOC_RDATA8(Tile_X9Y1_SOC_RDATA8),
-    .SOC_RDATA9(Tile_X9Y1_SOC_RDATA9),
-    .SOC_RDATA10(Tile_X9Y1_SOC_RDATA10),
-    .SOC_RDATA11(Tile_X9Y1_SOC_RDATA11),
-    .SOC_RDATA12(Tile_X9Y1_SOC_RDATA12),
-    .SOC_RDATA13(Tile_X9Y1_SOC_RDATA13),
-    .SOC_RDATA14(Tile_X9Y1_SOC_RDATA14),
-    .SOC_RDATA15(Tile_X9Y1_SOC_RDATA15),
-    .SOC_RDATA16(Tile_X9Y1_SOC_RDATA16),
-    .SOC_RDATA17(Tile_X9Y1_SOC_RDATA17),
-    .SOC_RDATA18(Tile_X9Y1_SOC_RDATA18),
-    .SOC_RDATA19(Tile_X9Y1_SOC_RDATA19),
-    .SOC_RDATA20(Tile_X9Y1_SOC_RDATA20),
-    .SOC_RDATA21(Tile_X9Y1_SOC_RDATA21),
-    .SOC_RDATA22(Tile_X9Y1_SOC_RDATA22),
-    .SOC_RDATA23(Tile_X9Y1_SOC_RDATA23),
-    .SOC_RDATA24(Tile_X9Y1_SOC_RDATA24),
-    .SOC_RDATA25(Tile_X9Y1_SOC_RDATA25),
-    .SOC_RDATA26(Tile_X9Y1_SOC_RDATA26),
-    .SOC_RDATA27(Tile_X9Y1_SOC_RDATA27),
-    .SOC_RDATA28(Tile_X9Y1_SOC_RDATA28),
-    .SOC_RDATA29(Tile_X9Y1_SOC_RDATA29),
-    .SOC_RDATA30(Tile_X9Y1_SOC_RDATA30),
-    .SOC_RDATA31(Tile_X9Y1_SOC_RDATA31),
-    .SOC_RRESP0(Tile_X9Y1_SOC_RRESP0),
-    .SOC_RRESP1(Tile_X9Y1_SOC_RRESP1),
-    .SOC_RLAST(Tile_X9Y1_SOC_RLAST),
-    .SOC_RVALID(Tile_X9Y1_SOC_RVALID),
-    .SOC_AWADDR0(Tile_X9Y1_SOC_AWADDR0),
-    .SOC_AWADDR1(Tile_X9Y1_SOC_AWADDR1),
-    .SOC_AWADDR2(Tile_X9Y1_SOC_AWADDR2),
-    .SOC_AWADDR3(Tile_X9Y1_SOC_AWADDR3),
-    .SOC_AWADDR4(Tile_X9Y1_SOC_AWADDR4),
-    .SOC_AWADDR5(Tile_X9Y1_SOC_AWADDR5),
-    .SOC_AWADDR6(Tile_X9Y1_SOC_AWADDR6),
-    .SOC_AWADDR7(Tile_X9Y1_SOC_AWADDR7),
-    .SOC_AWADDR8(Tile_X9Y1_SOC_AWADDR8),
-    .SOC_AWADDR9(Tile_X9Y1_SOC_AWADDR9),
-    .SOC_AWADDR10(Tile_X9Y1_SOC_AWADDR10),
-    .SOC_AWADDR11(Tile_X9Y1_SOC_AWADDR11),
-    .SOC_AWADDR12(Tile_X9Y1_SOC_AWADDR12),
-    .SOC_AWADDR13(Tile_X9Y1_SOC_AWADDR13),
-    .SOC_AWADDR14(Tile_X9Y1_SOC_AWADDR14),
-    .SOC_AWADDR15(Tile_X9Y1_SOC_AWADDR15),
-    .SOC_AWADDR16(Tile_X9Y1_SOC_AWADDR16),
-    .SOC_AWADDR17(Tile_X9Y1_SOC_AWADDR17),
-    .SOC_AWADDR18(Tile_X9Y1_SOC_AWADDR18),
-    .SOC_AWADDR19(Tile_X9Y1_SOC_AWADDR19),
-    .SOC_AWADDR20(Tile_X9Y1_SOC_AWADDR20),
-    .SOC_AWADDR21(Tile_X9Y1_SOC_AWADDR21),
-    .SOC_AWADDR22(Tile_X9Y1_SOC_AWADDR22),
-    .SOC_AWADDR23(Tile_X9Y1_SOC_AWADDR23),
-    .SOC_AWADDR24(Tile_X9Y1_SOC_AWADDR24),
-    .SOC_AWADDR25(Tile_X9Y1_SOC_AWADDR25),
-    .SOC_AWADDR26(Tile_X9Y1_SOC_AWADDR26),
-    .SOC_AWADDR27(Tile_X9Y1_SOC_AWADDR27),
-    .SOC_AWADDR28(Tile_X9Y1_SOC_AWADDR28),
-    .SOC_AWADDR29(Tile_X9Y1_SOC_AWADDR29),
-    .SOC_AWADDR30(Tile_X9Y1_SOC_AWADDR30),
-    .SOC_AWADDR31(Tile_X9Y1_SOC_AWADDR31),
-    .SOC_AWLEN0(Tile_X9Y1_SOC_AWLEN0),
-    .SOC_AWLEN1(Tile_X9Y1_SOC_AWLEN1),
-    .SOC_AWLEN2(Tile_X9Y1_SOC_AWLEN2),
-    .SOC_AWLEN3(Tile_X9Y1_SOC_AWLEN3),
-    .SOC_AWLEN4(Tile_X9Y1_SOC_AWLEN4),
-    .SOC_AWLEN5(Tile_X9Y1_SOC_AWLEN5),
-    .SOC_AWLEN6(Tile_X9Y1_SOC_AWLEN6),
-    .SOC_AWLEN7(Tile_X9Y1_SOC_AWLEN7),
-    .SOC_AWSIZE0(Tile_X9Y1_SOC_AWSIZE0),
-    .SOC_AWSIZE1(Tile_X9Y1_SOC_AWSIZE1),
-    .SOC_AWSIZE2(Tile_X9Y1_SOC_AWSIZE2),
-    .SOC_AWBURST0(Tile_X9Y1_SOC_AWBURST0),
-    .SOC_AWBURST1(Tile_X9Y1_SOC_AWBURST1),
-    .SOC_AWVALID(Tile_X9Y1_SOC_AWVALID),
-    .SOC_WDATA0(Tile_X9Y1_SOC_WDATA0),
-    .SOC_WDATA1(Tile_X9Y1_SOC_WDATA1),
-    .SOC_WDATA2(Tile_X9Y1_SOC_WDATA2),
-    .SOC_WDATA3(Tile_X9Y1_SOC_WDATA3),
-    .SOC_WDATA4(Tile_X9Y1_SOC_WDATA4),
-    .SOC_WDATA5(Tile_X9Y1_SOC_WDATA5),
-    .SOC_WDATA6(Tile_X9Y1_SOC_WDATA6),
-    .SOC_WDATA7(Tile_X9Y1_SOC_WDATA7),
-    .SOC_WDATA8(Tile_X9Y1_SOC_WDATA8),
-    .SOC_WDATA9(Tile_X9Y1_SOC_WDATA9),
-    .SOC_WDATA10(Tile_X9Y1_SOC_WDATA10),
-    .SOC_WDATA11(Tile_X9Y1_SOC_WDATA11),
-    .SOC_WDATA12(Tile_X9Y1_SOC_WDATA12),
-    .SOC_WDATA13(Tile_X9Y1_SOC_WDATA13),
-    .SOC_WDATA14(Tile_X9Y1_SOC_WDATA14),
-    .SOC_WDATA15(Tile_X9Y1_SOC_WDATA15),
-    .SOC_WDATA16(Tile_X9Y1_SOC_WDATA16),
-    .SOC_WDATA17(Tile_X9Y1_SOC_WDATA17),
-    .SOC_WDATA18(Tile_X9Y1_SOC_WDATA18),
-    .SOC_WDATA19(Tile_X9Y1_SOC_WDATA19),
-    .SOC_WDATA20(Tile_X9Y1_SOC_WDATA20),
-    .SOC_WDATA21(Tile_X9Y1_SOC_WDATA21),
-    .SOC_WDATA22(Tile_X9Y1_SOC_WDATA22),
-    .SOC_WDATA23(Tile_X9Y1_SOC_WDATA23),
-    .SOC_WDATA24(Tile_X9Y1_SOC_WDATA24),
-    .SOC_WDATA25(Tile_X9Y1_SOC_WDATA25),
-    .SOC_WDATA26(Tile_X9Y1_SOC_WDATA26),
-    .SOC_WDATA27(Tile_X9Y1_SOC_WDATA27),
-    .SOC_WDATA28(Tile_X9Y1_SOC_WDATA28),
-    .SOC_WDATA29(Tile_X9Y1_SOC_WDATA29),
-    .SOC_WDATA30(Tile_X9Y1_SOC_WDATA30),
-    .SOC_WDATA31(Tile_X9Y1_SOC_WDATA31),
-    .SOC_WSTRB0(Tile_X9Y1_SOC_WSTRB0),
-    .SOC_WSTRB1(Tile_X9Y1_SOC_WSTRB1),
-    .SOC_WSTRB2(Tile_X9Y1_SOC_WSTRB2),
-    .SOC_WSTRB3(Tile_X9Y1_SOC_WSTRB3),
-    .SOC_WLAST(Tile_X9Y1_SOC_WLAST),
-    .SOC_WVALID(Tile_X9Y1_SOC_WVALID),
-    .SOC_BREADY(Tile_X9Y1_SOC_BREADY),
-    .SOC_ARADDR0(Tile_X9Y1_SOC_ARADDR0),
-    .SOC_ARADDR1(Tile_X9Y1_SOC_ARADDR1),
-    .SOC_ARADDR2(Tile_X9Y1_SOC_ARADDR2),
-    .SOC_ARADDR3(Tile_X9Y1_SOC_ARADDR3),
-    .SOC_ARADDR4(Tile_X9Y1_SOC_ARADDR4),
-    .SOC_ARADDR5(Tile_X9Y1_SOC_ARADDR5),
-    .SOC_ARADDR6(Tile_X9Y1_SOC_ARADDR6),
-    .SOC_ARADDR7(Tile_X9Y1_SOC_ARADDR7),
-    .SOC_ARADDR8(Tile_X9Y1_SOC_ARADDR8),
-    .SOC_ARADDR9(Tile_X9Y1_SOC_ARADDR9),
-    .SOC_ARADDR10(Tile_X9Y1_SOC_ARADDR10),
-    .SOC_ARADDR11(Tile_X9Y1_SOC_ARADDR11),
-    .SOC_ARADDR12(Tile_X9Y1_SOC_ARADDR12),
-    .SOC_ARADDR13(Tile_X9Y1_SOC_ARADDR13),
-    .SOC_ARADDR14(Tile_X9Y1_SOC_ARADDR14),
-    .SOC_ARADDR15(Tile_X9Y1_SOC_ARADDR15),
-    .SOC_ARADDR16(Tile_X9Y1_SOC_ARADDR16),
-    .SOC_ARADDR17(Tile_X9Y1_SOC_ARADDR17),
-    .SOC_ARADDR18(Tile_X9Y1_SOC_ARADDR18),
-    .SOC_ARADDR19(Tile_X9Y1_SOC_ARADDR19),
-    .SOC_ARADDR20(Tile_X9Y1_SOC_ARADDR20),
-    .SOC_ARADDR21(Tile_X9Y1_SOC_ARADDR21),
-    .SOC_ARADDR22(Tile_X9Y1_SOC_ARADDR22),
-    .SOC_ARADDR23(Tile_X9Y1_SOC_ARADDR23),
-    .SOC_ARADDR24(Tile_X9Y1_SOC_ARADDR24),
-    .SOC_ARADDR25(Tile_X9Y1_SOC_ARADDR25),
-    .SOC_ARADDR26(Tile_X9Y1_SOC_ARADDR26),
-    .SOC_ARADDR27(Tile_X9Y1_SOC_ARADDR27),
-    .SOC_ARADDR28(Tile_X9Y1_SOC_ARADDR28),
-    .SOC_ARADDR29(Tile_X9Y1_SOC_ARADDR29),
-    .SOC_ARADDR30(Tile_X9Y1_SOC_ARADDR30),
-    .SOC_ARADDR31(Tile_X9Y1_SOC_ARADDR31),
-    .SOC_ARLEN0(Tile_X9Y1_SOC_ARLEN0),
-    .SOC_ARLEN1(Tile_X9Y1_SOC_ARLEN1),
-    .SOC_ARLEN2(Tile_X9Y1_SOC_ARLEN2),
-    .SOC_ARLEN3(Tile_X9Y1_SOC_ARLEN3),
-    .SOC_ARLEN4(Tile_X9Y1_SOC_ARLEN4),
-    .SOC_ARLEN5(Tile_X9Y1_SOC_ARLEN5),
-    .SOC_ARLEN6(Tile_X9Y1_SOC_ARLEN6),
-    .SOC_ARLEN7(Tile_X9Y1_SOC_ARLEN7),
-    .SOC_ARSIZE0(Tile_X9Y1_SOC_ARSIZE0),
-    .SOC_ARSIZE1(Tile_X9Y1_SOC_ARSIZE1),
-    .SOC_ARSIZE2(Tile_X9Y1_SOC_ARSIZE2),
-    .SOC_ARBURST0(Tile_X9Y1_SOC_ARBURST0),
-    .SOC_ARBURST1(Tile_X9Y1_SOC_ARBURST1),
-    .SOC_ARVALID(Tile_X9Y1_SOC_ARVALID),
-    .SOC_RREADY(Tile_X9Y1_SOC_RREADY),
+    .AXI_M_SOC_AWREADY(Tile_X9Y1_AXI_M_SOC_AWREADY),
+    .AXI_M_SOC_WREADY(Tile_X9Y1_AXI_M_SOC_WREADY),
+    .AXI_M_SOC_BRESP0(Tile_X9Y1_AXI_M_SOC_BRESP0),
+    .AXI_M_SOC_BRESP1(Tile_X9Y1_AXI_M_SOC_BRESP1),
+    .AXI_M_SOC_BVALID(Tile_X9Y1_AXI_M_SOC_BVALID),
+    .AXI_M_SOC_ARREADY(Tile_X9Y1_AXI_M_SOC_ARREADY),
+    .AXI_M_SOC_RDATA0(Tile_X9Y1_AXI_M_SOC_RDATA0),
+    .AXI_M_SOC_RDATA1(Tile_X9Y1_AXI_M_SOC_RDATA1),
+    .AXI_M_SOC_RDATA2(Tile_X9Y1_AXI_M_SOC_RDATA2),
+    .AXI_M_SOC_RDATA3(Tile_X9Y1_AXI_M_SOC_RDATA3),
+    .AXI_M_SOC_RDATA4(Tile_X9Y1_AXI_M_SOC_RDATA4),
+    .AXI_M_SOC_RDATA5(Tile_X9Y1_AXI_M_SOC_RDATA5),
+    .AXI_M_SOC_RDATA6(Tile_X9Y1_AXI_M_SOC_RDATA6),
+    .AXI_M_SOC_RDATA7(Tile_X9Y1_AXI_M_SOC_RDATA7),
+    .AXI_M_SOC_RDATA8(Tile_X9Y1_AXI_M_SOC_RDATA8),
+    .AXI_M_SOC_RDATA9(Tile_X9Y1_AXI_M_SOC_RDATA9),
+    .AXI_M_SOC_RDATA10(Tile_X9Y1_AXI_M_SOC_RDATA10),
+    .AXI_M_SOC_RDATA11(Tile_X9Y1_AXI_M_SOC_RDATA11),
+    .AXI_M_SOC_RDATA12(Tile_X9Y1_AXI_M_SOC_RDATA12),
+    .AXI_M_SOC_RDATA13(Tile_X9Y1_AXI_M_SOC_RDATA13),
+    .AXI_M_SOC_RDATA14(Tile_X9Y1_AXI_M_SOC_RDATA14),
+    .AXI_M_SOC_RDATA15(Tile_X9Y1_AXI_M_SOC_RDATA15),
+    .AXI_M_SOC_RDATA16(Tile_X9Y1_AXI_M_SOC_RDATA16),
+    .AXI_M_SOC_RDATA17(Tile_X9Y1_AXI_M_SOC_RDATA17),
+    .AXI_M_SOC_RDATA18(Tile_X9Y1_AXI_M_SOC_RDATA18),
+    .AXI_M_SOC_RDATA19(Tile_X9Y1_AXI_M_SOC_RDATA19),
+    .AXI_M_SOC_RDATA20(Tile_X9Y1_AXI_M_SOC_RDATA20),
+    .AXI_M_SOC_RDATA21(Tile_X9Y1_AXI_M_SOC_RDATA21),
+    .AXI_M_SOC_RDATA22(Tile_X9Y1_AXI_M_SOC_RDATA22),
+    .AXI_M_SOC_RDATA23(Tile_X9Y1_AXI_M_SOC_RDATA23),
+    .AXI_M_SOC_RDATA24(Tile_X9Y1_AXI_M_SOC_RDATA24),
+    .AXI_M_SOC_RDATA25(Tile_X9Y1_AXI_M_SOC_RDATA25),
+    .AXI_M_SOC_RDATA26(Tile_X9Y1_AXI_M_SOC_RDATA26),
+    .AXI_M_SOC_RDATA27(Tile_X9Y1_AXI_M_SOC_RDATA27),
+    .AXI_M_SOC_RDATA28(Tile_X9Y1_AXI_M_SOC_RDATA28),
+    .AXI_M_SOC_RDATA29(Tile_X9Y1_AXI_M_SOC_RDATA29),
+    .AXI_M_SOC_RDATA30(Tile_X9Y1_AXI_M_SOC_RDATA30),
+    .AXI_M_SOC_RDATA31(Tile_X9Y1_AXI_M_SOC_RDATA31),
+    .AXI_M_SOC_RRESP0(Tile_X9Y1_AXI_M_SOC_RRESP0),
+    .AXI_M_SOC_RRESP1(Tile_X9Y1_AXI_M_SOC_RRESP1),
+    .AXI_M_SOC_RLAST(Tile_X9Y1_AXI_M_SOC_RLAST),
+    .AXI_M_SOC_RVALID(Tile_X9Y1_AXI_M_SOC_RVALID),
+    .AXI_M_SOC_AWADDR0(Tile_X9Y1_AXI_M_SOC_AWADDR0),
+    .AXI_M_SOC_AWADDR1(Tile_X9Y1_AXI_M_SOC_AWADDR1),
+    .AXI_M_SOC_AWADDR2(Tile_X9Y1_AXI_M_SOC_AWADDR2),
+    .AXI_M_SOC_AWADDR3(Tile_X9Y1_AXI_M_SOC_AWADDR3),
+    .AXI_M_SOC_AWADDR4(Tile_X9Y1_AXI_M_SOC_AWADDR4),
+    .AXI_M_SOC_AWADDR5(Tile_X9Y1_AXI_M_SOC_AWADDR5),
+    .AXI_M_SOC_AWADDR6(Tile_X9Y1_AXI_M_SOC_AWADDR6),
+    .AXI_M_SOC_AWADDR7(Tile_X9Y1_AXI_M_SOC_AWADDR7),
+    .AXI_M_SOC_AWADDR8(Tile_X9Y1_AXI_M_SOC_AWADDR8),
+    .AXI_M_SOC_AWADDR9(Tile_X9Y1_AXI_M_SOC_AWADDR9),
+    .AXI_M_SOC_AWADDR10(Tile_X9Y1_AXI_M_SOC_AWADDR10),
+    .AXI_M_SOC_AWADDR11(Tile_X9Y1_AXI_M_SOC_AWADDR11),
+    .AXI_M_SOC_AWADDR12(Tile_X9Y1_AXI_M_SOC_AWADDR12),
+    .AXI_M_SOC_AWADDR13(Tile_X9Y1_AXI_M_SOC_AWADDR13),
+    .AXI_M_SOC_AWADDR14(Tile_X9Y1_AXI_M_SOC_AWADDR14),
+    .AXI_M_SOC_AWADDR15(Tile_X9Y1_AXI_M_SOC_AWADDR15),
+    .AXI_M_SOC_AWADDR16(Tile_X9Y1_AXI_M_SOC_AWADDR16),
+    .AXI_M_SOC_AWADDR17(Tile_X9Y1_AXI_M_SOC_AWADDR17),
+    .AXI_M_SOC_AWADDR18(Tile_X9Y1_AXI_M_SOC_AWADDR18),
+    .AXI_M_SOC_AWADDR19(Tile_X9Y1_AXI_M_SOC_AWADDR19),
+    .AXI_M_SOC_AWADDR20(Tile_X9Y1_AXI_M_SOC_AWADDR20),
+    .AXI_M_SOC_AWADDR21(Tile_X9Y1_AXI_M_SOC_AWADDR21),
+    .AXI_M_SOC_AWADDR22(Tile_X9Y1_AXI_M_SOC_AWADDR22),
+    .AXI_M_SOC_AWADDR23(Tile_X9Y1_AXI_M_SOC_AWADDR23),
+    .AXI_M_SOC_AWADDR24(Tile_X9Y1_AXI_M_SOC_AWADDR24),
+    .AXI_M_SOC_AWADDR25(Tile_X9Y1_AXI_M_SOC_AWADDR25),
+    .AXI_M_SOC_AWADDR26(Tile_X9Y1_AXI_M_SOC_AWADDR26),
+    .AXI_M_SOC_AWADDR27(Tile_X9Y1_AXI_M_SOC_AWADDR27),
+    .AXI_M_SOC_AWADDR28(Tile_X9Y1_AXI_M_SOC_AWADDR28),
+    .AXI_M_SOC_AWADDR29(Tile_X9Y1_AXI_M_SOC_AWADDR29),
+    .AXI_M_SOC_AWADDR30(Tile_X9Y1_AXI_M_SOC_AWADDR30),
+    .AXI_M_SOC_AWADDR31(Tile_X9Y1_AXI_M_SOC_AWADDR31),
+    .AXI_M_SOC_AWLEN0(Tile_X9Y1_AXI_M_SOC_AWLEN0),
+    .AXI_M_SOC_AWLEN1(Tile_X9Y1_AXI_M_SOC_AWLEN1),
+    .AXI_M_SOC_AWLEN2(Tile_X9Y1_AXI_M_SOC_AWLEN2),
+    .AXI_M_SOC_AWLEN3(Tile_X9Y1_AXI_M_SOC_AWLEN3),
+    .AXI_M_SOC_AWLEN4(Tile_X9Y1_AXI_M_SOC_AWLEN4),
+    .AXI_M_SOC_AWLEN5(Tile_X9Y1_AXI_M_SOC_AWLEN5),
+    .AXI_M_SOC_AWLEN6(Tile_X9Y1_AXI_M_SOC_AWLEN6),
+    .AXI_M_SOC_AWLEN7(Tile_X9Y1_AXI_M_SOC_AWLEN7),
+    .AXI_M_SOC_AWSIZE0(Tile_X9Y1_AXI_M_SOC_AWSIZE0),
+    .AXI_M_SOC_AWSIZE1(Tile_X9Y1_AXI_M_SOC_AWSIZE1),
+    .AXI_M_SOC_AWSIZE2(Tile_X9Y1_AXI_M_SOC_AWSIZE2),
+    .AXI_M_SOC_AWBURST0(Tile_X9Y1_AXI_M_SOC_AWBURST0),
+    .AXI_M_SOC_AWBURST1(Tile_X9Y1_AXI_M_SOC_AWBURST1),
+    .AXI_M_SOC_AWVALID(Tile_X9Y1_AXI_M_SOC_AWVALID),
+    .AXI_M_SOC_WDATA0(Tile_X9Y1_AXI_M_SOC_WDATA0),
+    .AXI_M_SOC_WDATA1(Tile_X9Y1_AXI_M_SOC_WDATA1),
+    .AXI_M_SOC_WDATA2(Tile_X9Y1_AXI_M_SOC_WDATA2),
+    .AXI_M_SOC_WDATA3(Tile_X9Y1_AXI_M_SOC_WDATA3),
+    .AXI_M_SOC_WDATA4(Tile_X9Y1_AXI_M_SOC_WDATA4),
+    .AXI_M_SOC_WDATA5(Tile_X9Y1_AXI_M_SOC_WDATA5),
+    .AXI_M_SOC_WDATA6(Tile_X9Y1_AXI_M_SOC_WDATA6),
+    .AXI_M_SOC_WDATA7(Tile_X9Y1_AXI_M_SOC_WDATA7),
+    .AXI_M_SOC_WDATA8(Tile_X9Y1_AXI_M_SOC_WDATA8),
+    .AXI_M_SOC_WDATA9(Tile_X9Y1_AXI_M_SOC_WDATA9),
+    .AXI_M_SOC_WDATA10(Tile_X9Y1_AXI_M_SOC_WDATA10),
+    .AXI_M_SOC_WDATA11(Tile_X9Y1_AXI_M_SOC_WDATA11),
+    .AXI_M_SOC_WDATA12(Tile_X9Y1_AXI_M_SOC_WDATA12),
+    .AXI_M_SOC_WDATA13(Tile_X9Y1_AXI_M_SOC_WDATA13),
+    .AXI_M_SOC_WDATA14(Tile_X9Y1_AXI_M_SOC_WDATA14),
+    .AXI_M_SOC_WDATA15(Tile_X9Y1_AXI_M_SOC_WDATA15),
+    .AXI_M_SOC_WDATA16(Tile_X9Y1_AXI_M_SOC_WDATA16),
+    .AXI_M_SOC_WDATA17(Tile_X9Y1_AXI_M_SOC_WDATA17),
+    .AXI_M_SOC_WDATA18(Tile_X9Y1_AXI_M_SOC_WDATA18),
+    .AXI_M_SOC_WDATA19(Tile_X9Y1_AXI_M_SOC_WDATA19),
+    .AXI_M_SOC_WDATA20(Tile_X9Y1_AXI_M_SOC_WDATA20),
+    .AXI_M_SOC_WDATA21(Tile_X9Y1_AXI_M_SOC_WDATA21),
+    .AXI_M_SOC_WDATA22(Tile_X9Y1_AXI_M_SOC_WDATA22),
+    .AXI_M_SOC_WDATA23(Tile_X9Y1_AXI_M_SOC_WDATA23),
+    .AXI_M_SOC_WDATA24(Tile_X9Y1_AXI_M_SOC_WDATA24),
+    .AXI_M_SOC_WDATA25(Tile_X9Y1_AXI_M_SOC_WDATA25),
+    .AXI_M_SOC_WDATA26(Tile_X9Y1_AXI_M_SOC_WDATA26),
+    .AXI_M_SOC_WDATA27(Tile_X9Y1_AXI_M_SOC_WDATA27),
+    .AXI_M_SOC_WDATA28(Tile_X9Y1_AXI_M_SOC_WDATA28),
+    .AXI_M_SOC_WDATA29(Tile_X9Y1_AXI_M_SOC_WDATA29),
+    .AXI_M_SOC_WDATA30(Tile_X9Y1_AXI_M_SOC_WDATA30),
+    .AXI_M_SOC_WDATA31(Tile_X9Y1_AXI_M_SOC_WDATA31),
+    .AXI_M_SOC_WSTRB0(Tile_X9Y1_AXI_M_SOC_WSTRB0),
+    .AXI_M_SOC_WSTRB1(Tile_X9Y1_AXI_M_SOC_WSTRB1),
+    .AXI_M_SOC_WSTRB2(Tile_X9Y1_AXI_M_SOC_WSTRB2),
+    .AXI_M_SOC_WSTRB3(Tile_X9Y1_AXI_M_SOC_WSTRB3),
+    .AXI_M_SOC_WLAST(Tile_X9Y1_AXI_M_SOC_WLAST),
+    .AXI_M_SOC_WVALID(Tile_X9Y1_AXI_M_SOC_WVALID),
+    .AXI_M_SOC_BREADY(Tile_X9Y1_AXI_M_SOC_BREADY),
+    .AXI_M_SOC_ARADDR0(Tile_X9Y1_AXI_M_SOC_ARADDR0),
+    .AXI_M_SOC_ARADDR1(Tile_X9Y1_AXI_M_SOC_ARADDR1),
+    .AXI_M_SOC_ARADDR2(Tile_X9Y1_AXI_M_SOC_ARADDR2),
+    .AXI_M_SOC_ARADDR3(Tile_X9Y1_AXI_M_SOC_ARADDR3),
+    .AXI_M_SOC_ARADDR4(Tile_X9Y1_AXI_M_SOC_ARADDR4),
+    .AXI_M_SOC_ARADDR5(Tile_X9Y1_AXI_M_SOC_ARADDR5),
+    .AXI_M_SOC_ARADDR6(Tile_X9Y1_AXI_M_SOC_ARADDR6),
+    .AXI_M_SOC_ARADDR7(Tile_X9Y1_AXI_M_SOC_ARADDR7),
+    .AXI_M_SOC_ARADDR8(Tile_X9Y1_AXI_M_SOC_ARADDR8),
+    .AXI_M_SOC_ARADDR9(Tile_X9Y1_AXI_M_SOC_ARADDR9),
+    .AXI_M_SOC_ARADDR10(Tile_X9Y1_AXI_M_SOC_ARADDR10),
+    .AXI_M_SOC_ARADDR11(Tile_X9Y1_AXI_M_SOC_ARADDR11),
+    .AXI_M_SOC_ARADDR12(Tile_X9Y1_AXI_M_SOC_ARADDR12),
+    .AXI_M_SOC_ARADDR13(Tile_X9Y1_AXI_M_SOC_ARADDR13),
+    .AXI_M_SOC_ARADDR14(Tile_X9Y1_AXI_M_SOC_ARADDR14),
+    .AXI_M_SOC_ARADDR15(Tile_X9Y1_AXI_M_SOC_ARADDR15),
+    .AXI_M_SOC_ARADDR16(Tile_X9Y1_AXI_M_SOC_ARADDR16),
+    .AXI_M_SOC_ARADDR17(Tile_X9Y1_AXI_M_SOC_ARADDR17),
+    .AXI_M_SOC_ARADDR18(Tile_X9Y1_AXI_M_SOC_ARADDR18),
+    .AXI_M_SOC_ARADDR19(Tile_X9Y1_AXI_M_SOC_ARADDR19),
+    .AXI_M_SOC_ARADDR20(Tile_X9Y1_AXI_M_SOC_ARADDR20),
+    .AXI_M_SOC_ARADDR21(Tile_X9Y1_AXI_M_SOC_ARADDR21),
+    .AXI_M_SOC_ARADDR22(Tile_X9Y1_AXI_M_SOC_ARADDR22),
+    .AXI_M_SOC_ARADDR23(Tile_X9Y1_AXI_M_SOC_ARADDR23),
+    .AXI_M_SOC_ARADDR24(Tile_X9Y1_AXI_M_SOC_ARADDR24),
+    .AXI_M_SOC_ARADDR25(Tile_X9Y1_AXI_M_SOC_ARADDR25),
+    .AXI_M_SOC_ARADDR26(Tile_X9Y1_AXI_M_SOC_ARADDR26),
+    .AXI_M_SOC_ARADDR27(Tile_X9Y1_AXI_M_SOC_ARADDR27),
+    .AXI_M_SOC_ARADDR28(Tile_X9Y1_AXI_M_SOC_ARADDR28),
+    .AXI_M_SOC_ARADDR29(Tile_X9Y1_AXI_M_SOC_ARADDR29),
+    .AXI_M_SOC_ARADDR30(Tile_X9Y1_AXI_M_SOC_ARADDR30),
+    .AXI_M_SOC_ARADDR31(Tile_X9Y1_AXI_M_SOC_ARADDR31),
+    .AXI_M_SOC_ARLEN0(Tile_X9Y1_AXI_M_SOC_ARLEN0),
+    .AXI_M_SOC_ARLEN1(Tile_X9Y1_AXI_M_SOC_ARLEN1),
+    .AXI_M_SOC_ARLEN2(Tile_X9Y1_AXI_M_SOC_ARLEN2),
+    .AXI_M_SOC_ARLEN3(Tile_X9Y1_AXI_M_SOC_ARLEN3),
+    .AXI_M_SOC_ARLEN4(Tile_X9Y1_AXI_M_SOC_ARLEN4),
+    .AXI_M_SOC_ARLEN5(Tile_X9Y1_AXI_M_SOC_ARLEN5),
+    .AXI_M_SOC_ARLEN6(Tile_X9Y1_AXI_M_SOC_ARLEN6),
+    .AXI_M_SOC_ARLEN7(Tile_X9Y1_AXI_M_SOC_ARLEN7),
+    .AXI_M_SOC_ARSIZE0(Tile_X9Y1_AXI_M_SOC_ARSIZE0),
+    .AXI_M_SOC_ARSIZE1(Tile_X9Y1_AXI_M_SOC_ARSIZE1),
+    .AXI_M_SOC_ARSIZE2(Tile_X9Y1_AXI_M_SOC_ARSIZE2),
+    .AXI_M_SOC_ARBURST0(Tile_X9Y1_AXI_M_SOC_ARBURST0),
+    .AXI_M_SOC_ARBURST1(Tile_X9Y1_AXI_M_SOC_ARBURST1),
+    .AXI_M_SOC_ARVALID(Tile_X9Y1_AXI_M_SOC_ARVALID),
+    .AXI_M_SOC_RREADY(Tile_X9Y1_AXI_M_SOC_RREADY),
     .Tile_X0Y0_UserCLKo(Tile_X9Y1_UserCLKo),
     .Tile_X0Y5_UserCLK(Tile_X9Y7_UserCLKo),
     .Tile_X0Y0_FrameData(Tile_X8Y1_FrameData_O),
@@ -7994,108 +7994,108 @@ assign Column_X9_FrameStrobe = FrameStrobe[MaxFramesPerCol*(9+1)-1:MaxFramesPerC
     .Tile_X0Y3_W2BEGb(Tile_X9Y10_W2BEGb),
     .Tile_X0Y3_WW4BEG(Tile_X9Y10_WW4BEG),
     .Tile_X0Y3_W6BEG(Tile_X9Y10_W6BEG),
-    .SOC_AWADDR0(Tile_X9Y7_SOC_AWADDR0),
-    .SOC_AWADDR1(Tile_X9Y7_SOC_AWADDR1),
-    .SOC_AWADDR2(Tile_X9Y7_SOC_AWADDR2),
-    .SOC_AWADDR3(Tile_X9Y7_SOC_AWADDR3),
-    .SOC_AWADDR4(Tile_X9Y7_SOC_AWADDR4),
-    .SOC_AWADDR5(Tile_X9Y7_SOC_AWADDR5),
-    .SOC_AWADDR6(Tile_X9Y7_SOC_AWADDR6),
-    .SOC_AWADDR7(Tile_X9Y7_SOC_AWADDR7),
-    .SOC_AWADDR8(Tile_X9Y7_SOC_AWADDR8),
-    .SOC_AWADDR9(Tile_X9Y7_SOC_AWADDR9),
-    .SOC_AWVALID(Tile_X9Y7_SOC_AWVALID),
-    .SOC_WDATA0(Tile_X9Y7_SOC_WDATA0),
-    .SOC_WDATA1(Tile_X9Y7_SOC_WDATA1),
-    .SOC_WDATA2(Tile_X9Y7_SOC_WDATA2),
-    .SOC_WDATA3(Tile_X9Y7_SOC_WDATA3),
-    .SOC_WDATA4(Tile_X9Y7_SOC_WDATA4),
-    .SOC_WDATA5(Tile_X9Y7_SOC_WDATA5),
-    .SOC_WDATA6(Tile_X9Y7_SOC_WDATA6),
-    .SOC_WDATA7(Tile_X9Y7_SOC_WDATA7),
-    .SOC_WDATA8(Tile_X9Y7_SOC_WDATA8),
-    .SOC_WDATA9(Tile_X9Y7_SOC_WDATA9),
-    .SOC_WDATA10(Tile_X9Y7_SOC_WDATA10),
-    .SOC_WDATA11(Tile_X9Y7_SOC_WDATA11),
-    .SOC_WDATA12(Tile_X9Y7_SOC_WDATA12),
-    .SOC_WDATA13(Tile_X9Y7_SOC_WDATA13),
-    .SOC_WDATA14(Tile_X9Y7_SOC_WDATA14),
-    .SOC_WDATA15(Tile_X9Y7_SOC_WDATA15),
-    .SOC_WDATA16(Tile_X9Y7_SOC_WDATA16),
-    .SOC_WDATA17(Tile_X9Y7_SOC_WDATA17),
-    .SOC_WDATA18(Tile_X9Y7_SOC_WDATA18),
-    .SOC_WDATA19(Tile_X9Y7_SOC_WDATA19),
-    .SOC_WDATA20(Tile_X9Y7_SOC_WDATA20),
-    .SOC_WDATA21(Tile_X9Y7_SOC_WDATA21),
-    .SOC_WDATA22(Tile_X9Y7_SOC_WDATA22),
-    .SOC_WDATA23(Tile_X9Y7_SOC_WDATA23),
-    .SOC_WDATA24(Tile_X9Y7_SOC_WDATA24),
-    .SOC_WDATA25(Tile_X9Y7_SOC_WDATA25),
-    .SOC_WDATA26(Tile_X9Y7_SOC_WDATA26),
-    .SOC_WDATA27(Tile_X9Y7_SOC_WDATA27),
-    .SOC_WDATA28(Tile_X9Y7_SOC_WDATA28),
-    .SOC_WDATA29(Tile_X9Y7_SOC_WDATA29),
-    .SOC_WDATA30(Tile_X9Y7_SOC_WDATA30),
-    .SOC_WDATA31(Tile_X9Y7_SOC_WDATA31),
-    .SOC_WSTRB0(Tile_X9Y7_SOC_WSTRB0),
-    .SOC_WSTRB1(Tile_X9Y7_SOC_WSTRB1),
-    .SOC_WSTRB2(Tile_X9Y7_SOC_WSTRB2),
-    .SOC_WSTRB3(Tile_X9Y7_SOC_WSTRB3),
-    .SOC_WVALID(Tile_X9Y7_SOC_WVALID),
-    .SOC_BREADY(Tile_X9Y7_SOC_BREADY),
-    .SOC_ARADDR0(Tile_X9Y7_SOC_ARADDR0),
-    .SOC_ARADDR1(Tile_X9Y7_SOC_ARADDR1),
-    .SOC_ARADDR2(Tile_X9Y7_SOC_ARADDR2),
-    .SOC_ARADDR3(Tile_X9Y7_SOC_ARADDR3),
-    .SOC_ARADDR4(Tile_X9Y7_SOC_ARADDR4),
-    .SOC_ARADDR5(Tile_X9Y7_SOC_ARADDR5),
-    .SOC_ARADDR6(Tile_X9Y7_SOC_ARADDR6),
-    .SOC_ARADDR7(Tile_X9Y7_SOC_ARADDR7),
-    .SOC_ARADDR8(Tile_X9Y7_SOC_ARADDR8),
-    .SOC_ARADDR9(Tile_X9Y7_SOC_ARADDR9),
-    .SOC_ARVALID(Tile_X9Y7_SOC_ARVALID),
-    .SOC_RREADY(Tile_X9Y7_SOC_RREADY),
-    .SOC_AWREADY(Tile_X9Y7_SOC_AWREADY),
-    .SOC_WREADY(Tile_X9Y7_SOC_WREADY),
-    .SOC_BRESP0(Tile_X9Y7_SOC_BRESP0),
-    .SOC_BRESP1(Tile_X9Y7_SOC_BRESP1),
-    .SOC_BVALID(Tile_X9Y7_SOC_BVALID),
-    .SOC_ARREADY(Tile_X9Y7_SOC_ARREADY),
-    .SOC_RDATA0(Tile_X9Y7_SOC_RDATA0),
-    .SOC_RDATA1(Tile_X9Y7_SOC_RDATA1),
-    .SOC_RDATA2(Tile_X9Y7_SOC_RDATA2),
-    .SOC_RDATA3(Tile_X9Y7_SOC_RDATA3),
-    .SOC_RDATA4(Tile_X9Y7_SOC_RDATA4),
-    .SOC_RDATA5(Tile_X9Y7_SOC_RDATA5),
-    .SOC_RDATA6(Tile_X9Y7_SOC_RDATA6),
-    .SOC_RDATA7(Tile_X9Y7_SOC_RDATA7),
-    .SOC_RDATA8(Tile_X9Y7_SOC_RDATA8),
-    .SOC_RDATA9(Tile_X9Y7_SOC_RDATA9),
-    .SOC_RDATA10(Tile_X9Y7_SOC_RDATA10),
-    .SOC_RDATA11(Tile_X9Y7_SOC_RDATA11),
-    .SOC_RDATA12(Tile_X9Y7_SOC_RDATA12),
-    .SOC_RDATA13(Tile_X9Y7_SOC_RDATA13),
-    .SOC_RDATA14(Tile_X9Y7_SOC_RDATA14),
-    .SOC_RDATA15(Tile_X9Y7_SOC_RDATA15),
-    .SOC_RDATA16(Tile_X9Y7_SOC_RDATA16),
-    .SOC_RDATA17(Tile_X9Y7_SOC_RDATA17),
-    .SOC_RDATA18(Tile_X9Y7_SOC_RDATA18),
-    .SOC_RDATA19(Tile_X9Y7_SOC_RDATA19),
-    .SOC_RDATA20(Tile_X9Y7_SOC_RDATA20),
-    .SOC_RDATA21(Tile_X9Y7_SOC_RDATA21),
-    .SOC_RDATA22(Tile_X9Y7_SOC_RDATA22),
-    .SOC_RDATA23(Tile_X9Y7_SOC_RDATA23),
-    .SOC_RDATA24(Tile_X9Y7_SOC_RDATA24),
-    .SOC_RDATA25(Tile_X9Y7_SOC_RDATA25),
-    .SOC_RDATA26(Tile_X9Y7_SOC_RDATA26),
-    .SOC_RDATA27(Tile_X9Y7_SOC_RDATA27),
-    .SOC_RDATA28(Tile_X9Y7_SOC_RDATA28),
-    .SOC_RDATA29(Tile_X9Y7_SOC_RDATA29),
-    .SOC_RDATA30(Tile_X9Y7_SOC_RDATA30),
-    .SOC_RDATA31(Tile_X9Y7_SOC_RDATA31),
-    .SOC_RRESP0(Tile_X9Y7_SOC_RRESP0),
-    .SOC_RRESP1(Tile_X9Y7_SOC_RRESP1),
-    .SOC_RVALID(Tile_X9Y7_SOC_RVALID),
+    .AXIL_S_SOC_AWADDR0(Tile_X9Y7_AXIL_S_SOC_AWADDR0),
+    .AXIL_S_SOC_AWADDR1(Tile_X9Y7_AXIL_S_SOC_AWADDR1),
+    .AXIL_S_SOC_AWADDR2(Tile_X9Y7_AXIL_S_SOC_AWADDR2),
+    .AXIL_S_SOC_AWADDR3(Tile_X9Y7_AXIL_S_SOC_AWADDR3),
+    .AXIL_S_SOC_AWADDR4(Tile_X9Y7_AXIL_S_SOC_AWADDR4),
+    .AXIL_S_SOC_AWADDR5(Tile_X9Y7_AXIL_S_SOC_AWADDR5),
+    .AXIL_S_SOC_AWADDR6(Tile_X9Y7_AXIL_S_SOC_AWADDR6),
+    .AXIL_S_SOC_AWADDR7(Tile_X9Y7_AXIL_S_SOC_AWADDR7),
+    .AXIL_S_SOC_AWADDR8(Tile_X9Y7_AXIL_S_SOC_AWADDR8),
+    .AXIL_S_SOC_AWADDR9(Tile_X9Y7_AXIL_S_SOC_AWADDR9),
+    .AXIL_S_SOC_AWVALID(Tile_X9Y7_AXIL_S_SOC_AWVALID),
+    .AXIL_S_SOC_WDATA0(Tile_X9Y7_AXIL_S_SOC_WDATA0),
+    .AXIL_S_SOC_WDATA1(Tile_X9Y7_AXIL_S_SOC_WDATA1),
+    .AXIL_S_SOC_WDATA2(Tile_X9Y7_AXIL_S_SOC_WDATA2),
+    .AXIL_S_SOC_WDATA3(Tile_X9Y7_AXIL_S_SOC_WDATA3),
+    .AXIL_S_SOC_WDATA4(Tile_X9Y7_AXIL_S_SOC_WDATA4),
+    .AXIL_S_SOC_WDATA5(Tile_X9Y7_AXIL_S_SOC_WDATA5),
+    .AXIL_S_SOC_WDATA6(Tile_X9Y7_AXIL_S_SOC_WDATA6),
+    .AXIL_S_SOC_WDATA7(Tile_X9Y7_AXIL_S_SOC_WDATA7),
+    .AXIL_S_SOC_WDATA8(Tile_X9Y7_AXIL_S_SOC_WDATA8),
+    .AXIL_S_SOC_WDATA9(Tile_X9Y7_AXIL_S_SOC_WDATA9),
+    .AXIL_S_SOC_WDATA10(Tile_X9Y7_AXIL_S_SOC_WDATA10),
+    .AXIL_S_SOC_WDATA11(Tile_X9Y7_AXIL_S_SOC_WDATA11),
+    .AXIL_S_SOC_WDATA12(Tile_X9Y7_AXIL_S_SOC_WDATA12),
+    .AXIL_S_SOC_WDATA13(Tile_X9Y7_AXIL_S_SOC_WDATA13),
+    .AXIL_S_SOC_WDATA14(Tile_X9Y7_AXIL_S_SOC_WDATA14),
+    .AXIL_S_SOC_WDATA15(Tile_X9Y7_AXIL_S_SOC_WDATA15),
+    .AXIL_S_SOC_WDATA16(Tile_X9Y7_AXIL_S_SOC_WDATA16),
+    .AXIL_S_SOC_WDATA17(Tile_X9Y7_AXIL_S_SOC_WDATA17),
+    .AXIL_S_SOC_WDATA18(Tile_X9Y7_AXIL_S_SOC_WDATA18),
+    .AXIL_S_SOC_WDATA19(Tile_X9Y7_AXIL_S_SOC_WDATA19),
+    .AXIL_S_SOC_WDATA20(Tile_X9Y7_AXIL_S_SOC_WDATA20),
+    .AXIL_S_SOC_WDATA21(Tile_X9Y7_AXIL_S_SOC_WDATA21),
+    .AXIL_S_SOC_WDATA22(Tile_X9Y7_AXIL_S_SOC_WDATA22),
+    .AXIL_S_SOC_WDATA23(Tile_X9Y7_AXIL_S_SOC_WDATA23),
+    .AXIL_S_SOC_WDATA24(Tile_X9Y7_AXIL_S_SOC_WDATA24),
+    .AXIL_S_SOC_WDATA25(Tile_X9Y7_AXIL_S_SOC_WDATA25),
+    .AXIL_S_SOC_WDATA26(Tile_X9Y7_AXIL_S_SOC_WDATA26),
+    .AXIL_S_SOC_WDATA27(Tile_X9Y7_AXIL_S_SOC_WDATA27),
+    .AXIL_S_SOC_WDATA28(Tile_X9Y7_AXIL_S_SOC_WDATA28),
+    .AXIL_S_SOC_WDATA29(Tile_X9Y7_AXIL_S_SOC_WDATA29),
+    .AXIL_S_SOC_WDATA30(Tile_X9Y7_AXIL_S_SOC_WDATA30),
+    .AXIL_S_SOC_WDATA31(Tile_X9Y7_AXIL_S_SOC_WDATA31),
+    .AXIL_S_SOC_WSTRB0(Tile_X9Y7_AXIL_S_SOC_WSTRB0),
+    .AXIL_S_SOC_WSTRB1(Tile_X9Y7_AXIL_S_SOC_WSTRB1),
+    .AXIL_S_SOC_WSTRB2(Tile_X9Y7_AXIL_S_SOC_WSTRB2),
+    .AXIL_S_SOC_WSTRB3(Tile_X9Y7_AXIL_S_SOC_WSTRB3),
+    .AXIL_S_SOC_WVALID(Tile_X9Y7_AXIL_S_SOC_WVALID),
+    .AXIL_S_SOC_BREADY(Tile_X9Y7_AXIL_S_SOC_BREADY),
+    .AXIL_S_SOC_ARADDR0(Tile_X9Y7_AXIL_S_SOC_ARADDR0),
+    .AXIL_S_SOC_ARADDR1(Tile_X9Y7_AXIL_S_SOC_ARADDR1),
+    .AXIL_S_SOC_ARADDR2(Tile_X9Y7_AXIL_S_SOC_ARADDR2),
+    .AXIL_S_SOC_ARADDR3(Tile_X9Y7_AXIL_S_SOC_ARADDR3),
+    .AXIL_S_SOC_ARADDR4(Tile_X9Y7_AXIL_S_SOC_ARADDR4),
+    .AXIL_S_SOC_ARADDR5(Tile_X9Y7_AXIL_S_SOC_ARADDR5),
+    .AXIL_S_SOC_ARADDR6(Tile_X9Y7_AXIL_S_SOC_ARADDR6),
+    .AXIL_S_SOC_ARADDR7(Tile_X9Y7_AXIL_S_SOC_ARADDR7),
+    .AXIL_S_SOC_ARADDR8(Tile_X9Y7_AXIL_S_SOC_ARADDR8),
+    .AXIL_S_SOC_ARADDR9(Tile_X9Y7_AXIL_S_SOC_ARADDR9),
+    .AXIL_S_SOC_ARVALID(Tile_X9Y7_AXIL_S_SOC_ARVALID),
+    .AXIL_S_SOC_RREADY(Tile_X9Y7_AXIL_S_SOC_RREADY),
+    .AXIL_S_SOC_AWREADY(Tile_X9Y7_AXIL_S_SOC_AWREADY),
+    .AXIL_S_SOC_WREADY(Tile_X9Y7_AXIL_S_SOC_WREADY),
+    .AXIL_S_SOC_BRESP0(Tile_X9Y7_AXIL_S_SOC_BRESP0),
+    .AXIL_S_SOC_BRESP1(Tile_X9Y7_AXIL_S_SOC_BRESP1),
+    .AXIL_S_SOC_BVALID(Tile_X9Y7_AXIL_S_SOC_BVALID),
+    .AXIL_S_SOC_ARREADY(Tile_X9Y7_AXIL_S_SOC_ARREADY),
+    .AXIL_S_SOC_RDATA0(Tile_X9Y7_AXIL_S_SOC_RDATA0),
+    .AXIL_S_SOC_RDATA1(Tile_X9Y7_AXIL_S_SOC_RDATA1),
+    .AXIL_S_SOC_RDATA2(Tile_X9Y7_AXIL_S_SOC_RDATA2),
+    .AXIL_S_SOC_RDATA3(Tile_X9Y7_AXIL_S_SOC_RDATA3),
+    .AXIL_S_SOC_RDATA4(Tile_X9Y7_AXIL_S_SOC_RDATA4),
+    .AXIL_S_SOC_RDATA5(Tile_X9Y7_AXIL_S_SOC_RDATA5),
+    .AXIL_S_SOC_RDATA6(Tile_X9Y7_AXIL_S_SOC_RDATA6),
+    .AXIL_S_SOC_RDATA7(Tile_X9Y7_AXIL_S_SOC_RDATA7),
+    .AXIL_S_SOC_RDATA8(Tile_X9Y7_AXIL_S_SOC_RDATA8),
+    .AXIL_S_SOC_RDATA9(Tile_X9Y7_AXIL_S_SOC_RDATA9),
+    .AXIL_S_SOC_RDATA10(Tile_X9Y7_AXIL_S_SOC_RDATA10),
+    .AXIL_S_SOC_RDATA11(Tile_X9Y7_AXIL_S_SOC_RDATA11),
+    .AXIL_S_SOC_RDATA12(Tile_X9Y7_AXIL_S_SOC_RDATA12),
+    .AXIL_S_SOC_RDATA13(Tile_X9Y7_AXIL_S_SOC_RDATA13),
+    .AXIL_S_SOC_RDATA14(Tile_X9Y7_AXIL_S_SOC_RDATA14),
+    .AXIL_S_SOC_RDATA15(Tile_X9Y7_AXIL_S_SOC_RDATA15),
+    .AXIL_S_SOC_RDATA16(Tile_X9Y7_AXIL_S_SOC_RDATA16),
+    .AXIL_S_SOC_RDATA17(Tile_X9Y7_AXIL_S_SOC_RDATA17),
+    .AXIL_S_SOC_RDATA18(Tile_X9Y7_AXIL_S_SOC_RDATA18),
+    .AXIL_S_SOC_RDATA19(Tile_X9Y7_AXIL_S_SOC_RDATA19),
+    .AXIL_S_SOC_RDATA20(Tile_X9Y7_AXIL_S_SOC_RDATA20),
+    .AXIL_S_SOC_RDATA21(Tile_X9Y7_AXIL_S_SOC_RDATA21),
+    .AXIL_S_SOC_RDATA22(Tile_X9Y7_AXIL_S_SOC_RDATA22),
+    .AXIL_S_SOC_RDATA23(Tile_X9Y7_AXIL_S_SOC_RDATA23),
+    .AXIL_S_SOC_RDATA24(Tile_X9Y7_AXIL_S_SOC_RDATA24),
+    .AXIL_S_SOC_RDATA25(Tile_X9Y7_AXIL_S_SOC_RDATA25),
+    .AXIL_S_SOC_RDATA26(Tile_X9Y7_AXIL_S_SOC_RDATA26),
+    .AXIL_S_SOC_RDATA27(Tile_X9Y7_AXIL_S_SOC_RDATA27),
+    .AXIL_S_SOC_RDATA28(Tile_X9Y7_AXIL_S_SOC_RDATA28),
+    .AXIL_S_SOC_RDATA29(Tile_X9Y7_AXIL_S_SOC_RDATA29),
+    .AXIL_S_SOC_RDATA30(Tile_X9Y7_AXIL_S_SOC_RDATA30),
+    .AXIL_S_SOC_RDATA31(Tile_X9Y7_AXIL_S_SOC_RDATA31),
+    .AXIL_S_SOC_RRESP0(Tile_X9Y7_AXIL_S_SOC_RRESP0),
+    .AXIL_S_SOC_RRESP1(Tile_X9Y7_AXIL_S_SOC_RRESP1),
+    .AXIL_S_SOC_RVALID(Tile_X9Y7_AXIL_S_SOC_RVALID),
     .Tile_X0Y0_UserCLKo(Tile_X9Y7_UserCLKo),
     .Tile_X0Y3_UserCLK(Tile_X9Y11_UserCLKo),
     .Tile_X0Y0_FrameData(Tile_X8Y7_FrameData_O),

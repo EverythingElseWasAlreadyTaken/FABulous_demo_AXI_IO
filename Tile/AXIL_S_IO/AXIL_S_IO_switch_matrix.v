@@ -51,109 +51,109 @@ module AXIL_S_IO_switch_matrix
         input  AXIL_S_IO_0_BASE_TO_TOP10,
         input  AXIL_S_IO_0_BASE_TO_TOP11,
  //BEL input ports (SM outputs)
-        output  FAB_AWREADY,
-        output  FAB_WREADY,
-        output  FAB_BRESP0,
-        output  FAB_BRESP1,
-        output  FAB_BVALID,
-        output  FAB_ARREADY,
-        output  FAB_RDATA0,
-        output  FAB_RDATA1,
-        output  FAB_RDATA2,
-        output  FAB_RDATA3,
-        output  FAB_RDATA4,
-        output  FAB_RDATA5,
-        output  FAB_RDATA6,
-        output  FAB_RDATA7,
-        output  FAB_RDATA8,
-        output  FAB_RDATA9,
-        output  FAB_RDATA10,
-        output  FAB_RDATA11,
-        output  FAB_RDATA12,
-        output  FAB_RDATA13,
-        output  FAB_RDATA14,
-        output  FAB_RDATA15,
-        output  FAB_RDATA16,
-        output  FAB_RDATA17,
-        output  FAB_RDATA18,
-        output  FAB_RDATA19,
-        output  FAB_RDATA20,
-        output  FAB_RDATA21,
-        output  FAB_RDATA22,
-        output  FAB_RDATA23,
-        output  FAB_RDATA24,
-        output  FAB_RDATA25,
-        output  FAB_RDATA26,
-        output  FAB_RDATA27,
-        output  FAB_RDATA28,
-        output  FAB_RDATA29,
-        output  FAB_RDATA30,
-        output  FAB_RDATA31,
-        output  FAB_RRESP0,
-        output  FAB_RRESP1,
-        output  FAB_RVALID,
+        output  AXIL_S_FAB_AWREADY,
+        output  AXIL_S_FAB_WREADY,
+        output  AXIL_S_FAB_BRESP0,
+        output  AXIL_S_FAB_BRESP1,
+        output  AXIL_S_FAB_BVALID,
+        output  AXIL_S_FAB_ARREADY,
+        output  AXIL_S_FAB_RDATA0,
+        output  AXIL_S_FAB_RDATA1,
+        output  AXIL_S_FAB_RDATA2,
+        output  AXIL_S_FAB_RDATA3,
+        output  AXIL_S_FAB_RDATA4,
+        output  AXIL_S_FAB_RDATA5,
+        output  AXIL_S_FAB_RDATA6,
+        output  AXIL_S_FAB_RDATA7,
+        output  AXIL_S_FAB_RDATA8,
+        output  AXIL_S_FAB_RDATA9,
+        output  AXIL_S_FAB_RDATA10,
+        output  AXIL_S_FAB_RDATA11,
+        output  AXIL_S_FAB_RDATA12,
+        output  AXIL_S_FAB_RDATA13,
+        output  AXIL_S_FAB_RDATA14,
+        output  AXIL_S_FAB_RDATA15,
+        output  AXIL_S_FAB_RDATA16,
+        output  AXIL_S_FAB_RDATA17,
+        output  AXIL_S_FAB_RDATA18,
+        output  AXIL_S_FAB_RDATA19,
+        output  AXIL_S_FAB_RDATA20,
+        output  AXIL_S_FAB_RDATA21,
+        output  AXIL_S_FAB_RDATA22,
+        output  AXIL_S_FAB_RDATA23,
+        output  AXIL_S_FAB_RDATA24,
+        output  AXIL_S_FAB_RDATA25,
+        output  AXIL_S_FAB_RDATA26,
+        output  AXIL_S_FAB_RDATA27,
+        output  AXIL_S_FAB_RDATA28,
+        output  AXIL_S_FAB_RDATA29,
+        output  AXIL_S_FAB_RDATA30,
+        output  AXIL_S_FAB_RDATA31,
+        output  AXIL_S_FAB_RRESP0,
+        output  AXIL_S_FAB_RRESP1,
+        output  AXIL_S_FAB_RVALID,
  //BEL output ports (SM inputs)
-        input  FAB_AWADDR0,
-        input  FAB_AWADDR1,
-        input  FAB_AWADDR2,
-        input  FAB_AWADDR3,
-        input  FAB_AWADDR4,
-        input  FAB_AWADDR5,
-        input  FAB_AWADDR6,
-        input  FAB_AWADDR7,
-        input  FAB_AWADDR8,
-        input  FAB_AWADDR9,
-        input  FAB_AWVALID,
-        input  FAB_WDATA0,
-        input  FAB_WDATA1,
-        input  FAB_WDATA2,
-        input  FAB_WDATA3,
-        input  FAB_WDATA4,
-        input  FAB_WDATA5,
-        input  FAB_WDATA6,
-        input  FAB_WDATA7,
-        input  FAB_WDATA8,
-        input  FAB_WDATA9,
-        input  FAB_WDATA10,
-        input  FAB_WDATA11,
-        input  FAB_WDATA12,
-        input  FAB_WDATA13,
-        input  FAB_WDATA14,
-        input  FAB_WDATA15,
-        input  FAB_WDATA16,
-        input  FAB_WDATA17,
-        input  FAB_WDATA18,
-        input  FAB_WDATA19,
-        input  FAB_WDATA20,
-        input  FAB_WDATA21,
-        input  FAB_WDATA22,
-        input  FAB_WDATA23,
-        input  FAB_WDATA24,
-        input  FAB_WDATA25,
-        input  FAB_WDATA26,
-        input  FAB_WDATA27,
-        input  FAB_WDATA28,
-        input  FAB_WDATA29,
-        input  FAB_WDATA30,
-        input  FAB_WDATA31,
-        input  FAB_WSTRB0,
-        input  FAB_WSTRB1,
-        input  FAB_WSTRB2,
-        input  FAB_WSTRB3,
-        input  FAB_WVALID,
-        input  FAB_BREADY,
-        input  FAB_ARADDR0,
-        input  FAB_ARADDR1,
-        input  FAB_ARADDR2,
-        input  FAB_ARADDR3,
-        input  FAB_ARADDR4,
-        input  FAB_ARADDR5,
-        input  FAB_ARADDR6,
-        input  FAB_ARADDR7,
-        input  FAB_ARADDR8,
-        input  FAB_ARADDR9,
-        input  FAB_ARVALID,
-        input  FAB_RREADY,
+        input  AXIL_S_FAB_AWADDR0,
+        input  AXIL_S_FAB_AWADDR1,
+        input  AXIL_S_FAB_AWADDR2,
+        input  AXIL_S_FAB_AWADDR3,
+        input  AXIL_S_FAB_AWADDR4,
+        input  AXIL_S_FAB_AWADDR5,
+        input  AXIL_S_FAB_AWADDR6,
+        input  AXIL_S_FAB_AWADDR7,
+        input  AXIL_S_FAB_AWADDR8,
+        input  AXIL_S_FAB_AWADDR9,
+        input  AXIL_S_FAB_AWVALID,
+        input  AXIL_S_FAB_WDATA0,
+        input  AXIL_S_FAB_WDATA1,
+        input  AXIL_S_FAB_WDATA2,
+        input  AXIL_S_FAB_WDATA3,
+        input  AXIL_S_FAB_WDATA4,
+        input  AXIL_S_FAB_WDATA5,
+        input  AXIL_S_FAB_WDATA6,
+        input  AXIL_S_FAB_WDATA7,
+        input  AXIL_S_FAB_WDATA8,
+        input  AXIL_S_FAB_WDATA9,
+        input  AXIL_S_FAB_WDATA10,
+        input  AXIL_S_FAB_WDATA11,
+        input  AXIL_S_FAB_WDATA12,
+        input  AXIL_S_FAB_WDATA13,
+        input  AXIL_S_FAB_WDATA14,
+        input  AXIL_S_FAB_WDATA15,
+        input  AXIL_S_FAB_WDATA16,
+        input  AXIL_S_FAB_WDATA17,
+        input  AXIL_S_FAB_WDATA18,
+        input  AXIL_S_FAB_WDATA19,
+        input  AXIL_S_FAB_WDATA20,
+        input  AXIL_S_FAB_WDATA21,
+        input  AXIL_S_FAB_WDATA22,
+        input  AXIL_S_FAB_WDATA23,
+        input  AXIL_S_FAB_WDATA24,
+        input  AXIL_S_FAB_WDATA25,
+        input  AXIL_S_FAB_WDATA26,
+        input  AXIL_S_FAB_WDATA27,
+        input  AXIL_S_FAB_WDATA28,
+        input  AXIL_S_FAB_WDATA29,
+        input  AXIL_S_FAB_WDATA30,
+        input  AXIL_S_FAB_WDATA31,
+        input  AXIL_S_FAB_WSTRB0,
+        input  AXIL_S_FAB_WSTRB1,
+        input  AXIL_S_FAB_WSTRB2,
+        input  AXIL_S_FAB_WSTRB3,
+        input  AXIL_S_FAB_WVALID,
+        input  AXIL_S_FAB_BREADY,
+        input  AXIL_S_FAB_ARADDR0,
+        input  AXIL_S_FAB_ARADDR1,
+        input  AXIL_S_FAB_ARADDR2,
+        input  AXIL_S_FAB_ARADDR3,
+        input  AXIL_S_FAB_ARADDR4,
+        input  AXIL_S_FAB_ARADDR5,
+        input  AXIL_S_FAB_ARADDR6,
+        input  AXIL_S_FAB_ARADDR7,
+        input  AXIL_S_FAB_ARADDR8,
+        input  AXIL_S_FAB_ARADDR9,
+        input  AXIL_S_FAB_ARVALID,
+        input  AXIL_S_FAB_RREADY,
  //Reverse SJUMP outputs (SM -> child tile)
         output  AXIL_S_IO_3_TOP_TO_BASE0,
         output  AXIL_S_IO_3_TOP_TO_BASE1,
@@ -230,310 +230,310 @@ parameter VDD = 1'b1;
 
  //The configuration bits (if any) are just a long shift register
  //This shift register is padded to an even number of flops/latches
- //switch matrix multiplexer FAB_AWREADY MUX-1
-assign FAB_AWREADY = AXIL_S_IO_3_BASE_TO_TOP11;
+ //switch matrix multiplexer AXIL_S_FAB_AWREADY MUX-1
+assign AXIL_S_FAB_AWREADY = AXIL_S_IO_3_BASE_TO_TOP11;
 
- //switch matrix multiplexer FAB_WREADY MUX-1
-assign FAB_WREADY = AXIL_S_IO_3_BASE_TO_TOP10;
+ //switch matrix multiplexer AXIL_S_FAB_WREADY MUX-1
+assign AXIL_S_FAB_WREADY = AXIL_S_IO_3_BASE_TO_TOP10;
 
- //switch matrix multiplexer FAB_BRESP1 MUX-1
-assign FAB_BRESP1 = AXIL_S_IO_3_BASE_TO_TOP9;
+ //switch matrix multiplexer AXIL_S_FAB_BRESP1 MUX-1
+assign AXIL_S_FAB_BRESP1 = AXIL_S_IO_3_BASE_TO_TOP9;
 
- //switch matrix multiplexer FAB_BRESP0 MUX-1
-assign FAB_BRESP0 = AXIL_S_IO_3_BASE_TO_TOP8;
+ //switch matrix multiplexer AXIL_S_FAB_BRESP0 MUX-1
+assign AXIL_S_FAB_BRESP0 = AXIL_S_IO_3_BASE_TO_TOP8;
 
- //switch matrix multiplexer FAB_BVALID MUX-1
-assign FAB_BVALID = AXIL_S_IO_3_BASE_TO_TOP7;
+ //switch matrix multiplexer AXIL_S_FAB_BVALID MUX-1
+assign AXIL_S_FAB_BVALID = AXIL_S_IO_3_BASE_TO_TOP7;
 
- //switch matrix multiplexer FAB_ARREADY MUX-1
-assign FAB_ARREADY = AXIL_S_IO_3_BASE_TO_TOP6;
+ //switch matrix multiplexer AXIL_S_FAB_ARREADY MUX-1
+assign AXIL_S_FAB_ARREADY = AXIL_S_IO_3_BASE_TO_TOP6;
 
- //switch matrix multiplexer FAB_RRESP1 MUX-1
-assign FAB_RRESP1 = AXIL_S_IO_3_BASE_TO_TOP5;
+ //switch matrix multiplexer AXIL_S_FAB_RRESP1 MUX-1
+assign AXIL_S_FAB_RRESP1 = AXIL_S_IO_3_BASE_TO_TOP5;
 
- //switch matrix multiplexer FAB_RRESP0 MUX-1
-assign FAB_RRESP0 = AXIL_S_IO_3_BASE_TO_TOP4;
+ //switch matrix multiplexer AXIL_S_FAB_RRESP0 MUX-1
+assign AXIL_S_FAB_RRESP0 = AXIL_S_IO_3_BASE_TO_TOP4;
 
- //switch matrix multiplexer FAB_RVALID MUX-1
-assign FAB_RVALID = AXIL_S_IO_3_BASE_TO_TOP3;
+ //switch matrix multiplexer AXIL_S_FAB_RVALID MUX-1
+assign AXIL_S_FAB_RVALID = AXIL_S_IO_3_BASE_TO_TOP3;
 
- //switch matrix multiplexer FAB_RDATA31 MUX-1
-assign FAB_RDATA31 = AXIL_S_IO_2_BASE_TO_TOP11;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA31 MUX-1
+assign AXIL_S_FAB_RDATA31 = AXIL_S_IO_2_BASE_TO_TOP11;
 
- //switch matrix multiplexer FAB_RDATA30 MUX-1
-assign FAB_RDATA30 = AXIL_S_IO_2_BASE_TO_TOP10;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA30 MUX-1
+assign AXIL_S_FAB_RDATA30 = AXIL_S_IO_2_BASE_TO_TOP10;
 
- //switch matrix multiplexer FAB_RDATA29 MUX-1
-assign FAB_RDATA29 = AXIL_S_IO_2_BASE_TO_TOP9;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA29 MUX-1
+assign AXIL_S_FAB_RDATA29 = AXIL_S_IO_2_BASE_TO_TOP9;
 
- //switch matrix multiplexer FAB_RDATA28 MUX-1
-assign FAB_RDATA28 = AXIL_S_IO_2_BASE_TO_TOP8;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA28 MUX-1
+assign AXIL_S_FAB_RDATA28 = AXIL_S_IO_2_BASE_TO_TOP8;
 
- //switch matrix multiplexer FAB_RDATA27 MUX-1
-assign FAB_RDATA27 = AXIL_S_IO_2_BASE_TO_TOP7;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA27 MUX-1
+assign AXIL_S_FAB_RDATA27 = AXIL_S_IO_2_BASE_TO_TOP7;
 
- //switch matrix multiplexer FAB_RDATA26 MUX-1
-assign FAB_RDATA26 = AXIL_S_IO_2_BASE_TO_TOP6;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA26 MUX-1
+assign AXIL_S_FAB_RDATA26 = AXIL_S_IO_2_BASE_TO_TOP6;
 
- //switch matrix multiplexer FAB_RDATA25 MUX-1
-assign FAB_RDATA25 = AXIL_S_IO_2_BASE_TO_TOP5;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA25 MUX-1
+assign AXIL_S_FAB_RDATA25 = AXIL_S_IO_2_BASE_TO_TOP5;
 
- //switch matrix multiplexer FAB_RDATA24 MUX-1
-assign FAB_RDATA24 = AXIL_S_IO_2_BASE_TO_TOP4;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA24 MUX-1
+assign AXIL_S_FAB_RDATA24 = AXIL_S_IO_2_BASE_TO_TOP4;
 
- //switch matrix multiplexer FAB_RDATA23 MUX-1
-assign FAB_RDATA23 = AXIL_S_IO_2_BASE_TO_TOP3;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA23 MUX-1
+assign AXIL_S_FAB_RDATA23 = AXIL_S_IO_2_BASE_TO_TOP3;
 
- //switch matrix multiplexer FAB_RDATA22 MUX-1
-assign FAB_RDATA22 = AXIL_S_IO_2_BASE_TO_TOP2;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA22 MUX-1
+assign AXIL_S_FAB_RDATA22 = AXIL_S_IO_2_BASE_TO_TOP2;
 
- //switch matrix multiplexer FAB_RDATA21 MUX-1
-assign FAB_RDATA21 = AXIL_S_IO_2_BASE_TO_TOP1;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA21 MUX-1
+assign AXIL_S_FAB_RDATA21 = AXIL_S_IO_2_BASE_TO_TOP1;
 
- //switch matrix multiplexer FAB_RDATA20 MUX-1
-assign FAB_RDATA20 = AXIL_S_IO_2_BASE_TO_TOP0;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA20 MUX-1
+assign AXIL_S_FAB_RDATA20 = AXIL_S_IO_2_BASE_TO_TOP0;
 
- //switch matrix multiplexer FAB_RDATA19 MUX-1
-assign FAB_RDATA19 = AXIL_S_IO_1_BASE_TO_TOP11;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA19 MUX-1
+assign AXIL_S_FAB_RDATA19 = AXIL_S_IO_1_BASE_TO_TOP11;
 
- //switch matrix multiplexer FAB_RDATA18 MUX-1
-assign FAB_RDATA18 = AXIL_S_IO_1_BASE_TO_TOP10;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA18 MUX-1
+assign AXIL_S_FAB_RDATA18 = AXIL_S_IO_1_BASE_TO_TOP10;
 
- //switch matrix multiplexer FAB_RDATA17 MUX-1
-assign FAB_RDATA17 = AXIL_S_IO_1_BASE_TO_TOP9;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA17 MUX-1
+assign AXIL_S_FAB_RDATA17 = AXIL_S_IO_1_BASE_TO_TOP9;
 
- //switch matrix multiplexer FAB_RDATA16 MUX-1
-assign FAB_RDATA16 = AXIL_S_IO_1_BASE_TO_TOP8;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA16 MUX-1
+assign AXIL_S_FAB_RDATA16 = AXIL_S_IO_1_BASE_TO_TOP8;
 
- //switch matrix multiplexer FAB_RDATA15 MUX-1
-assign FAB_RDATA15 = AXIL_S_IO_1_BASE_TO_TOP7;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA15 MUX-1
+assign AXIL_S_FAB_RDATA15 = AXIL_S_IO_1_BASE_TO_TOP7;
 
- //switch matrix multiplexer FAB_RDATA14 MUX-1
-assign FAB_RDATA14 = AXIL_S_IO_1_BASE_TO_TOP6;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA14 MUX-1
+assign AXIL_S_FAB_RDATA14 = AXIL_S_IO_1_BASE_TO_TOP6;
 
- //switch matrix multiplexer FAB_RDATA13 MUX-1
-assign FAB_RDATA13 = AXIL_S_IO_1_BASE_TO_TOP5;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA13 MUX-1
+assign AXIL_S_FAB_RDATA13 = AXIL_S_IO_1_BASE_TO_TOP5;
 
- //switch matrix multiplexer FAB_RDATA12 MUX-1
-assign FAB_RDATA12 = AXIL_S_IO_1_BASE_TO_TOP4;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA12 MUX-1
+assign AXIL_S_FAB_RDATA12 = AXIL_S_IO_1_BASE_TO_TOP4;
 
- //switch matrix multiplexer FAB_RDATA11 MUX-1
-assign FAB_RDATA11 = AXIL_S_IO_1_BASE_TO_TOP3;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA11 MUX-1
+assign AXIL_S_FAB_RDATA11 = AXIL_S_IO_1_BASE_TO_TOP3;
 
- //switch matrix multiplexer FAB_RDATA10 MUX-1
-assign FAB_RDATA10 = AXIL_S_IO_1_BASE_TO_TOP2;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA10 MUX-1
+assign AXIL_S_FAB_RDATA10 = AXIL_S_IO_1_BASE_TO_TOP2;
 
- //switch matrix multiplexer FAB_RDATA9 MUX-1
-assign FAB_RDATA9 = AXIL_S_IO_1_BASE_TO_TOP1;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA9 MUX-1
+assign AXIL_S_FAB_RDATA9 = AXIL_S_IO_1_BASE_TO_TOP1;
 
- //switch matrix multiplexer FAB_RDATA8 MUX-1
-assign FAB_RDATA8 = AXIL_S_IO_1_BASE_TO_TOP0;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA8 MUX-1
+assign AXIL_S_FAB_RDATA8 = AXIL_S_IO_1_BASE_TO_TOP0;
 
- //switch matrix multiplexer FAB_RDATA7 MUX-1
-assign FAB_RDATA7 = AXIL_S_IO_0_BASE_TO_TOP11;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA7 MUX-1
+assign AXIL_S_FAB_RDATA7 = AXIL_S_IO_0_BASE_TO_TOP11;
 
- //switch matrix multiplexer FAB_RDATA6 MUX-1
-assign FAB_RDATA6 = AXIL_S_IO_0_BASE_TO_TOP10;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA6 MUX-1
+assign AXIL_S_FAB_RDATA6 = AXIL_S_IO_0_BASE_TO_TOP10;
 
- //switch matrix multiplexer FAB_RDATA5 MUX-1
-assign FAB_RDATA5 = AXIL_S_IO_0_BASE_TO_TOP9;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA5 MUX-1
+assign AXIL_S_FAB_RDATA5 = AXIL_S_IO_0_BASE_TO_TOP9;
 
- //switch matrix multiplexer FAB_RDATA4 MUX-1
-assign FAB_RDATA4 = AXIL_S_IO_0_BASE_TO_TOP8;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA4 MUX-1
+assign AXIL_S_FAB_RDATA4 = AXIL_S_IO_0_BASE_TO_TOP8;
 
- //switch matrix multiplexer FAB_RDATA3 MUX-1
-assign FAB_RDATA3 = AXIL_S_IO_0_BASE_TO_TOP7;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA3 MUX-1
+assign AXIL_S_FAB_RDATA3 = AXIL_S_IO_0_BASE_TO_TOP7;
 
- //switch matrix multiplexer FAB_RDATA2 MUX-1
-assign FAB_RDATA2 = AXIL_S_IO_0_BASE_TO_TOP6;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA2 MUX-1
+assign AXIL_S_FAB_RDATA2 = AXIL_S_IO_0_BASE_TO_TOP6;
 
- //switch matrix multiplexer FAB_RDATA1 MUX-1
-assign FAB_RDATA1 = AXIL_S_IO_0_BASE_TO_TOP5;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA1 MUX-1
+assign AXIL_S_FAB_RDATA1 = AXIL_S_IO_0_BASE_TO_TOP5;
 
- //switch matrix multiplexer FAB_RDATA0 MUX-1
-assign FAB_RDATA0 = AXIL_S_IO_0_BASE_TO_TOP4;
+ //switch matrix multiplexer AXIL_S_FAB_RDATA0 MUX-1
+assign AXIL_S_FAB_RDATA0 = AXIL_S_IO_0_BASE_TO_TOP4;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE15 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE15 = FAB_AWADDR9;
+assign AXIL_S_IO_3_TOP_TO_BASE15 = AXIL_S_FAB_AWADDR9;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE14 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE14 = FAB_AWADDR8;
+assign AXIL_S_IO_3_TOP_TO_BASE14 = AXIL_S_FAB_AWADDR8;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE13 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE13 = FAB_AWADDR7;
+assign AXIL_S_IO_3_TOP_TO_BASE13 = AXIL_S_FAB_AWADDR7;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE12 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE12 = FAB_AWADDR6;
+assign AXIL_S_IO_3_TOP_TO_BASE12 = AXIL_S_FAB_AWADDR6;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE11 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE11 = FAB_AWADDR5;
+assign AXIL_S_IO_3_TOP_TO_BASE11 = AXIL_S_FAB_AWADDR5;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE10 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE10 = FAB_AWADDR4;
+assign AXIL_S_IO_3_TOP_TO_BASE10 = AXIL_S_FAB_AWADDR4;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE9 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE9 = FAB_AWADDR3;
+assign AXIL_S_IO_3_TOP_TO_BASE9 = AXIL_S_FAB_AWADDR3;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE8 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE8 = FAB_AWADDR2;
+assign AXIL_S_IO_3_TOP_TO_BASE8 = AXIL_S_FAB_AWADDR2;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE7 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE7 = FAB_AWADDR1;
+assign AXIL_S_IO_3_TOP_TO_BASE7 = AXIL_S_FAB_AWADDR1;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE6 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE6 = FAB_AWADDR0;
+assign AXIL_S_IO_3_TOP_TO_BASE6 = AXIL_S_FAB_AWADDR0;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE5 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE5 = FAB_AWVALID;
+assign AXIL_S_IO_3_TOP_TO_BASE5 = AXIL_S_FAB_AWVALID;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE4 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE4 = FAB_WSTRB3;
+assign AXIL_S_IO_3_TOP_TO_BASE4 = AXIL_S_FAB_WSTRB3;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE3 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE3 = FAB_WSTRB2;
+assign AXIL_S_IO_3_TOP_TO_BASE3 = AXIL_S_FAB_WSTRB2;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE2 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE2 = FAB_WSTRB1;
+assign AXIL_S_IO_3_TOP_TO_BASE2 = AXIL_S_FAB_WSTRB1;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE1 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE1 = FAB_WSTRB0;
+assign AXIL_S_IO_3_TOP_TO_BASE1 = AXIL_S_FAB_WSTRB0;
 
  //switch matrix multiplexer AXIL_S_IO_3_TOP_TO_BASE0 MUX-1
-assign AXIL_S_IO_3_TOP_TO_BASE0 = FAB_WVALID;
+assign AXIL_S_IO_3_TOP_TO_BASE0 = AXIL_S_FAB_WVALID;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE15 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE15 = FAB_WDATA31;
+assign AXIL_S_IO_2_TOP_TO_BASE15 = AXIL_S_FAB_WDATA31;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE14 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE14 = FAB_WDATA30;
+assign AXIL_S_IO_2_TOP_TO_BASE14 = AXIL_S_FAB_WDATA30;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE13 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE13 = FAB_WDATA29;
+assign AXIL_S_IO_2_TOP_TO_BASE13 = AXIL_S_FAB_WDATA29;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE12 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE12 = FAB_WDATA28;
+assign AXIL_S_IO_2_TOP_TO_BASE12 = AXIL_S_FAB_WDATA28;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE11 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE11 = FAB_WDATA27;
+assign AXIL_S_IO_2_TOP_TO_BASE11 = AXIL_S_FAB_WDATA27;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE10 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE10 = FAB_WDATA26;
+assign AXIL_S_IO_2_TOP_TO_BASE10 = AXIL_S_FAB_WDATA26;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE9 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE9 = FAB_WDATA25;
+assign AXIL_S_IO_2_TOP_TO_BASE9 = AXIL_S_FAB_WDATA25;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE8 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE8 = FAB_WDATA24;
+assign AXIL_S_IO_2_TOP_TO_BASE8 = AXIL_S_FAB_WDATA24;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE7 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE7 = FAB_WDATA23;
+assign AXIL_S_IO_2_TOP_TO_BASE7 = AXIL_S_FAB_WDATA23;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE6 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE6 = FAB_WDATA22;
+assign AXIL_S_IO_2_TOP_TO_BASE6 = AXIL_S_FAB_WDATA22;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE5 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE5 = FAB_WDATA21;
+assign AXIL_S_IO_2_TOP_TO_BASE5 = AXIL_S_FAB_WDATA21;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE4 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE4 = FAB_WDATA20;
+assign AXIL_S_IO_2_TOP_TO_BASE4 = AXIL_S_FAB_WDATA20;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE3 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE3 = FAB_WDATA19;
+assign AXIL_S_IO_2_TOP_TO_BASE3 = AXIL_S_FAB_WDATA19;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE2 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE2 = FAB_WDATA18;
+assign AXIL_S_IO_2_TOP_TO_BASE2 = AXIL_S_FAB_WDATA18;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE1 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE1 = FAB_WDATA17;
+assign AXIL_S_IO_2_TOP_TO_BASE1 = AXIL_S_FAB_WDATA17;
 
  //switch matrix multiplexer AXIL_S_IO_2_TOP_TO_BASE0 MUX-1
-assign AXIL_S_IO_2_TOP_TO_BASE0 = FAB_WDATA16;
+assign AXIL_S_IO_2_TOP_TO_BASE0 = AXIL_S_FAB_WDATA16;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE15 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE15 = FAB_WDATA15;
+assign AXIL_S_IO_1_TOP_TO_BASE15 = AXIL_S_FAB_WDATA15;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE14 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE14 = FAB_WDATA14;
+assign AXIL_S_IO_1_TOP_TO_BASE14 = AXIL_S_FAB_WDATA14;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE13 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE13 = FAB_WDATA13;
+assign AXIL_S_IO_1_TOP_TO_BASE13 = AXIL_S_FAB_WDATA13;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE12 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE12 = FAB_WDATA12;
+assign AXIL_S_IO_1_TOP_TO_BASE12 = AXIL_S_FAB_WDATA12;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE11 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE11 = FAB_WDATA11;
+assign AXIL_S_IO_1_TOP_TO_BASE11 = AXIL_S_FAB_WDATA11;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE10 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE10 = FAB_WDATA10;
+assign AXIL_S_IO_1_TOP_TO_BASE10 = AXIL_S_FAB_WDATA10;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE9 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE9 = FAB_WDATA9;
+assign AXIL_S_IO_1_TOP_TO_BASE9 = AXIL_S_FAB_WDATA9;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE8 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE8 = FAB_WDATA8;
+assign AXIL_S_IO_1_TOP_TO_BASE8 = AXIL_S_FAB_WDATA8;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE7 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE7 = FAB_WDATA7;
+assign AXIL_S_IO_1_TOP_TO_BASE7 = AXIL_S_FAB_WDATA7;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE6 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE6 = FAB_WDATA6;
+assign AXIL_S_IO_1_TOP_TO_BASE6 = AXIL_S_FAB_WDATA6;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE5 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE5 = FAB_WDATA5;
+assign AXIL_S_IO_1_TOP_TO_BASE5 = AXIL_S_FAB_WDATA5;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE4 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE4 = FAB_WDATA4;
+assign AXIL_S_IO_1_TOP_TO_BASE4 = AXIL_S_FAB_WDATA4;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE3 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE3 = FAB_WDATA3;
+assign AXIL_S_IO_1_TOP_TO_BASE3 = AXIL_S_FAB_WDATA3;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE2 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE2 = FAB_WDATA2;
+assign AXIL_S_IO_1_TOP_TO_BASE2 = AXIL_S_FAB_WDATA2;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE1 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE1 = FAB_WDATA1;
+assign AXIL_S_IO_1_TOP_TO_BASE1 = AXIL_S_FAB_WDATA1;
 
  //switch matrix multiplexer AXIL_S_IO_1_TOP_TO_BASE0 MUX-1
-assign AXIL_S_IO_1_TOP_TO_BASE0 = FAB_WDATA0;
+assign AXIL_S_IO_1_TOP_TO_BASE0 = AXIL_S_FAB_WDATA0;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE15 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE15 = FAB_BREADY;
+assign AXIL_S_IO_0_TOP_TO_BASE15 = AXIL_S_FAB_BREADY;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE14 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE14 = FAB_ARADDR9;
+assign AXIL_S_IO_0_TOP_TO_BASE14 = AXIL_S_FAB_ARADDR9;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE13 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE13 = FAB_ARADDR8;
+assign AXIL_S_IO_0_TOP_TO_BASE13 = AXIL_S_FAB_ARADDR8;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE12 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE12 = FAB_ARADDR7;
+assign AXIL_S_IO_0_TOP_TO_BASE12 = AXIL_S_FAB_ARADDR7;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE11 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE11 = FAB_ARADDR6;
+assign AXIL_S_IO_0_TOP_TO_BASE11 = AXIL_S_FAB_ARADDR6;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE10 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE10 = FAB_ARADDR5;
+assign AXIL_S_IO_0_TOP_TO_BASE10 = AXIL_S_FAB_ARADDR5;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE9 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE9 = FAB_ARADDR4;
+assign AXIL_S_IO_0_TOP_TO_BASE9 = AXIL_S_FAB_ARADDR4;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE8 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE8 = FAB_ARADDR3;
+assign AXIL_S_IO_0_TOP_TO_BASE8 = AXIL_S_FAB_ARADDR3;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE7 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE7 = FAB_ARADDR2;
+assign AXIL_S_IO_0_TOP_TO_BASE7 = AXIL_S_FAB_ARADDR2;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE6 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE6 = FAB_ARADDR1;
+assign AXIL_S_IO_0_TOP_TO_BASE6 = AXIL_S_FAB_ARADDR1;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE5 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE5 = FAB_ARADDR0;
+assign AXIL_S_IO_0_TOP_TO_BASE5 = AXIL_S_FAB_ARADDR0;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE4 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE4 = FAB_ARVALID;
+assign AXIL_S_IO_0_TOP_TO_BASE4 = AXIL_S_FAB_ARVALID;
 
  //switch matrix multiplexer AXIL_S_IO_0_TOP_TO_BASE3 MUX-1
-assign AXIL_S_IO_0_TOP_TO_BASE3 = FAB_RREADY;
+assign AXIL_S_IO_0_TOP_TO_BASE3 = AXIL_S_FAB_RREADY;
 
 endmodule
