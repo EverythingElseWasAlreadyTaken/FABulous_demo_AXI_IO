@@ -1,7 +1,6 @@
 `timescale 1ns / 1ps
 
-module AXIL_S_BEL #(
-)(
+module AXIL_S_BEL(
     // input  wire [2:0]                SOC_AWPROT,
     // input  wire [2:0]                SOC_ARPROT,
     // output wire [2:0]             FAB_AWPROT,

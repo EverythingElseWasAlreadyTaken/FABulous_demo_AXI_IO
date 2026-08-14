@@ -26,9 +26,9 @@ endif
 
 .PHONY: all run_FABulous_demo full build_test_design run_simulation_emulation mkdir_build clean FAB_sim build_demo_fabric
 
-sim: build_test_design run_simulation clean
+sim: build_test_design run_simulation
 
-FAB_sim: build_demo_fabric build_test_design run_simulation clean
+FAB_sim: build_demo_fabric build_test_design run_simulation
 
 full_sim: run_FABulous_demo build_test_design run_simulation_emulation clean
 
