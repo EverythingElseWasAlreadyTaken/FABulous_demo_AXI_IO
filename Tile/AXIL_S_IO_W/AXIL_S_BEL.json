@@ -1,7 +1,7 @@
 {
   "creator": "Yosys 0.63+190 (git sha1 37ca545b6, clang++ 18.1.8 -fPIC -O3)",
   "modules": {
-    "AXI4_LITE_SLAVE_BEL": {
+    "AXIL_S_BEL": {
       "attributes": {
         "top": 1,
         "src": "/home/jart/work/uni/FABulous/demo_axi/Tile/AXIL_S_IO_W/AXIL_S_BEL.v:3.1-76.10"

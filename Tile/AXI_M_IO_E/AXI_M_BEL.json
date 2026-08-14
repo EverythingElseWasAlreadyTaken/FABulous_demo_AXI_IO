@@ -1,7 +1,7 @@
 {
   "creator": "Yosys 0.63+190 (git sha1 37ca545b6, clang++ 18.1.8 -fPIC -O3)",
   "modules": {
-    "AXI4_FULL_MASTER_BEL": {
+    "AXI_M_BEL": {
       "attributes": {
         "TIE_OFF_ARBURST": 7,
         "TIE_OFF_ARSIZE": 6,

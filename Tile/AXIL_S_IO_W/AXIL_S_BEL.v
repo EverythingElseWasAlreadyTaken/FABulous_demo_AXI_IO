@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module AXI4_LITE_SLAVE_BEL #(
+module AXIL_S_BEL #(
 )(
     // input  wire [2:0]                SOC_AWPROT,
     // input  wire [2:0]                SOC_ARPROT,

@@ -11,7 +11,7 @@
     TIE_OFF_ARBURST = 7
 *)
 
-module AXI4_FULL_MASTER_BEL #(
+module AXI_M_BEL #(
     // parameter int DATA_WIDTH = 32,
     // parameter int ADDR_WIDTH = 32,
     // parameter int ID_WIDTH   = 8
