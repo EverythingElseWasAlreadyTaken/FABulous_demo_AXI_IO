@@ -1,4 +1,4 @@
-module AXIL_S_IO_1
+module AXIL_S_IO_E_3
     #(
 `ifdef EMULATION
         parameter [639:0] Emulate_Bitstream=640'b0,
@@ -844,13 +844,13 @@ clk_buf inst_clk_buf (
 
 
  //configuration storage latches
-AXIL_S_IO_1_ConfigMem
+AXIL_S_IO_E_3_ConfigMem
 `ifdef EMULATION
     #(
     .Emulate_Bitstream(Emulate_Bitstream)
     )
 `endif
-    Inst_AXIL_S_IO_1_ConfigMem
+    Inst_AXIL_S_IO_E_3_ConfigMem
     (
     .FrameData(FrameData),
     .FrameStrobe(FrameStrobe),
@@ -858,7 +858,7 @@ AXIL_S_IO_1_ConfigMem
     .ConfigBits_N(ConfigBits_N)
 );
 
-AXIL_S_IO_1_switch_matrix Inst_AXIL_S_IO_1_switch_matrix (
+AXIL_S_IO_E_3_switch_matrix Inst_AXIL_S_IO_E_3_switch_matrix (
     .N1END0(N1END[0]),
     .N1END1(N1END[1]),
     .N1END2(N1END[2]),

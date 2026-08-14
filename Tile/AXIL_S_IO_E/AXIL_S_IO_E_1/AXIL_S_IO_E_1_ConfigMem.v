@@ -1,4 +1,4 @@
-module AXIL_S_IO_3_ConfigMem
+module AXIL_S_IO_E_1_ConfigMem
     #(
 `ifdef EMULATION
         parameter [639:0] Emulate_Bitstream=640'b0,

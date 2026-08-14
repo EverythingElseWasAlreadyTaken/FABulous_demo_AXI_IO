@@ -1,5 +1,5 @@
  // NumberOfConfigBits: 248
-module AXIL_S_IO_0_switch_matrix
+module AXIL_S_IO_E_2_switch_matrix
     #(
         parameter NoConfigBits=248
     )
