@@ -1,5 +1,5 @@
 {
-  "creator": "Yosys 0.63+190 (git sha1 37ca545b6, clang++ 18.1.8 -fPIC -O3)",
+  "creator": "Yosys 0.62 (git sha1 7326bb7d6641500ecb285c291a54a662cb1e76cf, clang++ 21.1.2 -fPIC -O3)",
   "modules": {
     "IO_1_bidirectional_frame_config_pass": {
       "attributes": {

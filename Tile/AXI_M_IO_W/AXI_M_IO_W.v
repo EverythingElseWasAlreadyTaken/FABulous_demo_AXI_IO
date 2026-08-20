@@ -540,8 +540,8 @@ module AXI_M_IO_W
     wire Tile_X0Y4_UserCLKo;
     wire[MaxFramesPerCol-1:0] Tile_X0Y5_FrameStrobe_O;
     wire Tile_X0Y5_UserCLKo;
-    wire[8-1:0] ST_ConfigBits;
-    wire[8-1:0] ST_ConfigBits_N;
+    wire[20-1:0] ST_ConfigBits;
+    wire[20-1:0] ST_ConfigBits_N;
 
 AXI_M_IO_W_5
 `ifdef EMULATION
@@ -817,8 +817,8 @@ AXI_M_IO_W_ConfigMem
     (
     .FrameData(Tile_X0Y5_FrameData),
     .FrameStrobe(Tile_X0Y5_FrameStrobe),
-    .ConfigBits(ST_ConfigBits[8-1:0]),
-    .ConfigBits_N(ST_ConfigBits_N[8-1:0])
+    .ConfigBits(ST_ConfigBits[20-1:0]),
+    .ConfigBits_N(ST_ConfigBits_N[20-1:0])
 );
 
 AXI_M_IO_W_switch_matrix Inst_AXI_M_IO_W_switch_matrix (
@@ -1187,7 +1187,9 @@ AXI_M_IO_W_switch_matrix Inst_AXI_M_IO_W_switch_matrix (
     .AXI_M_IO_W_0_TOP_TO_BASE4(AXI_M_IO_W_0_TOP_TO_BASE[4]),
     .AXI_M_IO_W_0_TOP_TO_BASE5(AXI_M_IO_W_0_TOP_TO_BASE[5]),
     .AXI_M_IO_W_0_TOP_TO_BASE6(AXI_M_IO_W_0_TOP_TO_BASE[6]),
-    .AXI_M_IO_W_0_TOP_TO_BASE7(AXI_M_IO_W_0_TOP_TO_BASE[7])
+    .AXI_M_IO_W_0_TOP_TO_BASE7(AXI_M_IO_W_0_TOP_TO_BASE[7]),
+    .ConfigBits(ST_ConfigBits[12-1:0]),
+    .ConfigBits_N(ST_ConfigBits_N[12-1:0])
 );
 
 AXI_M_BEL Inst_ST_AXI_M_AXI_M_BEL (
@@ -1241,7 +1243,7 @@ AXI_M_BEL Inst_ST_AXI_M_AXI_M_BEL (
     .SOC_RLAST(AXI_M_SOC_RLAST),
     .SOC_RVALID(AXI_M_SOC_RVALID),
     .SOC_RREADY(AXI_M_SOC_RREADY),
-    .ConfigBits(ST_ConfigBits[8-1:0])
+    .ConfigBits(ST_ConfigBits[20-1:12])
 );
 
 endmodule

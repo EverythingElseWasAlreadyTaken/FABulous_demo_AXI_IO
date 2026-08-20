@@ -1,5 +1,8 @@
- // NumberOfConfigBits: 0
+ // NumberOfConfigBits: 6
 module AXIL_S_IO_W_switch_matrix
+    #(
+        parameter NoConfigBits=6
+    )
     (
  //SJUMP inputs from child tiles
         input  AXIL_S_IO_W_3_BASE_TO_TOP0,
@@ -218,8 +221,10 @@ module AXIL_S_IO_W_switch_matrix
         output  AXIL_S_IO_W_0_TOP_TO_BASE12,
         output  AXIL_S_IO_W_0_TOP_TO_BASE13,
         output  AXIL_S_IO_W_0_TOP_TO_BASE14,
-        output  AXIL_S_IO_W_0_TOP_TO_BASE15
+        output  AXIL_S_IO_W_0_TOP_TO_BASE15,
  //global
+        input  [NoConfigBits-1:0] ConfigBits,
+        input  [NoConfigBits-1:0] ConfigBits_N
 );
 parameter GND0 = 1'b0;
 parameter GND = 1'b0;
@@ -228,6 +233,9 @@ parameter VCC = 1'b1;
 parameter VDD0 = 1'b1;
 parameter VDD = 1'b1;
 
+wire[4-1:0] AXIL_S_IO_W_0_TOP_TO_BASE2_input;
+wire[4-1:0] AXIL_S_IO_W_0_TOP_TO_BASE1_input;
+wire[4-1:0] AXIL_S_IO_W_0_TOP_TO_BASE0_input;
  //The configuration bits (if any) are just a long shift register
  //This shift register is padded to an even number of flops/latches
  //switch matrix multiplexer AXIL_S_FAB_AWREADY MUX-1
@@ -535,5 +543,47 @@ assign AXIL_S_IO_W_0_TOP_TO_BASE4 = AXIL_S_FAB_ARVALID;
 
  //switch matrix multiplexer AXIL_S_IO_W_0_TOP_TO_BASE3 MUX-1
 assign AXIL_S_IO_W_0_TOP_TO_BASE3 = AXIL_S_FAB_RREADY;
+
+ //switch matrix multiplexer AXIL_S_IO_W_0_TOP_TO_BASE2 MUX-4
+assign AXIL_S_IO_W_0_TOP_TO_BASE2_input = {AXIL_S_IO_W_0_BASE_TO_TOP0,AXIL_S_IO_W_0_BASE_TO_TOP1,AXIL_S_IO_W_0_BASE_TO_TOP2,AXIL_S_IO_W_0_BASE_TO_TOP3};
+cus_mux41 inst_cus_mux41_AXIL_S_IO_W_0_TOP_TO_BASE2 (
+    .A0(AXIL_S_IO_W_0_TOP_TO_BASE2_input[0]),
+    .A1(AXIL_S_IO_W_0_TOP_TO_BASE2_input[1]),
+    .A2(AXIL_S_IO_W_0_TOP_TO_BASE2_input[2]),
+    .A3(AXIL_S_IO_W_0_TOP_TO_BASE2_input[3]),
+    .S0(ConfigBits[0+0]),
+    .S0N(ConfigBits_N[0+0]),
+    .S1(ConfigBits[0+1]),
+    .S1N(ConfigBits_N[0+1]),
+    .X(AXIL_S_IO_W_0_TOP_TO_BASE2)
+);
+
+ //switch matrix multiplexer AXIL_S_IO_W_0_TOP_TO_BASE1 MUX-4
+assign AXIL_S_IO_W_0_TOP_TO_BASE1_input = {AXIL_S_IO_W_0_BASE_TO_TOP3,AXIL_S_IO_W_3_BASE_TO_TOP0,AXIL_S_IO_W_3_BASE_TO_TOP1,AXIL_S_IO_W_3_BASE_TO_TOP2};
+cus_mux41 inst_cus_mux41_AXIL_S_IO_W_0_TOP_TO_BASE1 (
+    .A0(AXIL_S_IO_W_0_TOP_TO_BASE1_input[0]),
+    .A1(AXIL_S_IO_W_0_TOP_TO_BASE1_input[1]),
+    .A2(AXIL_S_IO_W_0_TOP_TO_BASE1_input[2]),
+    .A3(AXIL_S_IO_W_0_TOP_TO_BASE1_input[3]),
+    .S0(ConfigBits[2+0]),
+    .S0N(ConfigBits_N[2+0]),
+    .S1(ConfigBits[2+1]),
+    .S1N(ConfigBits_N[2+1]),
+    .X(AXIL_S_IO_W_0_TOP_TO_BASE1)
+);
+
+ //switch matrix multiplexer AXIL_S_IO_W_0_TOP_TO_BASE0 MUX-4
+assign AXIL_S_IO_W_0_TOP_TO_BASE0_input = {AXIL_S_IO_W_3_BASE_TO_TOP1,AXIL_S_IO_W_3_BASE_TO_TOP0,AXIL_S_IO_W_0_BASE_TO_TOP1,AXIL_S_IO_W_0_BASE_TO_TOP2};
+cus_mux41 inst_cus_mux41_AXIL_S_IO_W_0_TOP_TO_BASE0 (
+    .A0(AXIL_S_IO_W_0_TOP_TO_BASE0_input[0]),
+    .A1(AXIL_S_IO_W_0_TOP_TO_BASE0_input[1]),
+    .A2(AXIL_S_IO_W_0_TOP_TO_BASE0_input[2]),
+    .A3(AXIL_S_IO_W_0_TOP_TO_BASE0_input[3]),
+    .S0(ConfigBits[4+0]),
+    .S0N(ConfigBits_N[4+0]),
+    .S1(ConfigBits[4+1]),
+    .S1N(ConfigBits_N[4+1]),
+    .X(AXIL_S_IO_W_0_TOP_TO_BASE0)
+);
 
 endmodule

@@ -340,6 +340,8 @@ module AXIL_S_IO_W
     wire Tile_X0Y2_UserCLKo;
     wire[MaxFramesPerCol-1:0] Tile_X0Y3_FrameStrobe_O;
     wire Tile_X0Y3_UserCLKo;
+    wire[6-1:0] ST_ConfigBits;
+    wire[6-1:0] ST_ConfigBits_N;
 
 AXIL_S_IO_W_3
 `ifdef EMULATION
@@ -515,6 +517,20 @@ AXIL_S_IO_W_0
     .FrameData_O(Tile_X0Y3_FrameData_O),
     .FrameStrobe(Tile_X0Y3_FrameStrobe),
     .FrameStrobe_O(Tile_X0Y3_FrameStrobe_O)
+);
+
+AXIL_S_IO_W_ConfigMem
+`ifdef EMULATION
+    #(
+    .Emulate_Bitstream(Tile_X0Y3_Emulate_Bitstream)
+    )
+`endif
+    Inst_AXIL_S_IO_W_ConfigMem
+    (
+    .FrameData(Tile_X0Y3_FrameData),
+    .FrameStrobe(Tile_X0Y3_FrameStrobe),
+    .ConfigBits(ST_ConfigBits[6-1:0]),
+    .ConfigBits_N(ST_ConfigBits_N[6-1:0])
 );
 
 AXIL_S_IO_W_switch_matrix Inst_AXIL_S_IO_W_switch_matrix (
@@ -731,7 +747,9 @@ AXIL_S_IO_W_switch_matrix Inst_AXIL_S_IO_W_switch_matrix (
     .AXIL_S_IO_W_0_TOP_TO_BASE12(AXIL_S_IO_W_0_TOP_TO_BASE[12]),
     .AXIL_S_IO_W_0_TOP_TO_BASE13(AXIL_S_IO_W_0_TOP_TO_BASE[13]),
     .AXIL_S_IO_W_0_TOP_TO_BASE14(AXIL_S_IO_W_0_TOP_TO_BASE[14]),
-    .AXIL_S_IO_W_0_TOP_TO_BASE15(AXIL_S_IO_W_0_TOP_TO_BASE[15])
+    .AXIL_S_IO_W_0_TOP_TO_BASE15(AXIL_S_IO_W_0_TOP_TO_BASE[15]),
+    .ConfigBits(ST_ConfigBits[6-1:0]),
+    .ConfigBits_N(ST_ConfigBits_N[6-1:0])
 );
 
 AXIL_S_BEL Inst_ST_AXIL_S_AXIL_S_BEL (
