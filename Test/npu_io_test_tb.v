@@ -9,6 +9,16 @@
 // The design's counter is observable directly on NPU_ACT_WE (act_we[i] is
 // cnt[i], so the bus *is* cnt[13:0]) and, XORed with the tile index, on the
 // 9-bit NPU_ACT_ADDR slices. Bus slice i belongs to tile X9Y(14-i).
+//
+// The NPU_PSUM_PORT supertile in the north border row is checked the same way.
+// Its only route into the fabric is the quad channel broken out of the term
+// row, so these checks are what prove that path actually carries signal.
+//
+// Every NPU pin of eFPGA_top is checked, 559 in total:
+//   NPU_ACT_ADDR  126   NPU_ACT_WDATA 112   NPU_ACT_WE    14
+//   NPU_WEIGHT_IN 112   NPU_ACT_RDATA 112 (driven by this testbench)
+//   NPU_ADDR        8   NPU_WE          8   NPU_WDATA     32
+//   NPU_READ_BANK_SEL 3 NPU_RDATA      32 (driven by this testbench)
 
 module npu_io_test_tb ();
 
@@ -34,6 +44,13 @@ module npu_io_test_tb ();
     wire [8*TILES-1:0] npu_act_wdata;
     wire [8*TILES-1:0] npu_weight_in;
 
+    // NPU_PSUM_PORT supertile (single instance)
+    reg  [31:0] npu_psum_rdata = 0;   // testbench -> fabric
+    wire [7:0]  npu_psum_addr;        // fabric -> testbench
+    wire [7:0]  npu_psum_we;
+    wire [31:0] npu_psum_wdata;
+    wire [2:0]  npu_psum_read_bank_sel;
+
     eFPGA_top top_i (
         .Config_accessC  (config_access_c  ),
         .NPU_ACT_ADDR    (npu_act_addr     ),
@@ -41,6 +58,11 @@ module npu_io_test_tb ();
         .NPU_ACT_WDATA   (npu_act_wdata    ),
         .NPU_ACT_WE      (npu_act_we       ),
         .NPU_WEIGHT_IN   (npu_weight_in    ),
+        .NPU_RDATA          (npu_psum_rdata        ),
+        .NPU_ADDR           (npu_psum_addr         ),
+        .NPU_WE             (npu_psum_we           ),
+        .NPU_WDATA          (npu_psum_wdata        ),
+        .NPU_READ_BANK_SEL  (npu_psum_read_bank_sel),
         .CLK             (CLK              ),
         .resetn          (resetn           ),
         .SelfWriteStrobe (self_write_strobe),
@@ -69,6 +91,7 @@ module npu_io_test_tb ();
             npu_act_rdata[8*t +: 8] <= tb_cnt[7:0] ^ (8'h5A + t[7:0]);
         npu_act_rdata[0] <= rst;
         npu_act_rdata[1] <= en;
+        npu_psum_rdata <= ~tb_cnt;
     end
 
     localparam integer MAX_BITBYTES = 16384;
@@ -140,6 +163,13 @@ module npu_io_test_tb ();
             if (i > 0 && npu_act_we !== prev_we + 14'd1) have_errors = 1'b1;
             prev_we = npu_act_we;
 
+            // PSUM_PORT: counter on addr/we/bank-select, loopback on wdata.
+            // ref_cnt is only 9 bits, so check the overlapping bits.
+            if (npu_psum_addr        !== ref_cnt[7:0])   have_errors = 1'b1;
+            if (npu_psum_we          !== (ref_cnt[7:0] ^ 8'hA5)) have_errors = 1'b1;
+            if (npu_psum_read_bank_sel !== ref_cnt[2:0]) have_errors = 1'b1;
+            if (npu_psum_wdata       !== npu_psum_rdata) have_errors = 1'b1;
+
             for (t = 0; t < TILES; t = t + 1) begin
                 // counter on ADDR, XORed with the tile index
                 if (npu_act_addr[9*t +: 9] !== (ref_cnt ^ t[8:0])) have_errors = 1'b1;
@@ -155,6 +185,9 @@ module npu_io_test_tb ();
                 $display("  rdata =0x%X", npu_act_rdata);
                 $display("  wdata =0x%X", npu_act_wdata);
                 $display("  weight=0x%X", npu_weight_in);
+                $display("  psum: addr=0x%X we=0x%X bank=%b wdata=0x%X rdata=0x%X",
+                         npu_psum_addr, npu_psum_we, npu_psum_read_bank_sel,
+                         npu_psum_wdata, npu_psum_rdata);
                 $fatal;
             end
         end
