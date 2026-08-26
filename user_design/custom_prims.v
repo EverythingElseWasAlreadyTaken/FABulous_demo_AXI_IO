@@ -892,3 +892,111 @@ module AXIL_S_BEL (
     output SOC_RVALID
 );
 endmodule
+
+//Warning: The primitive NPU_ACT_ROW_BEL was added by FABulous automatically.
+(* blackbox, keep *)
+module NPU_ACT_ROW_BEL (
+    input FAB_ACT_WE,
+    input FAB_ACT_ADDR0,
+    input FAB_ACT_ADDR1,
+    input FAB_ACT_ADDR2,
+    input FAB_ACT_ADDR3,
+    input FAB_ACT_ADDR4,
+    input FAB_ACT_ADDR5,
+    input FAB_ACT_ADDR6,
+    input FAB_ACT_ADDR7,
+    input FAB_ACT_ADDR8,
+    input FAB_ACT_WDATA0,
+    input FAB_ACT_WDATA1,
+    input FAB_ACT_WDATA2,
+    input FAB_ACT_WDATA3,
+    input FAB_ACT_WDATA4,
+    input FAB_ACT_WDATA5,
+    input FAB_ACT_WDATA6,
+    input FAB_ACT_WDATA7,
+    input FAB_WEIGHT_IN0,
+    input FAB_WEIGHT_IN1,
+    input FAB_WEIGHT_IN2,
+    input FAB_WEIGHT_IN3,
+    input FAB_WEIGHT_IN4,
+    input FAB_WEIGHT_IN5,
+    input FAB_WEIGHT_IN6,
+    input FAB_WEIGHT_IN7,
+    output FAB_ACT_RDATA0,
+    output FAB_ACT_RDATA1,
+    output FAB_ACT_RDATA2,
+    output FAB_ACT_RDATA3,
+    output FAB_ACT_RDATA4,
+    output FAB_ACT_RDATA5,
+    output FAB_ACT_RDATA6,
+    output FAB_ACT_RDATA7,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA0,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA1,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA2,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA3,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA4,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA5,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA6,
+    (* iopad_external_pin *)
+    input NPU_ACT_RDATA7,
+    (* iopad_external_pin *)
+    output NPU_ACT_WE,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR0,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR1,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR2,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR3,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR4,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR5,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR6,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR7,
+    (* iopad_external_pin *)
+    output NPU_ACT_ADDR8,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA0,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA1,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA2,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA3,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA4,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA5,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA6,
+    (* iopad_external_pin *)
+    output NPU_ACT_WDATA7,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN0,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN1,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN2,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN3,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN4,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN5,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN6,
+    (* iopad_external_pin *)
+    output NPU_WEIGHT_IN7
+);
+endmodule

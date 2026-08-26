@@ -3,10 +3,12 @@
 `default_nettype none
 
 module axi_io_test_tb ();
-    wire [27:0] I_top;
-    wire [27:0] T_top;
-    reg  [27:0] O_top = 0;
-    wire [55:0] A_cfg, B_cfg;
+    // The grid holds no E_IO/W_IO tiles any more, so there are no I_top/O_top/
+    // T_top pads: the counter controls ride on spare AXI slave inputs instead.
+    reg rst = 1'b1;
+    reg en  = 1'b0;
+
+    wire [15:0] config_access_c;
 
     reg         CLK                 = 1'b0 ;
     reg         resetn              = 1'b1 ;
@@ -109,11 +111,7 @@ module axi_io_test_tb ();
         .AXI_M_SOC_WREADY  (axi_m_wready  ),
         .AXI_M_SOC_WSTRB   (axi_m_wstrb   ),
         .AXI_M_SOC_WVALID  (axi_m_wvalid  ),
-        .A_config_C        (A_cfg          ),
-        .B_config_C        (B_cfg          ),
-        .I_top             (I_top          ),
-        .O_top             (O_top          ),
-        .T_top             (T_top          ),
+        .Config_accessC    (config_access_c),
         .CLK               (CLK            ),
         .resetn            (resetn         ),
         .SelfWriteStrobe   (self_write_strobe),
@@ -135,7 +133,7 @@ module axi_io_test_tb ();
     assign axil_s_awaddr  = tb_cnt[9:0];
     assign axil_s_awvalid = tb_cnt[0];
     assign axil_s_wdata   = ~tb_cnt;
-    assign axil_s_wstrb   = tb_cnt[7:4];
+    assign axil_s_wstrb   = {tb_cnt[7:6], en, rst};
     assign axil_s_wvalid  = tb_cnt[1];
     assign axil_s_bready  = tb_cnt[2];
     assign axil_s_araddr  = tb_cnt[19:10];
@@ -204,21 +202,15 @@ module axi_io_test_tb ();
 `endif
         config_done = 1'b1;
         repeat (100) @(posedge CLK);
-        // Reset the counter
-        O_top = 28'b0000_0000_0000_0000_0000_0000_0011;
+        // Reset the counter, then let it run.
+        rst = 1'b1; en = 1'b1;
         repeat (5) @(posedge CLK);
-        // Deassert reset while keeping the counter enabled
-        O_top = 28'b0000_0000_0000_0000_0000_0000_0010;
+        rst = 1'b0;
         go = 1'b1;
 
         // Run the basic-IO checks for many cycles.
         for (i = 0; i < 2000; i = i + 1) begin
             @(negedge CLK);
-
-            // E_IO counter: expose cnt[15:0]
-            if (I_top[27:16] !== 12'b0) have_errors = 1'b1;
-            if (I_top[15:0]  !== axi_m_wdata[15:0]) have_errors = 1'b1;
-            if (T_top !== 28'b1111111111111111111111111110) have_errors = 1'b1;
 
             // Counter-driven AXI outputs
             if (axil_s_rdata   !== axi_m_wdata) have_errors = 1'b1;
@@ -253,7 +245,6 @@ module axi_io_test_tb ();
 
             if (have_errors) begin
                 $display("ERROR at cycle %0d (tb_cnt=0x%X)", i, tb_cnt);
-                $display("  E_IO:     I_top=0x%X T_top=0x%X", I_top, T_top);
                 $display("  counter:  wdata=0x%X rdata=0x%X bresp=%b rresp=%b awsize[2]=%b arsize[2]=%b",
                          axi_m_wdata, axil_s_rdata, axil_s_bresp, axil_s_rresp,
                          axi_m_awsize[2], axi_m_arsize[2]);

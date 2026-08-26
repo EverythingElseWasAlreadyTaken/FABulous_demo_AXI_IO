@@ -10,7 +10,10 @@ TOP_WRAPPER=top_wrapper
 FABRIC_FILES_DIR=${BUILD_DIR}/fabric_files
 USER_DESIGN_DIR=${FAB_PROJ_ROOT}/user_design
 USER_DESIGN_VERILOG=${USER_DESIGN_DIR}/${DESIGN}.v
-TOP_WRAPPER_VERILOG=${USER_DESIGN_DIR}/${TOP_WRAPPER}.v
+# A design may ship its own hand-wired wrapper as <design>_wrapper.v; the
+# generated default top_wrapper.v only auto-connects the demo counter design.
+TOP_WRAPPER_SRC?=$(if $(wildcard ${USER_DESIGN_DIR}/${DESIGN}_wrapper.v),${DESIGN}_wrapper,${TOP_WRAPPER})
+TOP_WRAPPER_VERILOG=${USER_DESIGN_DIR}/${TOP_WRAPPER_SRC}.v
 WAVEFORM_TYPE=fst
 
 VVP_ARGS=+output_waveform=${BUILD_DIR}/${DESIGN}.${WAVEFORM_TYPE}
@@ -24,7 +27,7 @@ ifneq ($(wildcard ${USER_DESIGN_DIR}/custom_prims.v),)
 		CUSTOM_PRIMS=-extra-plib ${USER_DESIGN_DIR}/custom_prims.v
 endif
 
-.PHONY: all run_FABulous_demo full build_test_design run_simulation_emulation mkdir_build clean FAB_sim build_demo_fabric
+.PHONY: all run_FABulous_demo full build_test_design run_simulation_emulation mkdir_build clean FAB_sim build_demo_fabric test_npu_act_row test_npu_io
 
 sim: build_test_design run_simulation
 
@@ -81,3 +84,16 @@ run_GTKWave:
 
 clean:
 	rm -rf ${BUILD_DIR}
+
+# Standalone BEL-level check for the NPU_ACT_ROW tile primitive.
+# Needs no bitstream, so it runs without the full synth/P&R flow.
+NPU_ACT_ROW_TB=npu_act_row_tb
+test_npu_act_row: mkdir_build
+	iverilog -g2012 -s ${NPU_ACT_ROW_TB} -o ${BUILD_DIR}/${NPU_ACT_ROW_TB}.vvp \
+		${FAB_PROJ_ROOT}/Tile/NPU_ACT_ROW/NPU_ACT_ROW_BEL.v ${NPU_ACT_ROW_TB}.v
+	vvp ${BUILD_DIR}/${NPU_ACT_ROW_TB}.vvp
+
+# Full-fabric basic-IO test for the NPU_ACT_ROW column: synthesises
+# npu_io_test into the fabric and checks every NPU pin against the counter.
+test_npu_io:
+	${MAKE} DESIGN=npu_io_test sim

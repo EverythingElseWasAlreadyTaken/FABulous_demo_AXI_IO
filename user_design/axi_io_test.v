@@ -4,19 +4,14 @@
 //
 // Every AXI FAB pin is exercised as a plain IO, not as an AXI-protocol
 // transaction:
-//   * 103 fabric-facing inputs are echoed back (loopback) on 103 outputs.
-//   * The remaining 70 outputs are driven by a free-running counter.
-//   * The counter low 16 bits are also exposed on the E_IO pads, so the
-//     testbench can cross-check the counter against the AXI outputs.
+//   * the fabric-facing inputs are echoed back (loopback) on outputs,
+//   * the remaining outputs are driven by a free-running counter, which the
+//     testbench cross-checks against mst_wdata.
 //
 // This verifies the routing of every single AXI tile signal.
 
 module axi_io_test (
     input  wire        clk,
-
-    input  wire [27:0] io_in,
-    output wire [27:0] io_out,
-    output wire [27:0] io_oeb,
 
     // AXI4-Lite slave FAB pins (AXIL_S_BEL)
     input  wire [9:0]  slv_awaddr,
@@ -65,8 +60,8 @@ module axi_io_test (
     output wire        mst_rready
 );
 
-    wire rst = io_in[0];
-    wire en  = io_in[1];
+    wire rst = slv_wstrb[0];
+    wire en  = slv_wstrb[1];
 
     reg [31:0] cnt;
     always @(posedge clk)
@@ -74,9 +69,6 @@ module axi_io_test (
             if (rst) cnt <= 32'b0;
             else cnt <= cnt + 1'b1;
         else cnt <= cnt;
-
-    assign io_out = {12'b0, cnt[15:0]};
-    assign io_oeb = 28'b0000000000000000000000000001;
 
     // --- AXI4 full master: loopback inputs, counter on spare outputs ---
     assign mst_awaddr  = mst_rdata;              // loopback

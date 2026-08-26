@@ -1,23 +1,3 @@
-set_io Tile_X9Y1_A Tile_X9Y1.A
-set_io Tile_X9Y1_B Tile_X9Y1.B
-set_io Tile_X9Y2_A Tile_X9Y2.A
-set_io Tile_X9Y2_B Tile_X9Y2.B
-set_io Tile_X9Y3_A Tile_X9Y3.A
-set_io Tile_X9Y3_B Tile_X9Y3.B
-set_io Tile_X9Y4_A Tile_X9Y4.A
-set_io Tile_X9Y4_B Tile_X9Y4.B
-set_io Tile_X9Y5_A Tile_X9Y5.A
-set_io Tile_X9Y5_B Tile_X9Y5.B
-set_io Tile_X9Y6_A Tile_X9Y6.A
-set_io Tile_X9Y6_B Tile_X9Y6.B
-set_io Tile_X9Y7_A Tile_X9Y7.A
-set_io Tile_X9Y7_B Tile_X9Y7.B
-set_io Tile_X9Y8_A Tile_X9Y8.A
-set_io Tile_X9Y8_B Tile_X9Y8.B
-set_io Tile_X9Y9_A Tile_X9Y9.A
-set_io Tile_X9Y9_B Tile_X9Y9.B
-set_io Tile_X9Y10_A Tile_X9Y10.A
-set_io Tile_X9Y10_B Tile_X9Y10.B
 set_io Tile_X0Y11_A Tile_X0Y11.A
 set_io Tile_X0Y11_B Tile_X0Y11.B
 set_io Tile_X0Y11_C Tile_X0Y11.C
@@ -29,8 +9,6 @@ set_io Tile_X0Y11_H Tile_X0Y11.H
 set_io Tile_X0Y11_I Tile_X0Y11.I
 set_io Tile_X0Y11_J Tile_X0Y11.J
 set_io Tile_X0Y11_K Tile_X0Y11.K
-set_io Tile_X9Y11_A Tile_X9Y11.A
-set_io Tile_X9Y11_B Tile_X9Y11.B
 set_io Tile_X0Y12_A Tile_X0Y12.A
 set_io Tile_X0Y12_B Tile_X0Y12.B
 set_io Tile_X0Y12_C Tile_X0Y12.C
@@ -42,8 +20,6 @@ set_io Tile_X0Y12_H Tile_X0Y12.H
 set_io Tile_X0Y12_I Tile_X0Y12.I
 set_io Tile_X0Y12_J Tile_X0Y12.J
 set_io Tile_X0Y12_K Tile_X0Y12.K
-set_io Tile_X9Y12_A Tile_X9Y12.A
-set_io Tile_X9Y12_B Tile_X9Y12.B
 set_io Tile_X0Y13_A Tile_X0Y13.A
 set_io Tile_X0Y13_B Tile_X0Y13.B
 set_io Tile_X0Y13_C Tile_X0Y13.C
@@ -55,8 +31,6 @@ set_io Tile_X0Y13_H Tile_X0Y13.H
 set_io Tile_X0Y13_I Tile_X0Y13.I
 set_io Tile_X0Y13_J Tile_X0Y13.J
 set_io Tile_X0Y13_K Tile_X0Y13.K
-set_io Tile_X9Y13_A Tile_X9Y13.A
-set_io Tile_X9Y13_B Tile_X9Y13.B
 set_io Tile_X0Y14_A Tile_X0Y14.A
 set_io Tile_X0Y14_B Tile_X0Y14.B
 set_io Tile_X0Y14_C Tile_X0Y14.C
@@ -68,5 +42,3 @@ set_io Tile_X0Y14_H Tile_X0Y14.H
 set_io Tile_X0Y14_I Tile_X0Y14.I
 set_io Tile_X0Y14_J Tile_X0Y14.J
 set_io Tile_X0Y14_K Tile_X0Y14.K
-set_io Tile_X9Y14_A Tile_X9Y14.A
-set_io Tile_X9Y14_B Tile_X9Y14.B
