@@ -55,7 +55,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,B,FABULOUS_LC,LB_
 I,I0,X1Y1.LB_I0
@@ -101,7 +101,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,C,FABULOUS_LC,LC_
 I,I0,X1Y1.LC_I0
@@ -147,7 +147,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,D,FABULOUS_LC,LD_
 I,I0,X1Y1.LD_I0
@@ -193,7 +193,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,E,FABULOUS_LC,LE_
 I,I0,X1Y1.LE_I0
@@ -239,7 +239,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,F,FABULOUS_LC,LF_
 I,I0,X1Y1.LF_I0
@@ -285,7 +285,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,G,FABULOUS_LC,LG_
 I,I0,X1Y1.LG_I0
@@ -331,7 +331,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,H,FABULOUS_LC,LH_
 I,I0,X1Y1.LH_I0
@@ -377,7 +377,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y1,I,MUX8LUT_frame_config_mux,
 I,A,X1Y1.A
@@ -444,7 +444,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,B,FABULOUS_LC,LB_
 I,I0,X2Y1.LB_I0
@@ -490,7 +490,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,C,FABULOUS_LC,LC_
 I,I0,X2Y1.LC_I0
@@ -536,7 +536,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,D,FABULOUS_LC,LD_
 I,I0,X2Y1.LD_I0
@@ -582,7 +582,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,E,FABULOUS_LC,LE_
 I,I0,X2Y1.LE_I0
@@ -628,7 +628,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,F,FABULOUS_LC,LF_
 I,I0,X2Y1.LF_I0
@@ -674,7 +674,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,G,FABULOUS_LC,LG_
 I,I0,X2Y1.LG_I0
@@ -720,7 +720,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,H,FABULOUS_LC,LH_
 I,I0,X2Y1.LH_I0
@@ -766,7 +766,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y1,I,MUX8LUT_frame_config_mux,
 I,A,X2Y1.A
@@ -820,7 +820,7 @@ O,BD2,X3Y1.BD2
 O,BD3,X3Y1.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y1
 BelBegin,X4Y1,A,FABULOUS_LC,LA_
@@ -867,7 +867,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,B,FABULOUS_LC,LB_
 I,I0,X4Y1.LB_I0
@@ -913,7 +913,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,C,FABULOUS_LC,LC_
 I,I0,X4Y1.LC_I0
@@ -959,7 +959,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,D,FABULOUS_LC,LD_
 I,I0,X4Y1.LD_I0
@@ -1005,7 +1005,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,E,FABULOUS_LC,LE_
 I,I0,X4Y1.LE_I0
@@ -1051,7 +1051,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,F,FABULOUS_LC,LF_
 I,I0,X4Y1.LF_I0
@@ -1097,7 +1097,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,G,FABULOUS_LC,LG_
 I,I0,X4Y1.LG_I0
@@ -1143,7 +1143,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,H,FABULOUS_LC,LH_
 I,I0,X4Y1.LH_I0
@@ -1189,7 +1189,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y1,I,MUX8LUT_frame_config_mux,
 I,A,X4Y1.A
@@ -1256,7 +1256,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,B,FABULOUS_LC,LB_
 I,I0,X5Y1.LB_I0
@@ -1302,7 +1302,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,C,FABULOUS_LC,LC_
 I,I0,X5Y1.LC_I0
@@ -1348,7 +1348,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,D,FABULOUS_LC,LD_
 I,I0,X5Y1.LD_I0
@@ -1394,7 +1394,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,E,FABULOUS_LC,LE_
 I,I0,X5Y1.LE_I0
@@ -1440,7 +1440,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,F,FABULOUS_LC,LF_
 I,I0,X5Y1.LF_I0
@@ -1486,7 +1486,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,G,FABULOUS_LC,LG_
 I,I0,X5Y1.LG_I0
@@ -1532,7 +1532,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,H,FABULOUS_LC,LH_
 I,I0,X5Y1.LH_I0
@@ -1578,7 +1578,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y1,I,MUX8LUT_frame_config_mux,
 I,A,X5Y1.A
@@ -1646,7 +1646,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,B,FABULOUS_LC,LB_
 I,I0,X7Y1.LB_I0
@@ -1692,7 +1692,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,C,FABULOUS_LC,LC_
 I,I0,X7Y1.LC_I0
@@ -1738,7 +1738,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,D,FABULOUS_LC,LD_
 I,I0,X7Y1.LD_I0
@@ -1784,7 +1784,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,E,FABULOUS_LC,LE_
 I,I0,X7Y1.LE_I0
@@ -1830,7 +1830,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,F,FABULOUS_LC,LF_
 I,I0,X7Y1.LF_I0
@@ -1876,7 +1876,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,G,FABULOUS_LC,LG_
 I,I0,X7Y1.LG_I0
@@ -1922,7 +1922,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,H,FABULOUS_LC,LH_
 I,I0,X7Y1.LH_I0
@@ -1968,7 +1968,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y1,I,MUX8LUT_frame_config_mux,
 I,A,X7Y1.A
@@ -2035,7 +2035,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,B,FABULOUS_LC,LB_
 I,I0,X8Y1.LB_I0
@@ -2081,7 +2081,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,C,FABULOUS_LC,LC_
 I,I0,X8Y1.LC_I0
@@ -2127,7 +2127,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,D,FABULOUS_LC,LD_
 I,I0,X8Y1.LD_I0
@@ -2173,7 +2173,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,E,FABULOUS_LC,LE_
 I,I0,X8Y1.LE_I0
@@ -2219,7 +2219,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,F,FABULOUS_LC,LF_
 I,I0,X8Y1.LF_I0
@@ -2265,7 +2265,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,G,FABULOUS_LC,LG_
 I,I0,X8Y1.LG_I0
@@ -2311,7 +2311,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,H,FABULOUS_LC,LH_
 I,I0,X8Y1.LH_I0
@@ -2357,7 +2357,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y1,I,MUX8LUT_frame_config_mux,
 I,A,X8Y1.A
@@ -2462,7 +2462,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,B,FABULOUS_LC,LB_
 I,I0,X1Y2.LB_I0
@@ -2508,7 +2508,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,C,FABULOUS_LC,LC_
 I,I0,X1Y2.LC_I0
@@ -2554,7 +2554,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,D,FABULOUS_LC,LD_
 I,I0,X1Y2.LD_I0
@@ -2600,7 +2600,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,E,FABULOUS_LC,LE_
 I,I0,X1Y2.LE_I0
@@ -2646,7 +2646,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,F,FABULOUS_LC,LF_
 I,I0,X1Y2.LF_I0
@@ -2692,7 +2692,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,G,FABULOUS_LC,LG_
 I,I0,X1Y2.LG_I0
@@ -2738,7 +2738,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,H,FABULOUS_LC,LH_
 I,I0,X1Y2.LH_I0
@@ -2784,7 +2784,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y2,I,MUX8LUT_frame_config_mux,
 I,A,X1Y2.A
@@ -2851,7 +2851,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,B,FABULOUS_LC,LB_
 I,I0,X2Y2.LB_I0
@@ -2897,7 +2897,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,C,FABULOUS_LC,LC_
 I,I0,X2Y2.LC_I0
@@ -2943,7 +2943,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,D,FABULOUS_LC,LD_
 I,I0,X2Y2.LD_I0
@@ -2989,7 +2989,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,E,FABULOUS_LC,LE_
 I,I0,X2Y2.LE_I0
@@ -3035,7 +3035,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,F,FABULOUS_LC,LF_
 I,I0,X2Y2.LF_I0
@@ -3081,7 +3081,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,G,FABULOUS_LC,LG_
 I,I0,X2Y2.LG_I0
@@ -3127,7 +3127,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,H,FABULOUS_LC,LH_
 I,I0,X2Y2.LH_I0
@@ -3173,7 +3173,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y2,I,MUX8LUT_frame_config_mux,
 I,A,X2Y2.A
@@ -3227,7 +3227,7 @@ O,BD2,X3Y2.BD2
 O,BD3,X3Y2.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y2
 BelBegin,X4Y2,A,FABULOUS_LC,LA_
@@ -3274,7 +3274,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,B,FABULOUS_LC,LB_
 I,I0,X4Y2.LB_I0
@@ -3320,7 +3320,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,C,FABULOUS_LC,LC_
 I,I0,X4Y2.LC_I0
@@ -3366,7 +3366,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,D,FABULOUS_LC,LD_
 I,I0,X4Y2.LD_I0
@@ -3412,7 +3412,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,E,FABULOUS_LC,LE_
 I,I0,X4Y2.LE_I0
@@ -3458,7 +3458,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,F,FABULOUS_LC,LF_
 I,I0,X4Y2.LF_I0
@@ -3504,7 +3504,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,G,FABULOUS_LC,LG_
 I,I0,X4Y2.LG_I0
@@ -3550,7 +3550,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,H,FABULOUS_LC,LH_
 I,I0,X4Y2.LH_I0
@@ -3596,7 +3596,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y2,I,MUX8LUT_frame_config_mux,
 I,A,X4Y2.A
@@ -3663,7 +3663,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,B,FABULOUS_LC,LB_
 I,I0,X5Y2.LB_I0
@@ -3709,7 +3709,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,C,FABULOUS_LC,LC_
 I,I0,X5Y2.LC_I0
@@ -3755,7 +3755,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,D,FABULOUS_LC,LD_
 I,I0,X5Y2.LD_I0
@@ -3801,7 +3801,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,E,FABULOUS_LC,LE_
 I,I0,X5Y2.LE_I0
@@ -3847,7 +3847,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,F,FABULOUS_LC,LF_
 I,I0,X5Y2.LF_I0
@@ -3893,7 +3893,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,G,FABULOUS_LC,LG_
 I,I0,X5Y2.LG_I0
@@ -3939,7 +3939,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,H,FABULOUS_LC,LH_
 I,I0,X5Y2.LH_I0
@@ -3985,7 +3985,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y2,I,MUX8LUT_frame_config_mux,
 I,A,X5Y2.A
@@ -4072,7 +4072,7 @@ CFG,A_reg
 CFG,B_reg
 CFG,C_reg
 CFG,signExtension
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X7Y2
 BelBegin,X7Y2,A,FABULOUS_LC,LA_
@@ -4119,7 +4119,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,B,FABULOUS_LC,LB_
 I,I0,X7Y2.LB_I0
@@ -4165,7 +4165,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,C,FABULOUS_LC,LC_
 I,I0,X7Y2.LC_I0
@@ -4211,7 +4211,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,D,FABULOUS_LC,LD_
 I,I0,X7Y2.LD_I0
@@ -4257,7 +4257,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,E,FABULOUS_LC,LE_
 I,I0,X7Y2.LE_I0
@@ -4303,7 +4303,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,F,FABULOUS_LC,LF_
 I,I0,X7Y2.LF_I0
@@ -4349,7 +4349,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,G,FABULOUS_LC,LG_
 I,I0,X7Y2.LG_I0
@@ -4395,7 +4395,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,H,FABULOUS_LC,LH_
 I,I0,X7Y2.LH_I0
@@ -4441,7 +4441,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y2,I,MUX8LUT_frame_config_mux,
 I,A,X7Y2.A
@@ -4508,7 +4508,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,B,FABULOUS_LC,LB_
 I,I0,X8Y2.LB_I0
@@ -4554,7 +4554,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,C,FABULOUS_LC,LC_
 I,I0,X8Y2.LC_I0
@@ -4600,7 +4600,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,D,FABULOUS_LC,LD_
 I,I0,X8Y2.LD_I0
@@ -4646,7 +4646,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,E,FABULOUS_LC,LE_
 I,I0,X8Y2.LE_I0
@@ -4692,7 +4692,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,F,FABULOUS_LC,LF_
 I,I0,X8Y2.LF_I0
@@ -4738,7 +4738,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,G,FABULOUS_LC,LG_
 I,I0,X8Y2.LG_I0
@@ -4784,7 +4784,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,H,FABULOUS_LC,LH_
 I,I0,X8Y2.LH_I0
@@ -4830,7 +4830,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y2,I,MUX8LUT_frame_config_mux,
 I,A,X8Y2.A
@@ -4935,7 +4935,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,B,FABULOUS_LC,LB_
 I,I0,X1Y3.LB_I0
@@ -4981,7 +4981,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,C,FABULOUS_LC,LC_
 I,I0,X1Y3.LC_I0
@@ -5027,7 +5027,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,D,FABULOUS_LC,LD_
 I,I0,X1Y3.LD_I0
@@ -5073,7 +5073,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,E,FABULOUS_LC,LE_
 I,I0,X1Y3.LE_I0
@@ -5119,7 +5119,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,F,FABULOUS_LC,LF_
 I,I0,X1Y3.LF_I0
@@ -5165,7 +5165,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,G,FABULOUS_LC,LG_
 I,I0,X1Y3.LG_I0
@@ -5211,7 +5211,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,H,FABULOUS_LC,LH_
 I,I0,X1Y3.LH_I0
@@ -5257,7 +5257,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y3,I,MUX8LUT_frame_config_mux,
 I,A,X1Y3.A
@@ -5324,7 +5324,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,B,FABULOUS_LC,LB_
 I,I0,X2Y3.LB_I0
@@ -5370,7 +5370,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,C,FABULOUS_LC,LC_
 I,I0,X2Y3.LC_I0
@@ -5416,7 +5416,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,D,FABULOUS_LC,LD_
 I,I0,X2Y3.LD_I0
@@ -5462,7 +5462,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,E,FABULOUS_LC,LE_
 I,I0,X2Y3.LE_I0
@@ -5508,7 +5508,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,F,FABULOUS_LC,LF_
 I,I0,X2Y3.LF_I0
@@ -5554,7 +5554,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,G,FABULOUS_LC,LG_
 I,I0,X2Y3.LG_I0
@@ -5600,7 +5600,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,H,FABULOUS_LC,LH_
 I,I0,X2Y3.LH_I0
@@ -5646,7 +5646,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y3,I,MUX8LUT_frame_config_mux,
 I,A,X2Y3.A
@@ -5700,7 +5700,7 @@ O,BD2,X3Y3.BD2
 O,BD3,X3Y3.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y3
 BelBegin,X4Y3,A,FABULOUS_LC,LA_
@@ -5747,7 +5747,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,B,FABULOUS_LC,LB_
 I,I0,X4Y3.LB_I0
@@ -5793,7 +5793,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,C,FABULOUS_LC,LC_
 I,I0,X4Y3.LC_I0
@@ -5839,7 +5839,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,D,FABULOUS_LC,LD_
 I,I0,X4Y3.LD_I0
@@ -5885,7 +5885,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,E,FABULOUS_LC,LE_
 I,I0,X4Y3.LE_I0
@@ -5931,7 +5931,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,F,FABULOUS_LC,LF_
 I,I0,X4Y3.LF_I0
@@ -5977,7 +5977,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,G,FABULOUS_LC,LG_
 I,I0,X4Y3.LG_I0
@@ -6023,7 +6023,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,H,FABULOUS_LC,LH_
 I,I0,X4Y3.LH_I0
@@ -6069,7 +6069,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y3,I,MUX8LUT_frame_config_mux,
 I,A,X4Y3.A
@@ -6136,7 +6136,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,B,FABULOUS_LC,LB_
 I,I0,X5Y3.LB_I0
@@ -6182,7 +6182,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,C,FABULOUS_LC,LC_
 I,I0,X5Y3.LC_I0
@@ -6228,7 +6228,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,D,FABULOUS_LC,LD_
 I,I0,X5Y3.LD_I0
@@ -6274,7 +6274,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,E,FABULOUS_LC,LE_
 I,I0,X5Y3.LE_I0
@@ -6320,7 +6320,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,F,FABULOUS_LC,LF_
 I,I0,X5Y3.LF_I0
@@ -6366,7 +6366,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,G,FABULOUS_LC,LG_
 I,I0,X5Y3.LG_I0
@@ -6412,7 +6412,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,H,FABULOUS_LC,LH_
 I,I0,X5Y3.LH_I0
@@ -6458,7 +6458,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y3,I,MUX8LUT_frame_config_mux,
 I,A,X5Y3.A
@@ -6526,7 +6526,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,B,FABULOUS_LC,LB_
 I,I0,X7Y3.LB_I0
@@ -6572,7 +6572,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,C,FABULOUS_LC,LC_
 I,I0,X7Y3.LC_I0
@@ -6618,7 +6618,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,D,FABULOUS_LC,LD_
 I,I0,X7Y3.LD_I0
@@ -6664,7 +6664,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,E,FABULOUS_LC,LE_
 I,I0,X7Y3.LE_I0
@@ -6710,7 +6710,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,F,FABULOUS_LC,LF_
 I,I0,X7Y3.LF_I0
@@ -6756,7 +6756,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,G,FABULOUS_LC,LG_
 I,I0,X7Y3.LG_I0
@@ -6802,7 +6802,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,H,FABULOUS_LC,LH_
 I,I0,X7Y3.LH_I0
@@ -6848,7 +6848,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y3,I,MUX8LUT_frame_config_mux,
 I,A,X7Y3.A
@@ -6915,7 +6915,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,B,FABULOUS_LC,LB_
 I,I0,X8Y3.LB_I0
@@ -6961,7 +6961,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,C,FABULOUS_LC,LC_
 I,I0,X8Y3.LC_I0
@@ -7007,7 +7007,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,D,FABULOUS_LC,LD_
 I,I0,X8Y3.LD_I0
@@ -7053,7 +7053,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,E,FABULOUS_LC,LE_
 I,I0,X8Y3.LE_I0
@@ -7099,7 +7099,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,F,FABULOUS_LC,LF_
 I,I0,X8Y3.LF_I0
@@ -7145,7 +7145,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,G,FABULOUS_LC,LG_
 I,I0,X8Y3.LG_I0
@@ -7191,7 +7191,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,H,FABULOUS_LC,LH_
 I,I0,X8Y3.LH_I0
@@ -7237,7 +7237,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y3,I,MUX8LUT_frame_config_mux,
 I,A,X8Y3.A
@@ -7342,7 +7342,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,B,FABULOUS_LC,LB_
 I,I0,X1Y4.LB_I0
@@ -7388,7 +7388,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,C,FABULOUS_LC,LC_
 I,I0,X1Y4.LC_I0
@@ -7434,7 +7434,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,D,FABULOUS_LC,LD_
 I,I0,X1Y4.LD_I0
@@ -7480,7 +7480,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,E,FABULOUS_LC,LE_
 I,I0,X1Y4.LE_I0
@@ -7526,7 +7526,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,F,FABULOUS_LC,LF_
 I,I0,X1Y4.LF_I0
@@ -7572,7 +7572,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,G,FABULOUS_LC,LG_
 I,I0,X1Y4.LG_I0
@@ -7618,7 +7618,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,H,FABULOUS_LC,LH_
 I,I0,X1Y4.LH_I0
@@ -7664,7 +7664,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y4,I,MUX8LUT_frame_config_mux,
 I,A,X1Y4.A
@@ -7731,7 +7731,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,B,FABULOUS_LC,LB_
 I,I0,X2Y4.LB_I0
@@ -7777,7 +7777,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,C,FABULOUS_LC,LC_
 I,I0,X2Y4.LC_I0
@@ -7823,7 +7823,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,D,FABULOUS_LC,LD_
 I,I0,X2Y4.LD_I0
@@ -7869,7 +7869,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,E,FABULOUS_LC,LE_
 I,I0,X2Y4.LE_I0
@@ -7915,7 +7915,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,F,FABULOUS_LC,LF_
 I,I0,X2Y4.LF_I0
@@ -7961,7 +7961,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,G,FABULOUS_LC,LG_
 I,I0,X2Y4.LG_I0
@@ -8007,7 +8007,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,H,FABULOUS_LC,LH_
 I,I0,X2Y4.LH_I0
@@ -8053,7 +8053,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y4,I,MUX8LUT_frame_config_mux,
 I,A,X2Y4.A
@@ -8107,7 +8107,7 @@ O,BD2,X3Y4.BD2
 O,BD3,X3Y4.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y4
 BelBegin,X4Y4,A,FABULOUS_LC,LA_
@@ -8154,7 +8154,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,B,FABULOUS_LC,LB_
 I,I0,X4Y4.LB_I0
@@ -8200,7 +8200,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,C,FABULOUS_LC,LC_
 I,I0,X4Y4.LC_I0
@@ -8246,7 +8246,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,D,FABULOUS_LC,LD_
 I,I0,X4Y4.LD_I0
@@ -8292,7 +8292,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,E,FABULOUS_LC,LE_
 I,I0,X4Y4.LE_I0
@@ -8338,7 +8338,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,F,FABULOUS_LC,LF_
 I,I0,X4Y4.LF_I0
@@ -8384,7 +8384,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,G,FABULOUS_LC,LG_
 I,I0,X4Y4.LG_I0
@@ -8430,7 +8430,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,H,FABULOUS_LC,LH_
 I,I0,X4Y4.LH_I0
@@ -8476,7 +8476,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y4,I,MUX8LUT_frame_config_mux,
 I,A,X4Y4.A
@@ -8543,7 +8543,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,B,FABULOUS_LC,LB_
 I,I0,X5Y4.LB_I0
@@ -8589,7 +8589,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,C,FABULOUS_LC,LC_
 I,I0,X5Y4.LC_I0
@@ -8635,7 +8635,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,D,FABULOUS_LC,LD_
 I,I0,X5Y4.LD_I0
@@ -8681,7 +8681,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,E,FABULOUS_LC,LE_
 I,I0,X5Y4.LE_I0
@@ -8727,7 +8727,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,F,FABULOUS_LC,LF_
 I,I0,X5Y4.LF_I0
@@ -8773,7 +8773,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,G,FABULOUS_LC,LG_
 I,I0,X5Y4.LG_I0
@@ -8819,7 +8819,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,H,FABULOUS_LC,LH_
 I,I0,X5Y4.LH_I0
@@ -8865,7 +8865,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y4,I,MUX8LUT_frame_config_mux,
 I,A,X5Y4.A
@@ -8952,7 +8952,7 @@ CFG,A_reg
 CFG,B_reg
 CFG,C_reg
 CFG,signExtension
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X7Y4
 BelBegin,X7Y4,A,FABULOUS_LC,LA_
@@ -8999,7 +8999,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,B,FABULOUS_LC,LB_
 I,I0,X7Y4.LB_I0
@@ -9045,7 +9045,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,C,FABULOUS_LC,LC_
 I,I0,X7Y4.LC_I0
@@ -9091,7 +9091,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,D,FABULOUS_LC,LD_
 I,I0,X7Y4.LD_I0
@@ -9137,7 +9137,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,E,FABULOUS_LC,LE_
 I,I0,X7Y4.LE_I0
@@ -9183,7 +9183,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,F,FABULOUS_LC,LF_
 I,I0,X7Y4.LF_I0
@@ -9229,7 +9229,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,G,FABULOUS_LC,LG_
 I,I0,X7Y4.LG_I0
@@ -9275,7 +9275,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,H,FABULOUS_LC,LH_
 I,I0,X7Y4.LH_I0
@@ -9321,7 +9321,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y4,I,MUX8LUT_frame_config_mux,
 I,A,X7Y4.A
@@ -9388,7 +9388,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,B,FABULOUS_LC,LB_
 I,I0,X8Y4.LB_I0
@@ -9434,7 +9434,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,C,FABULOUS_LC,LC_
 I,I0,X8Y4.LC_I0
@@ -9480,7 +9480,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,D,FABULOUS_LC,LD_
 I,I0,X8Y4.LD_I0
@@ -9526,7 +9526,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,E,FABULOUS_LC,LE_
 I,I0,X8Y4.LE_I0
@@ -9572,7 +9572,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,F,FABULOUS_LC,LF_
 I,I0,X8Y4.LF_I0
@@ -9618,7 +9618,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,G,FABULOUS_LC,LG_
 I,I0,X8Y4.LG_I0
@@ -9664,7 +9664,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,H,FABULOUS_LC,LH_
 I,I0,X8Y4.LH_I0
@@ -9710,7 +9710,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y4,I,MUX8LUT_frame_config_mux,
 I,A,X8Y4.A
@@ -9815,7 +9815,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,B,FABULOUS_LC,LB_
 I,I0,X1Y5.LB_I0
@@ -9861,7 +9861,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,C,FABULOUS_LC,LC_
 I,I0,X1Y5.LC_I0
@@ -9907,7 +9907,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,D,FABULOUS_LC,LD_
 I,I0,X1Y5.LD_I0
@@ -9953,7 +9953,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,E,FABULOUS_LC,LE_
 I,I0,X1Y5.LE_I0
@@ -9999,7 +9999,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,F,FABULOUS_LC,LF_
 I,I0,X1Y5.LF_I0
@@ -10045,7 +10045,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,G,FABULOUS_LC,LG_
 I,I0,X1Y5.LG_I0
@@ -10091,7 +10091,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,H,FABULOUS_LC,LH_
 I,I0,X1Y5.LH_I0
@@ -10137,7 +10137,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y5,I,MUX8LUT_frame_config_mux,
 I,A,X1Y5.A
@@ -10204,7 +10204,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,B,FABULOUS_LC,LB_
 I,I0,X2Y5.LB_I0
@@ -10250,7 +10250,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,C,FABULOUS_LC,LC_
 I,I0,X2Y5.LC_I0
@@ -10296,7 +10296,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,D,FABULOUS_LC,LD_
 I,I0,X2Y5.LD_I0
@@ -10342,7 +10342,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,E,FABULOUS_LC,LE_
 I,I0,X2Y5.LE_I0
@@ -10388,7 +10388,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,F,FABULOUS_LC,LF_
 I,I0,X2Y5.LF_I0
@@ -10434,7 +10434,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,G,FABULOUS_LC,LG_
 I,I0,X2Y5.LG_I0
@@ -10480,7 +10480,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,H,FABULOUS_LC,LH_
 I,I0,X2Y5.LH_I0
@@ -10526,7 +10526,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y5,I,MUX8LUT_frame_config_mux,
 I,A,X2Y5.A
@@ -10580,7 +10580,7 @@ O,BD2,X3Y5.BD2
 O,BD3,X3Y5.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y5
 BelBegin,X4Y5,A,FABULOUS_LC,LA_
@@ -10627,7 +10627,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,B,FABULOUS_LC,LB_
 I,I0,X4Y5.LB_I0
@@ -10673,7 +10673,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,C,FABULOUS_LC,LC_
 I,I0,X4Y5.LC_I0
@@ -10719,7 +10719,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,D,FABULOUS_LC,LD_
 I,I0,X4Y5.LD_I0
@@ -10765,7 +10765,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,E,FABULOUS_LC,LE_
 I,I0,X4Y5.LE_I0
@@ -10811,7 +10811,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,F,FABULOUS_LC,LF_
 I,I0,X4Y5.LF_I0
@@ -10857,7 +10857,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,G,FABULOUS_LC,LG_
 I,I0,X4Y5.LG_I0
@@ -10903,7 +10903,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,H,FABULOUS_LC,LH_
 I,I0,X4Y5.LH_I0
@@ -10949,7 +10949,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y5,I,MUX8LUT_frame_config_mux,
 I,A,X4Y5.A
@@ -11016,7 +11016,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,B,FABULOUS_LC,LB_
 I,I0,X5Y5.LB_I0
@@ -11062,7 +11062,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,C,FABULOUS_LC,LC_
 I,I0,X5Y5.LC_I0
@@ -11108,7 +11108,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,D,FABULOUS_LC,LD_
 I,I0,X5Y5.LD_I0
@@ -11154,7 +11154,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,E,FABULOUS_LC,LE_
 I,I0,X5Y5.LE_I0
@@ -11200,7 +11200,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,F,FABULOUS_LC,LF_
 I,I0,X5Y5.LF_I0
@@ -11246,7 +11246,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,G,FABULOUS_LC,LG_
 I,I0,X5Y5.LG_I0
@@ -11292,7 +11292,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,H,FABULOUS_LC,LH_
 I,I0,X5Y5.LH_I0
@@ -11338,7 +11338,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y5,I,MUX8LUT_frame_config_mux,
 I,A,X5Y5.A
@@ -11406,7 +11406,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,B,FABULOUS_LC,LB_
 I,I0,X7Y5.LB_I0
@@ -11452,7 +11452,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,C,FABULOUS_LC,LC_
 I,I0,X7Y5.LC_I0
@@ -11498,7 +11498,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,D,FABULOUS_LC,LD_
 I,I0,X7Y5.LD_I0
@@ -11544,7 +11544,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,E,FABULOUS_LC,LE_
 I,I0,X7Y5.LE_I0
@@ -11590,7 +11590,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,F,FABULOUS_LC,LF_
 I,I0,X7Y5.LF_I0
@@ -11636,7 +11636,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,G,FABULOUS_LC,LG_
 I,I0,X7Y5.LG_I0
@@ -11682,7 +11682,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,H,FABULOUS_LC,LH_
 I,I0,X7Y5.LH_I0
@@ -11728,7 +11728,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y5,I,MUX8LUT_frame_config_mux,
 I,A,X7Y5.A
@@ -11795,7 +11795,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,B,FABULOUS_LC,LB_
 I,I0,X8Y5.LB_I0
@@ -11841,7 +11841,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,C,FABULOUS_LC,LC_
 I,I0,X8Y5.LC_I0
@@ -11887,7 +11887,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,D,FABULOUS_LC,LD_
 I,I0,X8Y5.LD_I0
@@ -11933,7 +11933,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,E,FABULOUS_LC,LE_
 I,I0,X8Y5.LE_I0
@@ -11979,7 +11979,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,F,FABULOUS_LC,LF_
 I,I0,X8Y5.LF_I0
@@ -12025,7 +12025,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,G,FABULOUS_LC,LG_
 I,I0,X8Y5.LG_I0
@@ -12071,7 +12071,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,H,FABULOUS_LC,LH_
 I,I0,X8Y5.LH_I0
@@ -12117,7 +12117,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y5,I,MUX8LUT_frame_config_mux,
 I,A,X8Y5.A
@@ -12222,7 +12222,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,B,FABULOUS_LC,LB_
 I,I0,X1Y6.LB_I0
@@ -12268,7 +12268,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,C,FABULOUS_LC,LC_
 I,I0,X1Y6.LC_I0
@@ -12314,7 +12314,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,D,FABULOUS_LC,LD_
 I,I0,X1Y6.LD_I0
@@ -12360,7 +12360,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,E,FABULOUS_LC,LE_
 I,I0,X1Y6.LE_I0
@@ -12406,7 +12406,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,F,FABULOUS_LC,LF_
 I,I0,X1Y6.LF_I0
@@ -12452,7 +12452,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,G,FABULOUS_LC,LG_
 I,I0,X1Y6.LG_I0
@@ -12498,7 +12498,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,H,FABULOUS_LC,LH_
 I,I0,X1Y6.LH_I0
@@ -12544,7 +12544,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y6,I,MUX8LUT_frame_config_mux,
 I,A,X1Y6.A
@@ -12611,7 +12611,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,B,FABULOUS_LC,LB_
 I,I0,X2Y6.LB_I0
@@ -12657,7 +12657,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,C,FABULOUS_LC,LC_
 I,I0,X2Y6.LC_I0
@@ -12703,7 +12703,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,D,FABULOUS_LC,LD_
 I,I0,X2Y6.LD_I0
@@ -12749,7 +12749,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,E,FABULOUS_LC,LE_
 I,I0,X2Y6.LE_I0
@@ -12795,7 +12795,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,F,FABULOUS_LC,LF_
 I,I0,X2Y6.LF_I0
@@ -12841,7 +12841,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,G,FABULOUS_LC,LG_
 I,I0,X2Y6.LG_I0
@@ -12887,7 +12887,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,H,FABULOUS_LC,LH_
 I,I0,X2Y6.LH_I0
@@ -12933,7 +12933,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y6,I,MUX8LUT_frame_config_mux,
 I,A,X2Y6.A
@@ -12987,7 +12987,7 @@ O,BD2,X3Y6.BD2
 O,BD3,X3Y6.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y6
 BelBegin,X4Y6,A,FABULOUS_LC,LA_
@@ -13034,7 +13034,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,B,FABULOUS_LC,LB_
 I,I0,X4Y6.LB_I0
@@ -13080,7 +13080,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,C,FABULOUS_LC,LC_
 I,I0,X4Y6.LC_I0
@@ -13126,7 +13126,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,D,FABULOUS_LC,LD_
 I,I0,X4Y6.LD_I0
@@ -13172,7 +13172,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,E,FABULOUS_LC,LE_
 I,I0,X4Y6.LE_I0
@@ -13218,7 +13218,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,F,FABULOUS_LC,LF_
 I,I0,X4Y6.LF_I0
@@ -13264,7 +13264,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,G,FABULOUS_LC,LG_
 I,I0,X4Y6.LG_I0
@@ -13310,7 +13310,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,H,FABULOUS_LC,LH_
 I,I0,X4Y6.LH_I0
@@ -13356,7 +13356,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y6,I,MUX8LUT_frame_config_mux,
 I,A,X4Y6.A
@@ -13423,7 +13423,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,B,FABULOUS_LC,LB_
 I,I0,X5Y6.LB_I0
@@ -13469,7 +13469,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,C,FABULOUS_LC,LC_
 I,I0,X5Y6.LC_I0
@@ -13515,7 +13515,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,D,FABULOUS_LC,LD_
 I,I0,X5Y6.LD_I0
@@ -13561,7 +13561,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,E,FABULOUS_LC,LE_
 I,I0,X5Y6.LE_I0
@@ -13607,7 +13607,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,F,FABULOUS_LC,LF_
 I,I0,X5Y6.LF_I0
@@ -13653,7 +13653,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,G,FABULOUS_LC,LG_
 I,I0,X5Y6.LG_I0
@@ -13699,7 +13699,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,H,FABULOUS_LC,LH_
 I,I0,X5Y6.LH_I0
@@ -13745,7 +13745,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y6,I,MUX8LUT_frame_config_mux,
 I,A,X5Y6.A
@@ -13832,7 +13832,7 @@ CFG,A_reg
 CFG,B_reg
 CFG,C_reg
 CFG,signExtension
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X7Y6
 BelBegin,X7Y6,A,FABULOUS_LC,LA_
@@ -13879,7 +13879,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,B,FABULOUS_LC,LB_
 I,I0,X7Y6.LB_I0
@@ -13925,7 +13925,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,C,FABULOUS_LC,LC_
 I,I0,X7Y6.LC_I0
@@ -13971,7 +13971,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,D,FABULOUS_LC,LD_
 I,I0,X7Y6.LD_I0
@@ -14017,7 +14017,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,E,FABULOUS_LC,LE_
 I,I0,X7Y6.LE_I0
@@ -14063,7 +14063,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,F,FABULOUS_LC,LF_
 I,I0,X7Y6.LF_I0
@@ -14109,7 +14109,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,G,FABULOUS_LC,LG_
 I,I0,X7Y6.LG_I0
@@ -14155,7 +14155,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,H,FABULOUS_LC,LH_
 I,I0,X7Y6.LH_I0
@@ -14201,7 +14201,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y6,I,MUX8LUT_frame_config_mux,
 I,A,X7Y6.A
@@ -14268,7 +14268,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,B,FABULOUS_LC,LB_
 I,I0,X8Y6.LB_I0
@@ -14314,7 +14314,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,C,FABULOUS_LC,LC_
 I,I0,X8Y6.LC_I0
@@ -14360,7 +14360,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,D,FABULOUS_LC,LD_
 I,I0,X8Y6.LD_I0
@@ -14406,7 +14406,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,E,FABULOUS_LC,LE_
 I,I0,X8Y6.LE_I0
@@ -14452,7 +14452,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,F,FABULOUS_LC,LF_
 I,I0,X8Y6.LF_I0
@@ -14498,7 +14498,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,G,FABULOUS_LC,LG_
 I,I0,X8Y6.LG_I0
@@ -14544,7 +14544,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,H,FABULOUS_LC,LH_
 I,I0,X8Y6.LH_I0
@@ -14590,7 +14590,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y6,I,MUX8LUT_frame_config_mux,
 I,A,X8Y6.A
@@ -14695,7 +14695,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,B,FABULOUS_LC,LB_
 I,I0,X1Y7.LB_I0
@@ -14741,7 +14741,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,C,FABULOUS_LC,LC_
 I,I0,X1Y7.LC_I0
@@ -14787,7 +14787,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,D,FABULOUS_LC,LD_
 I,I0,X1Y7.LD_I0
@@ -14833,7 +14833,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,E,FABULOUS_LC,LE_
 I,I0,X1Y7.LE_I0
@@ -14879,7 +14879,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,F,FABULOUS_LC,LF_
 I,I0,X1Y7.LF_I0
@@ -14925,7 +14925,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,G,FABULOUS_LC,LG_
 I,I0,X1Y7.LG_I0
@@ -14971,7 +14971,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,H,FABULOUS_LC,LH_
 I,I0,X1Y7.LH_I0
@@ -15017,7 +15017,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y7,I,MUX8LUT_frame_config_mux,
 I,A,X1Y7.A
@@ -15084,7 +15084,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,B,FABULOUS_LC,LB_
 I,I0,X2Y7.LB_I0
@@ -15130,7 +15130,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,C,FABULOUS_LC,LC_
 I,I0,X2Y7.LC_I0
@@ -15176,7 +15176,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,D,FABULOUS_LC,LD_
 I,I0,X2Y7.LD_I0
@@ -15222,7 +15222,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,E,FABULOUS_LC,LE_
 I,I0,X2Y7.LE_I0
@@ -15268,7 +15268,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,F,FABULOUS_LC,LF_
 I,I0,X2Y7.LF_I0
@@ -15314,7 +15314,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,G,FABULOUS_LC,LG_
 I,I0,X2Y7.LG_I0
@@ -15360,7 +15360,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,H,FABULOUS_LC,LH_
 I,I0,X2Y7.LH_I0
@@ -15406,7 +15406,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y7,I,MUX8LUT_frame_config_mux,
 I,A,X2Y7.A
@@ -15460,7 +15460,7 @@ O,BD2,X3Y7.BD2
 O,BD3,X3Y7.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y7
 BelBegin,X4Y7,A,FABULOUS_LC,LA_
@@ -15507,7 +15507,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,B,FABULOUS_LC,LB_
 I,I0,X4Y7.LB_I0
@@ -15553,7 +15553,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,C,FABULOUS_LC,LC_
 I,I0,X4Y7.LC_I0
@@ -15599,7 +15599,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,D,FABULOUS_LC,LD_
 I,I0,X4Y7.LD_I0
@@ -15645,7 +15645,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,E,FABULOUS_LC,LE_
 I,I0,X4Y7.LE_I0
@@ -15691,7 +15691,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,F,FABULOUS_LC,LF_
 I,I0,X4Y7.LF_I0
@@ -15737,7 +15737,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,G,FABULOUS_LC,LG_
 I,I0,X4Y7.LG_I0
@@ -15783,7 +15783,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,H,FABULOUS_LC,LH_
 I,I0,X4Y7.LH_I0
@@ -15829,7 +15829,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y7,I,MUX8LUT_frame_config_mux,
 I,A,X4Y7.A
@@ -15896,7 +15896,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,B,FABULOUS_LC,LB_
 I,I0,X5Y7.LB_I0
@@ -15942,7 +15942,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,C,FABULOUS_LC,LC_
 I,I0,X5Y7.LC_I0
@@ -15988,7 +15988,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,D,FABULOUS_LC,LD_
 I,I0,X5Y7.LD_I0
@@ -16034,7 +16034,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,E,FABULOUS_LC,LE_
 I,I0,X5Y7.LE_I0
@@ -16080,7 +16080,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,F,FABULOUS_LC,LF_
 I,I0,X5Y7.LF_I0
@@ -16126,7 +16126,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,G,FABULOUS_LC,LG_
 I,I0,X5Y7.LG_I0
@@ -16172,7 +16172,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,H,FABULOUS_LC,LH_
 I,I0,X5Y7.LH_I0
@@ -16218,7 +16218,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y7,I,MUX8LUT_frame_config_mux,
 I,A,X5Y7.A
@@ -16286,7 +16286,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,B,FABULOUS_LC,LB_
 I,I0,X7Y7.LB_I0
@@ -16332,7 +16332,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,C,FABULOUS_LC,LC_
 I,I0,X7Y7.LC_I0
@@ -16378,7 +16378,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,D,FABULOUS_LC,LD_
 I,I0,X7Y7.LD_I0
@@ -16424,7 +16424,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,E,FABULOUS_LC,LE_
 I,I0,X7Y7.LE_I0
@@ -16470,7 +16470,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,F,FABULOUS_LC,LF_
 I,I0,X7Y7.LF_I0
@@ -16516,7 +16516,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,G,FABULOUS_LC,LG_
 I,I0,X7Y7.LG_I0
@@ -16562,7 +16562,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,H,FABULOUS_LC,LH_
 I,I0,X7Y7.LH_I0
@@ -16608,7 +16608,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y7,I,MUX8LUT_frame_config_mux,
 I,A,X7Y7.A
@@ -16675,7 +16675,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,B,FABULOUS_LC,LB_
 I,I0,X8Y7.LB_I0
@@ -16721,7 +16721,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,C,FABULOUS_LC,LC_
 I,I0,X8Y7.LC_I0
@@ -16767,7 +16767,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,D,FABULOUS_LC,LD_
 I,I0,X8Y7.LD_I0
@@ -16813,7 +16813,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,E,FABULOUS_LC,LE_
 I,I0,X8Y7.LE_I0
@@ -16859,7 +16859,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,F,FABULOUS_LC,LF_
 I,I0,X8Y7.LF_I0
@@ -16905,7 +16905,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,G,FABULOUS_LC,LG_
 I,I0,X8Y7.LG_I0
@@ -16951,7 +16951,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,H,FABULOUS_LC,LH_
 I,I0,X8Y7.LH_I0
@@ -16997,7 +16997,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y7,I,MUX8LUT_frame_config_mux,
 I,A,X8Y7.A
@@ -17102,7 +17102,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,B,FABULOUS_LC,LB_
 I,I0,X1Y8.LB_I0
@@ -17148,7 +17148,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,C,FABULOUS_LC,LC_
 I,I0,X1Y8.LC_I0
@@ -17194,7 +17194,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,D,FABULOUS_LC,LD_
 I,I0,X1Y8.LD_I0
@@ -17240,7 +17240,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,E,FABULOUS_LC,LE_
 I,I0,X1Y8.LE_I0
@@ -17286,7 +17286,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,F,FABULOUS_LC,LF_
 I,I0,X1Y8.LF_I0
@@ -17332,7 +17332,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,G,FABULOUS_LC,LG_
 I,I0,X1Y8.LG_I0
@@ -17378,7 +17378,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,H,FABULOUS_LC,LH_
 I,I0,X1Y8.LH_I0
@@ -17424,7 +17424,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y8,I,MUX8LUT_frame_config_mux,
 I,A,X1Y8.A
@@ -17491,7 +17491,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,B,FABULOUS_LC,LB_
 I,I0,X2Y8.LB_I0
@@ -17537,7 +17537,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,C,FABULOUS_LC,LC_
 I,I0,X2Y8.LC_I0
@@ -17583,7 +17583,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,D,FABULOUS_LC,LD_
 I,I0,X2Y8.LD_I0
@@ -17629,7 +17629,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,E,FABULOUS_LC,LE_
 I,I0,X2Y8.LE_I0
@@ -17675,7 +17675,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,F,FABULOUS_LC,LF_
 I,I0,X2Y8.LF_I0
@@ -17721,7 +17721,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,G,FABULOUS_LC,LG_
 I,I0,X2Y8.LG_I0
@@ -17767,7 +17767,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,H,FABULOUS_LC,LH_
 I,I0,X2Y8.LH_I0
@@ -17813,7 +17813,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y8,I,MUX8LUT_frame_config_mux,
 I,A,X2Y8.A
@@ -17867,7 +17867,7 @@ O,BD2,X3Y8.BD2
 O,BD3,X3Y8.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y8
 BelBegin,X4Y8,A,FABULOUS_LC,LA_
@@ -17914,7 +17914,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,B,FABULOUS_LC,LB_
 I,I0,X4Y8.LB_I0
@@ -17960,7 +17960,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,C,FABULOUS_LC,LC_
 I,I0,X4Y8.LC_I0
@@ -18006,7 +18006,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,D,FABULOUS_LC,LD_
 I,I0,X4Y8.LD_I0
@@ -18052,7 +18052,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,E,FABULOUS_LC,LE_
 I,I0,X4Y8.LE_I0
@@ -18098,7 +18098,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,F,FABULOUS_LC,LF_
 I,I0,X4Y8.LF_I0
@@ -18144,7 +18144,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,G,FABULOUS_LC,LG_
 I,I0,X4Y8.LG_I0
@@ -18190,7 +18190,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,H,FABULOUS_LC,LH_
 I,I0,X4Y8.LH_I0
@@ -18236,7 +18236,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y8,I,MUX8LUT_frame_config_mux,
 I,A,X4Y8.A
@@ -18303,7 +18303,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,B,FABULOUS_LC,LB_
 I,I0,X5Y8.LB_I0
@@ -18349,7 +18349,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,C,FABULOUS_LC,LC_
 I,I0,X5Y8.LC_I0
@@ -18395,7 +18395,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,D,FABULOUS_LC,LD_
 I,I0,X5Y8.LD_I0
@@ -18441,7 +18441,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,E,FABULOUS_LC,LE_
 I,I0,X5Y8.LE_I0
@@ -18487,7 +18487,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,F,FABULOUS_LC,LF_
 I,I0,X5Y8.LF_I0
@@ -18533,7 +18533,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,G,FABULOUS_LC,LG_
 I,I0,X5Y8.LG_I0
@@ -18579,7 +18579,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,H,FABULOUS_LC,LH_
 I,I0,X5Y8.LH_I0
@@ -18625,7 +18625,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y8,I,MUX8LUT_frame_config_mux,
 I,A,X5Y8.A
@@ -18712,7 +18712,7 @@ CFG,A_reg
 CFG,B_reg
 CFG,C_reg
 CFG,signExtension
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X7Y8
 BelBegin,X7Y8,A,FABULOUS_LC,LA_
@@ -18759,7 +18759,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,B,FABULOUS_LC,LB_
 I,I0,X7Y8.LB_I0
@@ -18805,7 +18805,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,C,FABULOUS_LC,LC_
 I,I0,X7Y8.LC_I0
@@ -18851,7 +18851,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,D,FABULOUS_LC,LD_
 I,I0,X7Y8.LD_I0
@@ -18897,7 +18897,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,E,FABULOUS_LC,LE_
 I,I0,X7Y8.LE_I0
@@ -18943,7 +18943,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,F,FABULOUS_LC,LF_
 I,I0,X7Y8.LF_I0
@@ -18989,7 +18989,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,G,FABULOUS_LC,LG_
 I,I0,X7Y8.LG_I0
@@ -19035,7 +19035,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,H,FABULOUS_LC,LH_
 I,I0,X7Y8.LH_I0
@@ -19081,7 +19081,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y8,I,MUX8LUT_frame_config_mux,
 I,A,X7Y8.A
@@ -19148,7 +19148,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,B,FABULOUS_LC,LB_
 I,I0,X8Y8.LB_I0
@@ -19194,7 +19194,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,C,FABULOUS_LC,LC_
 I,I0,X8Y8.LC_I0
@@ -19240,7 +19240,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,D,FABULOUS_LC,LD_
 I,I0,X8Y8.LD_I0
@@ -19286,7 +19286,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,E,FABULOUS_LC,LE_
 I,I0,X8Y8.LE_I0
@@ -19332,7 +19332,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,F,FABULOUS_LC,LF_
 I,I0,X8Y8.LF_I0
@@ -19378,7 +19378,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,G,FABULOUS_LC,LG_
 I,I0,X8Y8.LG_I0
@@ -19424,7 +19424,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,H,FABULOUS_LC,LH_
 I,I0,X8Y8.LH_I0
@@ -19470,7 +19470,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y8,I,MUX8LUT_frame_config_mux,
 I,A,X8Y8.A
@@ -19575,7 +19575,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,B,FABULOUS_LC,LB_
 I,I0,X1Y9.LB_I0
@@ -19621,7 +19621,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,C,FABULOUS_LC,LC_
 I,I0,X1Y9.LC_I0
@@ -19667,7 +19667,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,D,FABULOUS_LC,LD_
 I,I0,X1Y9.LD_I0
@@ -19713,7 +19713,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,E,FABULOUS_LC,LE_
 I,I0,X1Y9.LE_I0
@@ -19759,7 +19759,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,F,FABULOUS_LC,LF_
 I,I0,X1Y9.LF_I0
@@ -19805,7 +19805,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,G,FABULOUS_LC,LG_
 I,I0,X1Y9.LG_I0
@@ -19851,7 +19851,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,H,FABULOUS_LC,LH_
 I,I0,X1Y9.LH_I0
@@ -19897,7 +19897,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y9,I,MUX8LUT_frame_config_mux,
 I,A,X1Y9.A
@@ -19964,7 +19964,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,B,FABULOUS_LC,LB_
 I,I0,X2Y9.LB_I0
@@ -20010,7 +20010,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,C,FABULOUS_LC,LC_
 I,I0,X2Y9.LC_I0
@@ -20056,7 +20056,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,D,FABULOUS_LC,LD_
 I,I0,X2Y9.LD_I0
@@ -20102,7 +20102,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,E,FABULOUS_LC,LE_
 I,I0,X2Y9.LE_I0
@@ -20148,7 +20148,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,F,FABULOUS_LC,LF_
 I,I0,X2Y9.LF_I0
@@ -20194,7 +20194,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,G,FABULOUS_LC,LG_
 I,I0,X2Y9.LG_I0
@@ -20240,7 +20240,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,H,FABULOUS_LC,LH_
 I,I0,X2Y9.LH_I0
@@ -20286,7 +20286,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y9,I,MUX8LUT_frame_config_mux,
 I,A,X2Y9.A
@@ -20340,7 +20340,7 @@ O,BD2,X3Y9.BD2
 O,BD3,X3Y9.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y9
 BelBegin,X4Y9,A,FABULOUS_LC,LA_
@@ -20387,7 +20387,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,B,FABULOUS_LC,LB_
 I,I0,X4Y9.LB_I0
@@ -20433,7 +20433,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,C,FABULOUS_LC,LC_
 I,I0,X4Y9.LC_I0
@@ -20479,7 +20479,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,D,FABULOUS_LC,LD_
 I,I0,X4Y9.LD_I0
@@ -20525,7 +20525,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,E,FABULOUS_LC,LE_
 I,I0,X4Y9.LE_I0
@@ -20571,7 +20571,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,F,FABULOUS_LC,LF_
 I,I0,X4Y9.LF_I0
@@ -20617,7 +20617,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,G,FABULOUS_LC,LG_
 I,I0,X4Y9.LG_I0
@@ -20663,7 +20663,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,H,FABULOUS_LC,LH_
 I,I0,X4Y9.LH_I0
@@ -20709,7 +20709,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y9,I,MUX8LUT_frame_config_mux,
 I,A,X4Y9.A
@@ -20776,7 +20776,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,B,FABULOUS_LC,LB_
 I,I0,X5Y9.LB_I0
@@ -20822,7 +20822,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,C,FABULOUS_LC,LC_
 I,I0,X5Y9.LC_I0
@@ -20868,7 +20868,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,D,FABULOUS_LC,LD_
 I,I0,X5Y9.LD_I0
@@ -20914,7 +20914,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,E,FABULOUS_LC,LE_
 I,I0,X5Y9.LE_I0
@@ -20960,7 +20960,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,F,FABULOUS_LC,LF_
 I,I0,X5Y9.LF_I0
@@ -21006,7 +21006,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,G,FABULOUS_LC,LG_
 I,I0,X5Y9.LG_I0
@@ -21052,7 +21052,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,H,FABULOUS_LC,LH_
 I,I0,X5Y9.LH_I0
@@ -21098,7 +21098,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y9,I,MUX8LUT_frame_config_mux,
 I,A,X5Y9.A
@@ -21166,7 +21166,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,B,FABULOUS_LC,LB_
 I,I0,X7Y9.LB_I0
@@ -21212,7 +21212,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,C,FABULOUS_LC,LC_
 I,I0,X7Y9.LC_I0
@@ -21258,7 +21258,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,D,FABULOUS_LC,LD_
 I,I0,X7Y9.LD_I0
@@ -21304,7 +21304,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,E,FABULOUS_LC,LE_
 I,I0,X7Y9.LE_I0
@@ -21350,7 +21350,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,F,FABULOUS_LC,LF_
 I,I0,X7Y9.LF_I0
@@ -21396,7 +21396,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,G,FABULOUS_LC,LG_
 I,I0,X7Y9.LG_I0
@@ -21442,7 +21442,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,H,FABULOUS_LC,LH_
 I,I0,X7Y9.LH_I0
@@ -21488,7 +21488,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y9,I,MUX8LUT_frame_config_mux,
 I,A,X7Y9.A
@@ -21555,7 +21555,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,B,FABULOUS_LC,LB_
 I,I0,X8Y9.LB_I0
@@ -21601,7 +21601,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,C,FABULOUS_LC,LC_
 I,I0,X8Y9.LC_I0
@@ -21647,7 +21647,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,D,FABULOUS_LC,LD_
 I,I0,X8Y9.LD_I0
@@ -21693,7 +21693,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,E,FABULOUS_LC,LE_
 I,I0,X8Y9.LE_I0
@@ -21739,7 +21739,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,F,FABULOUS_LC,LF_
 I,I0,X8Y9.LF_I0
@@ -21785,7 +21785,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,G,FABULOUS_LC,LG_
 I,I0,X8Y9.LG_I0
@@ -21831,7 +21831,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,H,FABULOUS_LC,LH_
 I,I0,X8Y9.LH_I0
@@ -21877,7 +21877,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y9,I,MUX8LUT_frame_config_mux,
 I,A,X8Y9.A
@@ -21982,7 +21982,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,B,FABULOUS_LC,LB_
 I,I0,X1Y10.LB_I0
@@ -22028,7 +22028,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,C,FABULOUS_LC,LC_
 I,I0,X1Y10.LC_I0
@@ -22074,7 +22074,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,D,FABULOUS_LC,LD_
 I,I0,X1Y10.LD_I0
@@ -22120,7 +22120,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,E,FABULOUS_LC,LE_
 I,I0,X1Y10.LE_I0
@@ -22166,7 +22166,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,F,FABULOUS_LC,LF_
 I,I0,X1Y10.LF_I0
@@ -22212,7 +22212,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,G,FABULOUS_LC,LG_
 I,I0,X1Y10.LG_I0
@@ -22258,7 +22258,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,H,FABULOUS_LC,LH_
 I,I0,X1Y10.LH_I0
@@ -22304,7 +22304,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y10,I,MUX8LUT_frame_config_mux,
 I,A,X1Y10.A
@@ -22371,7 +22371,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,B,FABULOUS_LC,LB_
 I,I0,X2Y10.LB_I0
@@ -22417,7 +22417,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,C,FABULOUS_LC,LC_
 I,I0,X2Y10.LC_I0
@@ -22463,7 +22463,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,D,FABULOUS_LC,LD_
 I,I0,X2Y10.LD_I0
@@ -22509,7 +22509,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,E,FABULOUS_LC,LE_
 I,I0,X2Y10.LE_I0
@@ -22555,7 +22555,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,F,FABULOUS_LC,LF_
 I,I0,X2Y10.LF_I0
@@ -22601,7 +22601,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,G,FABULOUS_LC,LG_
 I,I0,X2Y10.LG_I0
@@ -22647,7 +22647,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,H,FABULOUS_LC,LH_
 I,I0,X2Y10.LH_I0
@@ -22693,7 +22693,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y10,I,MUX8LUT_frame_config_mux,
 I,A,X2Y10.A
@@ -22747,7 +22747,7 @@ O,BD2,X3Y10.BD2
 O,BD3,X3Y10.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y10
 BelBegin,X4Y10,A,FABULOUS_LC,LA_
@@ -22794,7 +22794,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,B,FABULOUS_LC,LB_
 I,I0,X4Y10.LB_I0
@@ -22840,7 +22840,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,C,FABULOUS_LC,LC_
 I,I0,X4Y10.LC_I0
@@ -22886,7 +22886,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,D,FABULOUS_LC,LD_
 I,I0,X4Y10.LD_I0
@@ -22932,7 +22932,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,E,FABULOUS_LC,LE_
 I,I0,X4Y10.LE_I0
@@ -22978,7 +22978,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,F,FABULOUS_LC,LF_
 I,I0,X4Y10.LF_I0
@@ -23024,7 +23024,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,G,FABULOUS_LC,LG_
 I,I0,X4Y10.LG_I0
@@ -23070,7 +23070,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,H,FABULOUS_LC,LH_
 I,I0,X4Y10.LH_I0
@@ -23116,7 +23116,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y10,I,MUX8LUT_frame_config_mux,
 I,A,X4Y10.A
@@ -23183,7 +23183,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,B,FABULOUS_LC,LB_
 I,I0,X5Y10.LB_I0
@@ -23229,7 +23229,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,C,FABULOUS_LC,LC_
 I,I0,X5Y10.LC_I0
@@ -23275,7 +23275,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,D,FABULOUS_LC,LD_
 I,I0,X5Y10.LD_I0
@@ -23321,7 +23321,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,E,FABULOUS_LC,LE_
 I,I0,X5Y10.LE_I0
@@ -23367,7 +23367,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,F,FABULOUS_LC,LF_
 I,I0,X5Y10.LF_I0
@@ -23413,7 +23413,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,G,FABULOUS_LC,LG_
 I,I0,X5Y10.LG_I0
@@ -23459,7 +23459,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,H,FABULOUS_LC,LH_
 I,I0,X5Y10.LH_I0
@@ -23505,7 +23505,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y10,I,MUX8LUT_frame_config_mux,
 I,A,X5Y10.A
@@ -23592,7 +23592,7 @@ CFG,A_reg
 CFG,B_reg
 CFG,C_reg
 CFG,signExtension
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X7Y10
 BelBegin,X7Y10,A,FABULOUS_LC,LA_
@@ -23639,7 +23639,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,B,FABULOUS_LC,LB_
 I,I0,X7Y10.LB_I0
@@ -23685,7 +23685,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,C,FABULOUS_LC,LC_
 I,I0,X7Y10.LC_I0
@@ -23731,7 +23731,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,D,FABULOUS_LC,LD_
 I,I0,X7Y10.LD_I0
@@ -23777,7 +23777,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,E,FABULOUS_LC,LE_
 I,I0,X7Y10.LE_I0
@@ -23823,7 +23823,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,F,FABULOUS_LC,LF_
 I,I0,X7Y10.LF_I0
@@ -23869,7 +23869,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,G,FABULOUS_LC,LG_
 I,I0,X7Y10.LG_I0
@@ -23915,7 +23915,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,H,FABULOUS_LC,LH_
 I,I0,X7Y10.LH_I0
@@ -23961,7 +23961,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y10,I,MUX8LUT_frame_config_mux,
 I,A,X7Y10.A
@@ -24028,7 +24028,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,B,FABULOUS_LC,LB_
 I,I0,X8Y10.LB_I0
@@ -24074,7 +24074,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,C,FABULOUS_LC,LC_
 I,I0,X8Y10.LC_I0
@@ -24120,7 +24120,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,D,FABULOUS_LC,LD_
 I,I0,X8Y10.LD_I0
@@ -24166,7 +24166,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,E,FABULOUS_LC,LE_
 I,I0,X8Y10.LE_I0
@@ -24212,7 +24212,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,F,FABULOUS_LC,LF_
 I,I0,X8Y10.LF_I0
@@ -24258,7 +24258,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,G,FABULOUS_LC,LG_
 I,I0,X8Y10.LG_I0
@@ -24304,7 +24304,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,H,FABULOUS_LC,LH_
 I,I0,X8Y10.LH_I0
@@ -24350,7 +24350,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y10,I,MUX8LUT_frame_config_mux,
 I,A,X8Y10.A
@@ -24423,7 +24423,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,B,InPass4_frame_config_mux,RAM2FAB_D1_
 O,O0,X0Y11.RAM2FAB_D1_O0
@@ -24438,7 +24438,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,C,InPass4_frame_config_mux,RAM2FAB_D2_
 O,O0,X0Y11.RAM2FAB_D2_O0
@@ -24453,7 +24453,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,D,InPass4_frame_config_mux,RAM2FAB_D3_
 O,O0,X0Y11.RAM2FAB_D3_O0
@@ -24468,7 +24468,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,E,OutPass4_frame_config_mux,FAB2RAM_D0_
 I,I0,X0Y11.FAB2RAM_D0_I0
@@ -24483,7 +24483,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,F,OutPass4_frame_config_mux,FAB2RAM_D1_
 I,I0,X0Y11.FAB2RAM_D1_I0
@@ -24498,7 +24498,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,G,OutPass4_frame_config_mux,FAB2RAM_D2_
 I,I0,X0Y11.FAB2RAM_D2_I0
@@ -24513,7 +24513,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,H,OutPass4_frame_config_mux,FAB2RAM_D3_
 I,I0,X0Y11.FAB2RAM_D3_I0
@@ -24528,7 +24528,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,I,OutPass4_frame_config_mux,FAB2RAM_A0_
 I,I0,X0Y11.FAB2RAM_A0_I0
@@ -24543,7 +24543,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,J,OutPass4_frame_config_mux,FAB2RAM_A1_
 I,I0,X0Y11.FAB2RAM_A1_I0
@@ -24558,7 +24558,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,K,OutPass4_frame_config_mux,FAB2RAM_C_
 I,I0,X0Y11.FAB2RAM_C_I0
@@ -24573,7 +24573,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y11,L,Config_access,Config_access
 CFG,C_bit0
@@ -24626,7 +24626,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,B,FABULOUS_LC,LB_
 I,I0,X1Y11.LB_I0
@@ -24672,7 +24672,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,C,FABULOUS_LC,LC_
 I,I0,X1Y11.LC_I0
@@ -24718,7 +24718,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,D,FABULOUS_LC,LD_
 I,I0,X1Y11.LD_I0
@@ -24764,7 +24764,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,E,FABULOUS_LC,LE_
 I,I0,X1Y11.LE_I0
@@ -24810,7 +24810,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,F,FABULOUS_LC,LF_
 I,I0,X1Y11.LF_I0
@@ -24856,7 +24856,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,G,FABULOUS_LC,LG_
 I,I0,X1Y11.LG_I0
@@ -24902,7 +24902,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,H,FABULOUS_LC,LH_
 I,I0,X1Y11.LH_I0
@@ -24948,7 +24948,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y11,I,MUX8LUT_frame_config_mux,
 I,A,X1Y11.A
@@ -25015,7 +25015,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,B,FABULOUS_LC,LB_
 I,I0,X2Y11.LB_I0
@@ -25061,7 +25061,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,C,FABULOUS_LC,LC_
 I,I0,X2Y11.LC_I0
@@ -25107,7 +25107,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,D,FABULOUS_LC,LD_
 I,I0,X2Y11.LD_I0
@@ -25153,7 +25153,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,E,FABULOUS_LC,LE_
 I,I0,X2Y11.LE_I0
@@ -25199,7 +25199,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,F,FABULOUS_LC,LF_
 I,I0,X2Y11.LF_I0
@@ -25245,7 +25245,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,G,FABULOUS_LC,LG_
 I,I0,X2Y11.LG_I0
@@ -25291,7 +25291,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,H,FABULOUS_LC,LH_
 I,I0,X2Y11.LH_I0
@@ -25337,7 +25337,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y11,I,MUX8LUT_frame_config_mux,
 I,A,X2Y11.A
@@ -25391,7 +25391,7 @@ O,BD2,X3Y11.BD2
 O,BD3,X3Y11.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y11
 BelBegin,X4Y11,A,FABULOUS_LC,LA_
@@ -25438,7 +25438,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,B,FABULOUS_LC,LB_
 I,I0,X4Y11.LB_I0
@@ -25484,7 +25484,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,C,FABULOUS_LC,LC_
 I,I0,X4Y11.LC_I0
@@ -25530,7 +25530,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,D,FABULOUS_LC,LD_
 I,I0,X4Y11.LD_I0
@@ -25576,7 +25576,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,E,FABULOUS_LC,LE_
 I,I0,X4Y11.LE_I0
@@ -25622,7 +25622,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,F,FABULOUS_LC,LF_
 I,I0,X4Y11.LF_I0
@@ -25668,7 +25668,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,G,FABULOUS_LC,LG_
 I,I0,X4Y11.LG_I0
@@ -25714,7 +25714,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,H,FABULOUS_LC,LH_
 I,I0,X4Y11.LH_I0
@@ -25760,7 +25760,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y11,I,MUX8LUT_frame_config_mux,
 I,A,X4Y11.A
@@ -25827,7 +25827,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,B,FABULOUS_LC,LB_
 I,I0,X5Y11.LB_I0
@@ -25873,7 +25873,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,C,FABULOUS_LC,LC_
 I,I0,X5Y11.LC_I0
@@ -25919,7 +25919,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,D,FABULOUS_LC,LD_
 I,I0,X5Y11.LD_I0
@@ -25965,7 +25965,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,E,FABULOUS_LC,LE_
 I,I0,X5Y11.LE_I0
@@ -26011,7 +26011,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,F,FABULOUS_LC,LF_
 I,I0,X5Y11.LF_I0
@@ -26057,7 +26057,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,G,FABULOUS_LC,LG_
 I,I0,X5Y11.LG_I0
@@ -26103,7 +26103,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,H,FABULOUS_LC,LH_
 I,I0,X5Y11.LH_I0
@@ -26149,7 +26149,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y11,I,MUX8LUT_frame_config_mux,
 I,A,X5Y11.A
@@ -26217,7 +26217,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,B,FABULOUS_LC,LB_
 I,I0,X7Y11.LB_I0
@@ -26263,7 +26263,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,C,FABULOUS_LC,LC_
 I,I0,X7Y11.LC_I0
@@ -26309,7 +26309,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,D,FABULOUS_LC,LD_
 I,I0,X7Y11.LD_I0
@@ -26355,7 +26355,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,E,FABULOUS_LC,LE_
 I,I0,X7Y11.LE_I0
@@ -26401,7 +26401,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,F,FABULOUS_LC,LF_
 I,I0,X7Y11.LF_I0
@@ -26447,7 +26447,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,G,FABULOUS_LC,LG_
 I,I0,X7Y11.LG_I0
@@ -26493,7 +26493,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,H,FABULOUS_LC,LH_
 I,I0,X7Y11.LH_I0
@@ -26539,7 +26539,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y11,I,MUX8LUT_frame_config_mux,
 I,A,X7Y11.A
@@ -26606,7 +26606,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,B,FABULOUS_LC,LB_
 I,I0,X8Y11.LB_I0
@@ -26652,7 +26652,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,C,FABULOUS_LC,LC_
 I,I0,X8Y11.LC_I0
@@ -26698,7 +26698,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,D,FABULOUS_LC,LD_
 I,I0,X8Y11.LD_I0
@@ -26744,7 +26744,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,E,FABULOUS_LC,LE_
 I,I0,X8Y11.LE_I0
@@ -26790,7 +26790,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,F,FABULOUS_LC,LF_
 I,I0,X8Y11.LF_I0
@@ -26836,7 +26836,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,G,FABULOUS_LC,LG_
 I,I0,X8Y11.LG_I0
@@ -26882,7 +26882,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,H,FABULOUS_LC,LH_
 I,I0,X8Y11.LH_I0
@@ -26928,7 +26928,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y11,I,MUX8LUT_frame_config_mux,
 I,A,X8Y11.A
@@ -27001,7 +27001,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,B,InPass4_frame_config_mux,RAM2FAB_D1_
 O,O0,X0Y12.RAM2FAB_D1_O0
@@ -27016,7 +27016,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,C,InPass4_frame_config_mux,RAM2FAB_D2_
 O,O0,X0Y12.RAM2FAB_D2_O0
@@ -27031,7 +27031,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,D,InPass4_frame_config_mux,RAM2FAB_D3_
 O,O0,X0Y12.RAM2FAB_D3_O0
@@ -27046,7 +27046,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,E,OutPass4_frame_config_mux,FAB2RAM_D0_
 I,I0,X0Y12.FAB2RAM_D0_I0
@@ -27061,7 +27061,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,F,OutPass4_frame_config_mux,FAB2RAM_D1_
 I,I0,X0Y12.FAB2RAM_D1_I0
@@ -27076,7 +27076,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,G,OutPass4_frame_config_mux,FAB2RAM_D2_
 I,I0,X0Y12.FAB2RAM_D2_I0
@@ -27091,7 +27091,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,H,OutPass4_frame_config_mux,FAB2RAM_D3_
 I,I0,X0Y12.FAB2RAM_D3_I0
@@ -27106,7 +27106,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,I,OutPass4_frame_config_mux,FAB2RAM_A0_
 I,I0,X0Y12.FAB2RAM_A0_I0
@@ -27121,7 +27121,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,J,OutPass4_frame_config_mux,FAB2RAM_A1_
 I,I0,X0Y12.FAB2RAM_A1_I0
@@ -27136,7 +27136,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,K,OutPass4_frame_config_mux,FAB2RAM_C_
 I,I0,X0Y12.FAB2RAM_C_I0
@@ -27151,7 +27151,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y12,L,Config_access,Config_access
 CFG,C_bit0
@@ -27204,7 +27204,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,B,FABULOUS_LC,LB_
 I,I0,X1Y12.LB_I0
@@ -27250,7 +27250,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,C,FABULOUS_LC,LC_
 I,I0,X1Y12.LC_I0
@@ -27296,7 +27296,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,D,FABULOUS_LC,LD_
 I,I0,X1Y12.LD_I0
@@ -27342,7 +27342,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,E,FABULOUS_LC,LE_
 I,I0,X1Y12.LE_I0
@@ -27388,7 +27388,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,F,FABULOUS_LC,LF_
 I,I0,X1Y12.LF_I0
@@ -27434,7 +27434,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,G,FABULOUS_LC,LG_
 I,I0,X1Y12.LG_I0
@@ -27480,7 +27480,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,H,FABULOUS_LC,LH_
 I,I0,X1Y12.LH_I0
@@ -27526,7 +27526,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y12,I,MUX8LUT_frame_config_mux,
 I,A,X1Y12.A
@@ -27593,7 +27593,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,B,FABULOUS_LC,LB_
 I,I0,X2Y12.LB_I0
@@ -27639,7 +27639,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,C,FABULOUS_LC,LC_
 I,I0,X2Y12.LC_I0
@@ -27685,7 +27685,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,D,FABULOUS_LC,LD_
 I,I0,X2Y12.LD_I0
@@ -27731,7 +27731,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,E,FABULOUS_LC,LE_
 I,I0,X2Y12.LE_I0
@@ -27777,7 +27777,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,F,FABULOUS_LC,LF_
 I,I0,X2Y12.LF_I0
@@ -27823,7 +27823,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,G,FABULOUS_LC,LG_
 I,I0,X2Y12.LG_I0
@@ -27869,7 +27869,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,H,FABULOUS_LC,LH_
 I,I0,X2Y12.LH_I0
@@ -27915,7 +27915,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y12,I,MUX8LUT_frame_config_mux,
 I,A,X2Y12.A
@@ -27969,7 +27969,7 @@ O,BD2,X3Y12.BD2
 O,BD3,X3Y12.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y12
 BelBegin,X4Y12,A,FABULOUS_LC,LA_
@@ -28016,7 +28016,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,B,FABULOUS_LC,LB_
 I,I0,X4Y12.LB_I0
@@ -28062,7 +28062,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,C,FABULOUS_LC,LC_
 I,I0,X4Y12.LC_I0
@@ -28108,7 +28108,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,D,FABULOUS_LC,LD_
 I,I0,X4Y12.LD_I0
@@ -28154,7 +28154,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,E,FABULOUS_LC,LE_
 I,I0,X4Y12.LE_I0
@@ -28200,7 +28200,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,F,FABULOUS_LC,LF_
 I,I0,X4Y12.LF_I0
@@ -28246,7 +28246,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,G,FABULOUS_LC,LG_
 I,I0,X4Y12.LG_I0
@@ -28292,7 +28292,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,H,FABULOUS_LC,LH_
 I,I0,X4Y12.LH_I0
@@ -28338,7 +28338,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y12,I,MUX8LUT_frame_config_mux,
 I,A,X4Y12.A
@@ -28405,7 +28405,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,B,FABULOUS_LC,LB_
 I,I0,X5Y12.LB_I0
@@ -28451,7 +28451,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,C,FABULOUS_LC,LC_
 I,I0,X5Y12.LC_I0
@@ -28497,7 +28497,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,D,FABULOUS_LC,LD_
 I,I0,X5Y12.LD_I0
@@ -28543,7 +28543,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,E,FABULOUS_LC,LE_
 I,I0,X5Y12.LE_I0
@@ -28589,7 +28589,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,F,FABULOUS_LC,LF_
 I,I0,X5Y12.LF_I0
@@ -28635,7 +28635,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,G,FABULOUS_LC,LG_
 I,I0,X5Y12.LG_I0
@@ -28681,7 +28681,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,H,FABULOUS_LC,LH_
 I,I0,X5Y12.LH_I0
@@ -28727,7 +28727,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y12,I,MUX8LUT_frame_config_mux,
 I,A,X5Y12.A
@@ -28814,7 +28814,7 @@ CFG,A_reg
 CFG,B_reg
 CFG,C_reg
 CFG,signExtension
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X7Y12
 BelBegin,X7Y12,A,FABULOUS_LC,LA_
@@ -28861,7 +28861,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,B,FABULOUS_LC,LB_
 I,I0,X7Y12.LB_I0
@@ -28907,7 +28907,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,C,FABULOUS_LC,LC_
 I,I0,X7Y12.LC_I0
@@ -28953,7 +28953,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,D,FABULOUS_LC,LD_
 I,I0,X7Y12.LD_I0
@@ -28999,7 +28999,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,E,FABULOUS_LC,LE_
 I,I0,X7Y12.LE_I0
@@ -29045,7 +29045,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,F,FABULOUS_LC,LF_
 I,I0,X7Y12.LF_I0
@@ -29091,7 +29091,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,G,FABULOUS_LC,LG_
 I,I0,X7Y12.LG_I0
@@ -29137,7 +29137,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,H,FABULOUS_LC,LH_
 I,I0,X7Y12.LH_I0
@@ -29183,7 +29183,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y12,I,MUX8LUT_frame_config_mux,
 I,A,X7Y12.A
@@ -29250,7 +29250,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,B,FABULOUS_LC,LB_
 I,I0,X8Y12.LB_I0
@@ -29296,7 +29296,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,C,FABULOUS_LC,LC_
 I,I0,X8Y12.LC_I0
@@ -29342,7 +29342,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,D,FABULOUS_LC,LD_
 I,I0,X8Y12.LD_I0
@@ -29388,7 +29388,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,E,FABULOUS_LC,LE_
 I,I0,X8Y12.LE_I0
@@ -29434,7 +29434,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,F,FABULOUS_LC,LF_
 I,I0,X8Y12.LF_I0
@@ -29480,7 +29480,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,G,FABULOUS_LC,LG_
 I,I0,X8Y12.LG_I0
@@ -29526,7 +29526,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,H,FABULOUS_LC,LH_
 I,I0,X8Y12.LH_I0
@@ -29572,7 +29572,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y12,I,MUX8LUT_frame_config_mux,
 I,A,X8Y12.A
@@ -29645,7 +29645,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,B,InPass4_frame_config_mux,RAM2FAB_D1_
 O,O0,X0Y13.RAM2FAB_D1_O0
@@ -29660,7 +29660,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,C,InPass4_frame_config_mux,RAM2FAB_D2_
 O,O0,X0Y13.RAM2FAB_D2_O0
@@ -29675,7 +29675,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,D,InPass4_frame_config_mux,RAM2FAB_D3_
 O,O0,X0Y13.RAM2FAB_D3_O0
@@ -29690,7 +29690,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,E,OutPass4_frame_config_mux,FAB2RAM_D0_
 I,I0,X0Y13.FAB2RAM_D0_I0
@@ -29705,7 +29705,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,F,OutPass4_frame_config_mux,FAB2RAM_D1_
 I,I0,X0Y13.FAB2RAM_D1_I0
@@ -29720,7 +29720,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,G,OutPass4_frame_config_mux,FAB2RAM_D2_
 I,I0,X0Y13.FAB2RAM_D2_I0
@@ -29735,7 +29735,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,H,OutPass4_frame_config_mux,FAB2RAM_D3_
 I,I0,X0Y13.FAB2RAM_D3_I0
@@ -29750,7 +29750,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,I,OutPass4_frame_config_mux,FAB2RAM_A0_
 I,I0,X0Y13.FAB2RAM_A0_I0
@@ -29765,7 +29765,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,J,OutPass4_frame_config_mux,FAB2RAM_A1_
 I,I0,X0Y13.FAB2RAM_A1_I0
@@ -29780,7 +29780,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,K,OutPass4_frame_config_mux,FAB2RAM_C_
 I,I0,X0Y13.FAB2RAM_C_I0
@@ -29795,7 +29795,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y13,L,Config_access,Config_access
 CFG,C_bit0
@@ -29848,7 +29848,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,B,FABULOUS_LC,LB_
 I,I0,X1Y13.LB_I0
@@ -29894,7 +29894,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,C,FABULOUS_LC,LC_
 I,I0,X1Y13.LC_I0
@@ -29940,7 +29940,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,D,FABULOUS_LC,LD_
 I,I0,X1Y13.LD_I0
@@ -29986,7 +29986,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,E,FABULOUS_LC,LE_
 I,I0,X1Y13.LE_I0
@@ -30032,7 +30032,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,F,FABULOUS_LC,LF_
 I,I0,X1Y13.LF_I0
@@ -30078,7 +30078,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,G,FABULOUS_LC,LG_
 I,I0,X1Y13.LG_I0
@@ -30124,7 +30124,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,H,FABULOUS_LC,LH_
 I,I0,X1Y13.LH_I0
@@ -30170,7 +30170,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y13,I,MUX8LUT_frame_config_mux,
 I,A,X1Y13.A
@@ -30237,7 +30237,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,B,FABULOUS_LC,LB_
 I,I0,X2Y13.LB_I0
@@ -30283,7 +30283,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,C,FABULOUS_LC,LC_
 I,I0,X2Y13.LC_I0
@@ -30329,7 +30329,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,D,FABULOUS_LC,LD_
 I,I0,X2Y13.LD_I0
@@ -30375,7 +30375,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,E,FABULOUS_LC,LE_
 I,I0,X2Y13.LE_I0
@@ -30421,7 +30421,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,F,FABULOUS_LC,LF_
 I,I0,X2Y13.LF_I0
@@ -30467,7 +30467,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,G,FABULOUS_LC,LG_
 I,I0,X2Y13.LG_I0
@@ -30513,7 +30513,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,H,FABULOUS_LC,LH_
 I,I0,X2Y13.LH_I0
@@ -30559,7 +30559,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y13,I,MUX8LUT_frame_config_mux,
 I,A,X2Y13.A
@@ -30613,7 +30613,7 @@ O,BD2,X3Y13.BD2
 O,BD3,X3Y13.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y13
 BelBegin,X4Y13,A,FABULOUS_LC,LA_
@@ -30660,7 +30660,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,B,FABULOUS_LC,LB_
 I,I0,X4Y13.LB_I0
@@ -30706,7 +30706,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,C,FABULOUS_LC,LC_
 I,I0,X4Y13.LC_I0
@@ -30752,7 +30752,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,D,FABULOUS_LC,LD_
 I,I0,X4Y13.LD_I0
@@ -30798,7 +30798,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,E,FABULOUS_LC,LE_
 I,I0,X4Y13.LE_I0
@@ -30844,7 +30844,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,F,FABULOUS_LC,LF_
 I,I0,X4Y13.LF_I0
@@ -30890,7 +30890,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,G,FABULOUS_LC,LG_
 I,I0,X4Y13.LG_I0
@@ -30936,7 +30936,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,H,FABULOUS_LC,LH_
 I,I0,X4Y13.LH_I0
@@ -30982,7 +30982,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y13,I,MUX8LUT_frame_config_mux,
 I,A,X4Y13.A
@@ -31049,7 +31049,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,B,FABULOUS_LC,LB_
 I,I0,X5Y13.LB_I0
@@ -31095,7 +31095,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,C,FABULOUS_LC,LC_
 I,I0,X5Y13.LC_I0
@@ -31141,7 +31141,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,D,FABULOUS_LC,LD_
 I,I0,X5Y13.LD_I0
@@ -31187,7 +31187,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,E,FABULOUS_LC,LE_
 I,I0,X5Y13.LE_I0
@@ -31233,7 +31233,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,F,FABULOUS_LC,LF_
 I,I0,X5Y13.LF_I0
@@ -31279,7 +31279,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,G,FABULOUS_LC,LG_
 I,I0,X5Y13.LG_I0
@@ -31325,7 +31325,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,H,FABULOUS_LC,LH_
 I,I0,X5Y13.LH_I0
@@ -31371,7 +31371,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y13,I,MUX8LUT_frame_config_mux,
 I,A,X5Y13.A
@@ -31439,7 +31439,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,B,FABULOUS_LC,LB_
 I,I0,X7Y13.LB_I0
@@ -31485,7 +31485,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,C,FABULOUS_LC,LC_
 I,I0,X7Y13.LC_I0
@@ -31531,7 +31531,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,D,FABULOUS_LC,LD_
 I,I0,X7Y13.LD_I0
@@ -31577,7 +31577,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,E,FABULOUS_LC,LE_
 I,I0,X7Y13.LE_I0
@@ -31623,7 +31623,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,F,FABULOUS_LC,LF_
 I,I0,X7Y13.LF_I0
@@ -31669,7 +31669,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,G,FABULOUS_LC,LG_
 I,I0,X7Y13.LG_I0
@@ -31715,7 +31715,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,H,FABULOUS_LC,LH_
 I,I0,X7Y13.LH_I0
@@ -31761,7 +31761,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y13,I,MUX8LUT_frame_config_mux,
 I,A,X7Y13.A
@@ -31828,7 +31828,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,B,FABULOUS_LC,LB_
 I,I0,X8Y13.LB_I0
@@ -31874,7 +31874,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,C,FABULOUS_LC,LC_
 I,I0,X8Y13.LC_I0
@@ -31920,7 +31920,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,D,FABULOUS_LC,LD_
 I,I0,X8Y13.LD_I0
@@ -31966,7 +31966,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,E,FABULOUS_LC,LE_
 I,I0,X8Y13.LE_I0
@@ -32012,7 +32012,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,F,FABULOUS_LC,LF_
 I,I0,X8Y13.LF_I0
@@ -32058,7 +32058,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,G,FABULOUS_LC,LG_
 I,I0,X8Y13.LG_I0
@@ -32104,7 +32104,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,H,FABULOUS_LC,LH_
 I,I0,X8Y13.LH_I0
@@ -32150,7 +32150,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y13,I,MUX8LUT_frame_config_mux,
 I,A,X8Y13.A
@@ -32223,7 +32223,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,B,InPass4_frame_config_mux,RAM2FAB_D1_
 O,O0,X0Y14.RAM2FAB_D1_O0
@@ -32238,7 +32238,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,C,InPass4_frame_config_mux,RAM2FAB_D2_
 O,O0,X0Y14.RAM2FAB_D2_O0
@@ -32253,7 +32253,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,D,InPass4_frame_config_mux,RAM2FAB_D3_
 O,O0,X0Y14.RAM2FAB_D3_O0
@@ -32268,7 +32268,7 @@ ClkToOut,O0,CLK,2.5
 ClkToOut,O1,CLK,2.5
 ClkToOut,O2,CLK,2.5
 ClkToOut,O3,CLK,2.5
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,E,OutPass4_frame_config_mux,FAB2RAM_D0_
 I,I0,X0Y14.FAB2RAM_D0_I0
@@ -32283,7 +32283,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,F,OutPass4_frame_config_mux,FAB2RAM_D1_
 I,I0,X0Y14.FAB2RAM_D1_I0
@@ -32298,7 +32298,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,G,OutPass4_frame_config_mux,FAB2RAM_D2_
 I,I0,X0Y14.FAB2RAM_D2_I0
@@ -32313,7 +32313,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,H,OutPass4_frame_config_mux,FAB2RAM_D3_
 I,I0,X0Y14.FAB2RAM_D3_I0
@@ -32328,7 +32328,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,I,OutPass4_frame_config_mux,FAB2RAM_A0_
 I,I0,X0Y14.FAB2RAM_A0_I0
@@ -32343,7 +32343,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,J,OutPass4_frame_config_mux,FAB2RAM_A1_
 I,I0,X0Y14.FAB2RAM_A1_I0
@@ -32358,7 +32358,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,K,OutPass4_frame_config_mux,FAB2RAM_C_
 I,I0,X0Y14.FAB2RAM_C_I0
@@ -32373,7 +32373,7 @@ SetupHold,I0,CLK,2.5,0.1
 SetupHold,I1,CLK,2.5,0.1
 SetupHold,I2,CLK,2.5,0.1
 SetupHold,I3,CLK,2.5,0.1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X0Y14,L,Config_access,Config_access
 CFG,C_bit0
@@ -32426,7 +32426,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,B,FABULOUS_LC,LB_
 I,I0,X1Y14.LB_I0
@@ -32472,7 +32472,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,C,FABULOUS_LC,LC_
 I,I0,X1Y14.LC_I0
@@ -32518,7 +32518,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,D,FABULOUS_LC,LD_
 I,I0,X1Y14.LD_I0
@@ -32564,7 +32564,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,E,FABULOUS_LC,LE_
 I,I0,X1Y14.LE_I0
@@ -32610,7 +32610,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,F,FABULOUS_LC,LF_
 I,I0,X1Y14.LF_I0
@@ -32656,7 +32656,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,G,FABULOUS_LC,LG_
 I,I0,X1Y14.LG_I0
@@ -32702,7 +32702,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,H,FABULOUS_LC,LH_
 I,I0,X1Y14.LH_I0
@@ -32748,7 +32748,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X1Y14,I,MUX8LUT_frame_config_mux,
 I,A,X1Y14.A
@@ -32815,7 +32815,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,B,FABULOUS_LC,LB_
 I,I0,X2Y14.LB_I0
@@ -32861,7 +32861,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,C,FABULOUS_LC,LC_
 I,I0,X2Y14.LC_I0
@@ -32907,7 +32907,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,D,FABULOUS_LC,LD_
 I,I0,X2Y14.LD_I0
@@ -32953,7 +32953,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,E,FABULOUS_LC,LE_
 I,I0,X2Y14.LE_I0
@@ -32999,7 +32999,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,F,FABULOUS_LC,LF_
 I,I0,X2Y14.LF_I0
@@ -33045,7 +33045,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,G,FABULOUS_LC,LG_
 I,I0,X2Y14.LG_I0
@@ -33091,7 +33091,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,H,FABULOUS_LC,LH_
 I,I0,X2Y14.LH_I0
@@ -33137,7 +33137,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X2Y14,I,MUX8LUT_frame_config_mux,
 I,A,X2Y14.A
@@ -33191,7 +33191,7 @@ O,BD2,X3Y14.BD2
 O,BD3,X3Y14.BD3
 CFG,AD_reg
 CFG,BD_reg
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X4Y14
 BelBegin,X4Y14,A,FABULOUS_LC,LA_
@@ -33238,7 +33238,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,B,FABULOUS_LC,LB_
 I,I0,X4Y14.LB_I0
@@ -33284,7 +33284,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,C,FABULOUS_LC,LC_
 I,I0,X4Y14.LC_I0
@@ -33330,7 +33330,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,D,FABULOUS_LC,LD_
 I,I0,X4Y14.LD_I0
@@ -33376,7 +33376,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,E,FABULOUS_LC,LE_
 I,I0,X4Y14.LE_I0
@@ -33422,7 +33422,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,F,FABULOUS_LC,LF_
 I,I0,X4Y14.LF_I0
@@ -33468,7 +33468,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,G,FABULOUS_LC,LG_
 I,I0,X4Y14.LG_I0
@@ -33514,7 +33514,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,H,FABULOUS_LC,LH_
 I,I0,X4Y14.LH_I0
@@ -33560,7 +33560,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X4Y14,I,MUX8LUT_frame_config_mux,
 I,A,X4Y14.A
@@ -33627,7 +33627,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,B,FABULOUS_LC,LB_
 I,I0,X5Y14.LB_I0
@@ -33673,7 +33673,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,C,FABULOUS_LC,LC_
 I,I0,X5Y14.LC_I0
@@ -33719,7 +33719,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,D,FABULOUS_LC,LD_
 I,I0,X5Y14.LD_I0
@@ -33765,7 +33765,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,E,FABULOUS_LC,LE_
 I,I0,X5Y14.LE_I0
@@ -33811,7 +33811,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,F,FABULOUS_LC,LF_
 I,I0,X5Y14.LF_I0
@@ -33857,7 +33857,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,G,FABULOUS_LC,LG_
 I,I0,X5Y14.LG_I0
@@ -33903,7 +33903,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,H,FABULOUS_LC,LH_
 I,I0,X5Y14.LH_I0
@@ -33949,7 +33949,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X5Y14,I,MUX8LUT_frame_config_mux,
 I,A,X5Y14.A
@@ -34036,7 +34036,7 @@ CFG,A_reg
 CFG,B_reg
 CFG,C_reg
 CFG,signExtension
-GlobalClk
+GlobalClk,1.0
 BelEnd
 #Tile_X7Y14
 BelBegin,X7Y14,A,FABULOUS_LC,LA_
@@ -34083,7 +34083,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,B,FABULOUS_LC,LB_
 I,I0,X7Y14.LB_I0
@@ -34129,7 +34129,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,C,FABULOUS_LC,LC_
 I,I0,X7Y14.LC_I0
@@ -34175,7 +34175,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,D,FABULOUS_LC,LD_
 I,I0,X7Y14.LD_I0
@@ -34221,7 +34221,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,E,FABULOUS_LC,LE_
 I,I0,X7Y14.LE_I0
@@ -34267,7 +34267,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,F,FABULOUS_LC,LF_
 I,I0,X7Y14.LF_I0
@@ -34313,7 +34313,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,G,FABULOUS_LC,LG_
 I,I0,X7Y14.LG_I0
@@ -34359,7 +34359,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,H,FABULOUS_LC,LH_
 I,I0,X7Y14.LH_I0
@@ -34405,7 +34405,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X7Y14,I,MUX8LUT_frame_config_mux,
 I,A,X7Y14.A
@@ -34472,7 +34472,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,B,FABULOUS_LC,LB_
 I,I0,X8Y14.LB_I0
@@ -34518,7 +34518,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,C,FABULOUS_LC,LC_
 I,I0,X8Y14.LC_I0
@@ -34564,7 +34564,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,D,FABULOUS_LC,LD_
 I,I0,X8Y14.LD_I0
@@ -34610,7 +34610,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,E,FABULOUS_LC,LE_
 I,I0,X8Y14.LE_I0
@@ -34656,7 +34656,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,F,FABULOUS_LC,LF_
 I,I0,X8Y14.LF_I0
@@ -34702,7 +34702,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,G,FABULOUS_LC,LG_
 I,I0,X8Y14.LG_I0
@@ -34748,7 +34748,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,H,FABULOUS_LC,LH_
 I,I0,X8Y14.LH_I0
@@ -34794,7 +34794,7 @@ SetupHold,I2,CLK,2.5,0.1,FF=1
 SetupHold,I3,CLK,2.5,0.1,FF=1
 SetupHold,Ci,CLK,2.5,0.1,FF=1&I0MUX=1
 ClkToOut,Q,CLK,1.0,FF=1
-GlobalClk
+GlobalClk,1.0
 BelEnd
 BelBegin,X8Y14,I,MUX8LUT_frame_config_mux,
 I,A,X8Y14.A

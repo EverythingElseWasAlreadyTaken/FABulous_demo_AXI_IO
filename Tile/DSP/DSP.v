@@ -82,6 +82,8 @@ module DSP
         input  [MaxFramesPerCol-1:0] Tile_X0Y1_FrameStrobe, //CONFIG_PORT
         output  [FrameBitsPerRow-1:0] Tile_X0Y1_FrameData_O, //CONFIG_PORT
         output  Tile_X0Y0_UserCLKo,
+        input  Tile_X0Y0_UserCLK,
+        output  Tile_X0Y1_UserCLKo,
         input  Tile_X0Y1_UserCLK
 );
 
@@ -101,7 +103,6 @@ module DSP
     wire[15:0] Tile_X0Y1_NN4BEG; //TilePort({N} OUTPUT NN4BEG[3:0])
     wire[9:0] Tile_X0Y1_bot2top; //TilePort({N} OUTPUT bot2top[9:0])
     wire[MaxFramesPerCol-1:0] Tile_X0Y1_FrameStrobe_O;
-    wire Tile_X0Y1_UserCLKo;
 
 DSP_top
 `ifdef EMULATION
@@ -153,7 +154,7 @@ DSP_top
     .W2BEGb(Tile_X0Y0_W2BEGb),
     .WW4BEG(Tile_X0Y0_WW4BEG),
     .W6BEG(Tile_X0Y0_W6BEG),
-    .UserCLK(Tile_X0Y1_UserCLKo),
+    .UserCLK(Tile_X0Y0_UserCLK),
     .UserCLKo(Tile_X0Y0_UserCLKo),
     .FrameData(Tile_X0Y0_FrameData),
     .FrameData_O(Tile_X0Y0_FrameData_O),
